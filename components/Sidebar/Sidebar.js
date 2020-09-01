@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 import NotificationDropdown from "components/Dropdowns/NotificationDropdown.js";
 import UserDropdown from "components/Dropdowns/UserDropdown.js";
@@ -19,11 +19,13 @@ export default function Sidebar() {
             <i className="fas fa-bars"></i>
           </button>
           {/* Brand */}
-          <Link
-            className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
-            to="/"
-          >
-            Tailwind Webapp React
+          <Link href="/">
+            <a
+              href="#pablo"
+              className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
+            >
+              Tailwind Webapp NextJS
+            </a>
           </Link>
           {/* User */}
           <ul className="md:hidden items-center flex flex-wrap list-none">
@@ -45,11 +47,13 @@ export default function Sidebar() {
             <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-gray-300">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
-                  <Link
-                    className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
-                    to="/"
-                  >
-                    Tailwind Webapp React
+                  <Link href="/">
+                    <a
+                      href="#pablo"
+                      className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
+                    >
+                      Tailwind Webapp NextJS
+                    </a>
                   </Link>
                 </div>
                 <div className="w-6/12 flex justify-end">
@@ -84,62 +88,70 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none">
               <li className="items-center">
-                <Link
-                  className={
-                    "text-xs uppercase py-3 font-bold block " +
-                    (window.location.href.indexOf("/admin/dashboard") !== -1
-                      ? "text-blue-500 hover:text-blue-600"
-                      : "text-gray-800 hover:text-gray-600")
-                  }
-                  to="/admin/dashboard"
-                >
-                  <i className="fas fa-tv opacity-75 mr-2 text-sm"></i>{" "}
-                  Dashboard
+                <Link href="/admin/dashboard">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (window.location.href.indexOf("/admin/dashboard") !== -1
+                        ? "text-blue-500 hover:text-blue-600"
+                        : "text-gray-800 hover:text-gray-600")
+                    }
+                  >
+                    <i className="fas fa-tv opacity-75 mr-2 text-sm"></i>{" "}
+                    Dashboard
+                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link
-                  className={
-                    "text-xs uppercase py-3 font-bold block " +
-                    (window.location.href.indexOf("/admin/settings") !== -1
-                      ? "text-blue-500 hover:text-blue-600"
-                      : "text-gray-800 hover:text-gray-600")
-                  }
-                  to="/admin/settings"
-                >
-                  <i className="fas fa-tools text-gray-400 mr-2 text-sm"></i>{" "}
-                  Settings
+                <Link href="/admin/settings">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (window.location.href.indexOf("/admin/settings") !== -1
+                        ? "text-blue-500 hover:text-blue-600"
+                        : "text-gray-800 hover:text-gray-600")
+                    }
+                  >
+                    <i className="fas fa-tools text-gray-400 mr-2 text-sm"></i>{" "}
+                    Settings
+                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link
-                  className={
-                    "text-xs uppercase py-3 font-bold block " +
-                    (window.location.href.indexOf("/admin/tables") !== -1
-                      ? "text-blue-500 hover:text-blue-600"
-                      : "text-gray-800 hover:text-gray-600")
-                  }
-                  to="/admin/tables"
-                >
-                  <i className="fas fa-table text-gray-400 mr-2 text-sm"></i>{" "}
-                  Tables
+                <Link href="/admin/tables">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (window.location.href.indexOf("/admin/tables") !== -1
+                        ? "text-blue-500 hover:text-blue-600"
+                        : "text-gray-800 hover:text-gray-600")
+                    }
+                  >
+                    <i className="fas fa-table text-gray-400 mr-2 text-sm"></i>{" "}
+                    Tables
+                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link
-                  className={
-                    "text-xs uppercase py-3 font-bold block " +
-                    (window.location.href.indexOf("/admin/maps") !== -1
-                      ? "text-blue-500 hover:text-blue-600"
-                      : "text-gray-800 hover:text-gray-600")
-                  }
-                  to="/admin/maps"
-                >
-                  <i className="fas fa-map-marked text-gray-400 mr-2 text-sm"></i>{" "}
-                  Maps
+                <Link href="/admin/maps">
+                  <a
+                    href="#pablo"
+                    className={
+                      "text-xs uppercase py-3 font-bold block " +
+                      (window.location.href.indexOf("/admin/maps") !== -1
+                        ? "text-blue-500 hover:text-blue-600"
+                        : "text-gray-800 hover:text-gray-600")
+                    }
+                  >
+                    <i className="fas fa-map-marked text-gray-400 mr-2 text-sm"></i>{" "}
+                    Maps
+                  </a>
                 </Link>
               </li>
             </ul>
@@ -154,22 +166,26 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link
-                  className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                  to="/auth/login"
-                >
-                  <i className="fas fa-fingerprint text-gray-500 mr-2 text-sm"></i>{" "}
-                  Login
+                <Link href="/auth/login">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+                  >
+                    <i className="fas fa-fingerprint text-gray-500 mr-2 text-sm"></i>{" "}
+                    Login
+                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link
-                  className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                  to="/auth/register"
-                >
-                  <i className="fas fa-clipboard-list text-gray-400 mr-2 text-sm"></i>{" "}
-                  Register
+                <Link href="/auth/register">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+                  >
+                    <i className="fas fa-clipboard-list text-gray-400 mr-2 text-sm"></i>{" "}
+                    Register
+                  </a>
                 </Link>
               </li>
             </ul>
@@ -184,22 +200,26 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link
-                  className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                  to="/landing"
-                >
-                  <i className="fas fa-newspaper text-gray-500 mr-2 text-sm"></i>{" "}
-                  Landing Page
+                <Link href="/landing">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+                  >
+                    <i className="fas fa-newspaper text-gray-500 mr-2 text-sm"></i>{" "}
+                    Landing Page
+                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link
-                  className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
-                  to="/profile"
-                >
-                  <i className="fas fa-user-circle text-gray-500 mr-2 text-sm"></i>{" "}
-                  Profile Page
+                <Link href="/profile">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
+                  >
+                    <i className="fas fa-user-circle text-gray-500 mr-2 text-sm"></i>{" "}
+                    Profile Page
+                  </a>
                 </Link>
               </li>
             </ul>
@@ -213,62 +233,74 @@ export default function Sidebar() {
             {/* Navigation */}
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="inline-flex">
-                <Link
-                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                  to="/"
-                >
-                  <i className="fas fa-paint-brush mr-2 text-gray-500 text-base"></i>{" "}
-                  Styles
+                <Link href="/">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+                  >
+                    <i className="fas fa-paint-brush mr-2 text-gray-500 text-base"></i>{" "}
+                    Styles
+                  </a>
                 </Link>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                  to="/"
-                >
-                  <i className="fab fa-css3-alt mr-2 text-gray-500 text-base"></i>{" "}
-                  CSS Components
+                <Link href="/">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+                  >
+                    <i className="fab fa-css3-alt mr-2 text-gray-500 text-base"></i>{" "}
+                    CSS Components
+                  </a>
                 </Link>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                  to="/"
-                >
-                  <i className="fab fa-vuejs mr-2 text-gray-500 text-base"></i>{" "}
-                  VueJS
+                <Link href="/">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+                  >
+                    <i className="fab fa-vuejs mr-2 text-gray-500 text-base"></i>{" "}
+                    VueJS
+                  </a>
                 </Link>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
-                  to="/"
-                >
-                  <i className="fab fa-react mr-2 text-gray-500 text-base"></i>{" "}
-                  React
+                <Link href="/">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
+                  >
+                    <i className="fab fa-react mr-2 text-gray-500 text-base"></i>{" "}
+                    React
+                  </a>
                 </Link>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
-                  to="/"
-                >
-                  <i className="fab fa-angular mr-2 text-gray-500 text-base"></i>{" "}
-                  Angular
+                <Link href="/">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
+                  >
+                    <i className="fab fa-angular mr-2 text-gray-500 text-base"></i>{" "}
+                    Angular
+                  </a>
                 </Link>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
-                  to="/"
-                >
-                  <i className="fab fa-js-square mr-2 text-gray-500 text-base"></i>{" "}
-                  Javascript
+                <Link href="/">
+                  <a
+                    href="#pablo"
+                    className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
+                  >
+                    <i className="fab fa-js-square mr-2 text-gray-500 text-base"></i>{" "}
+                    Javascript
+                  </a>
                 </Link>
               </li>
             </ul>

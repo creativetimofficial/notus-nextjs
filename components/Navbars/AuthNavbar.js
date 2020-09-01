@@ -15,7 +15,7 @@ export default function Navbar(props) {
               className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
               href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
             >
-              Tailwind Webapp React
+              Tailwind Webapp NextJS
             </a>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
