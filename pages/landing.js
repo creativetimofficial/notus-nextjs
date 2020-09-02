@@ -134,9 +134,14 @@ export default function Landing() {
                   good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <Link href="/" as={(process.env.NODE_ENV === "production"
-                  ? "/tailwind-webapp-nextjs"
-                  : "") + "/"}>
+                <Link
+                  href="/"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/"
+                  }
+                >
                   <a href="#pablo" className="font-bold text-gray-800 mt-8">
                     Check Tailwind Webapp NextJS!
                   </a>
