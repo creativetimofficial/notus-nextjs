@@ -44,11 +44,14 @@ const PagesDropdown = () => {
         >
           Admin Layout
         </span>
-        <Link href="/admin/dashboard"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/admin/dashboard"
-          }>
+        <Link
+          href="/admin/dashboard"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/admin/dashboard"
+          }
+        >
           <a
             href="#pablo"
             className={
@@ -58,11 +61,14 @@ const PagesDropdown = () => {
             Dashboard
           </a>
         </Link>
-        <Link href="/admin/settings"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/admin/settings"
-          }>
+        <Link
+          href="/admin/settings"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/admin/settings"
+          }
+        >
           <a
             href="#pablo"
             className={
@@ -72,11 +78,14 @@ const PagesDropdown = () => {
             Settings
           </a>
         </Link>
-        <Link href="/admin/tables"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/admin/tables"
-          }>
+        <Link
+          href="/admin/tables"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/admin/tables"
+          }
+        >
           <a
             href="#pablo"
             className={
@@ -86,11 +95,14 @@ const PagesDropdown = () => {
             Tables
           </a>
         </Link>
-        <Link href="/admin/maps"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/admin/maps"
-          }>
+        <Link
+          href="/admin/maps"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/admin/maps"
+          }
+        >
           <a
             href="#pablo"
             className={
@@ -108,11 +120,14 @@ const PagesDropdown = () => {
         >
           Auth Layout
         </span>
-        <Link href="/auth/login"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/auth/login"
-          }>
+        <Link
+          href="/auth/login"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/auth/login"
+          }
+        >
           <a
             href="#pablo"
             className={
@@ -122,11 +137,14 @@ const PagesDropdown = () => {
             Login
           </a>
         </Link>
-        <Link href="/auth/register"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/auth/register"
-          }>
+        <Link
+          href="/auth/register"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/auth/register"
+          }
+        >
           <a
             href="#pablo"
             className={
@@ -144,11 +162,14 @@ const PagesDropdown = () => {
         >
           No Layout
         </span>
-        <Link href="/landing"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/landing"
-          }>
+        <Link
+          href="/landing"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/landing"
+          }
+        >
           <a
             href="#pablo"
             className={
@@ -158,11 +179,14 @@ const PagesDropdown = () => {
             Lading
           </a>
         </Link>
-        <Link href="/profile"  as={
-          (process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
-            : "") + "/profile"
-          }>
+        <Link
+          href="/profile"
+          as={
+            (process.env.NODE_ENV === "production"
+              ? "/tailwind-webapp-nextjs"
+              : "") + "/profile"
+          }
+        >
           <a
             href="#pablo"
             className={

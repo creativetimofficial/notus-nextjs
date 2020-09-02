@@ -21,11 +21,14 @@ export default function Sidebar() {
             <i className="fas fa-bars"></i>
           </button>
           {/* Brand */}
-          <Link href="/"  as={
-            (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
-              : "") + "/"
-            }>
+          <Link
+            href="/"
+            as={
+              (process.env.NODE_ENV === "production"
+                ? "/tailwind-webapp-nextjs"
+                : "") + "/"
+            }
+          >
             <a
               href="#pablo"
               className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
@@ -53,11 +56,14 @@ export default function Sidebar() {
             <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-gray-300">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
-                  <Link href="/"  as={
-                    (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
-                      : "") + "/"
-                    }>
+                  <Link
+                    href="/"
+                    as={
+                      (process.env.NODE_ENV === "production"
+                        ? "/tailwind-webapp-nextjs"
+                        : "") + "/"
+                    }
+                  >
                     <a
                       href="#pablo"
                       className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
@@ -98,11 +104,14 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none">
               <li className="items-center">
-                <Link href="/admin/dashboard"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/admin/dashboard"
-                  }>
+                <Link
+                  href="/admin/dashboard"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/admin/dashboard"
+                  }
+                >
                   <a
                     href="#pablo"
                     className={
@@ -126,11 +135,14 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/admin/settings"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/admin/settings"
-                  }>
+                <Link
+                  href="/admin/settings"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/admin/settings"
+                  }
+                >
                   <a
                     href="#pablo"
                     className={
@@ -154,11 +166,14 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/admin/tables"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/admin/tables"
-                  }>
+                <Link
+                  href="/admin/tables"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/admin/tables"
+                  }
+                >
                   <a
                     href="#pablo"
                     className={
@@ -182,11 +197,14 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/admin/maps"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/admin/maps"
-                  } >
+                <Link
+                  href="/admin/maps"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/admin/maps"
+                  }
+                >
                   <a
                     href="#pablo"
                     className={
@@ -220,11 +238,14 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link href="/auth/login"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/auth/login"
-                  } >
+                <Link
+                  href="/auth/login"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/auth/login"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
@@ -236,11 +257,14 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/auth/register"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/auth/register"
-                  } >
+                <Link
+                  href="/auth/register"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/auth/register"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
@@ -262,11 +286,14 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link href="/landing"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/landing"
-                  } >
+                <Link
+                  href="/landing"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/landing"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
@@ -278,11 +305,14 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/profile"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/profile"
-                  } >
+                <Link
+                  href="/profile"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/profile"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600 text-xs uppercase py-3 font-bold block"
@@ -303,11 +333,14 @@ export default function Sidebar() {
             {/* Navigation */}
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="inline-flex">
-                <Link href="/"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/"
-                  } >
+                <Link
+                  href="/"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
@@ -319,11 +352,14 @@ export default function Sidebar() {
               </li>
 
               <li className="inline-flex">
-                <Link href="/"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/"
-                  } >
+                <Link
+                  href="/"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
@@ -335,11 +371,14 @@ export default function Sidebar() {
               </li>
 
               <li className="inline-flex">
-                <Link href="/"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/"
-                  } >
+                <Link
+                  href="/"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
@@ -351,11 +390,14 @@ export default function Sidebar() {
               </li>
 
               <li className="inline-flex">
-                <Link href="/"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/"
-                  } >
+                <Link
+                  href="/"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
@@ -367,11 +409,14 @@ export default function Sidebar() {
               </li>
 
               <li className="inline-flex">
-                <Link href="/"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/"
-                  } >
+                <Link
+                  href="/"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
@@ -383,11 +428,14 @@ export default function Sidebar() {
               </li>
 
               <li className="inline-flex">
-                <Link href="/"  as={
-                  (process.env.NODE_ENV === "production"
-                    ? "/tailwind-webapp-nextjs"
-                    : "") + "/"
-                  } >
+                <Link
+                  href="/"
+                  as={
+                    (process.env.NODE_ENV === "production"
+                      ? "/tailwind-webapp-nextjs"
+                      : "") + "/"
+                  }
+                >
                   <a
                     href="#pablo"
                     className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
