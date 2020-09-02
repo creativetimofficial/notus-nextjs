@@ -181,10 +181,9 @@ export default function CardSettings() {
                     className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                     rows="4"
                     style={{ transition: "all .15s ease" }}
-                  >
-                    A beautiful Dashboard for React & Tailwindcss. It is Free
-                    and Open Source.
-                  </textarea>
+                    defaultValue="A beautiful Dashboard for React & Tailwindcss. It is Free
+                    and Open Source."
+                  ></textarea>
                 </div>
               </div>
             </div>
