@@ -100,7 +100,14 @@ export default function Sidebar() {
                         : "text-gray-800 hover:text-gray-600")
                     }
                   >
-                    <i className="fas fa-tv opacity-75 mr-2 text-sm"></i>{" "}
+                    <i
+                      className={
+                        "fas fa-tv mr-2 text-sm " +
+                        (router.pathname.indexOf("/admin/dashboard") !== -1
+                          ? "opacity-75"
+                          : "text-gray-400")
+                      }
+                    ></i>{" "}
                     Dashboard
                   </a>
                 </Link>
@@ -117,7 +124,14 @@ export default function Sidebar() {
                         : "text-gray-800 hover:text-gray-600")
                     }
                   >
-                    <i className="fas fa-tools text-gray-400 mr-2 text-sm"></i>{" "}
+                    <i
+                      className={
+                        "fas fa-tools mr-2 text-sm " +
+                        (router.pathname.indexOf("/admin/settings") !== -1
+                          ? "opacity-75"
+                          : "text-gray-400")
+                      }
+                    ></i>{" "}
                     Settings
                   </a>
                 </Link>
@@ -134,7 +148,14 @@ export default function Sidebar() {
                         : "text-gray-800 hover:text-gray-600")
                     }
                   >
-                    <i className="fas fa-table text-gray-400 mr-2 text-sm"></i>{" "}
+                    <i
+                      className={
+                        "fas fa-table mr-2 text-sm " +
+                        (router.pathname.indexOf("/admin/tables") !== -1
+                          ? "opacity-75"
+                          : "text-gray-400")
+                      }
+                    ></i>{" "}
                     Tables
                   </a>
                 </Link>
@@ -151,7 +172,14 @@ export default function Sidebar() {
                         : "text-gray-800 hover:text-gray-600")
                     }
                   >
-                    <i className="fas fa-map-marked text-gray-400 mr-2 text-sm"></i>{" "}
+                    <i
+                      className={
+                        "fas fa-map-marked mr-2 text-sm " +
+                        (router.pathname.indexOf("/admin/maps") !== -1
+                          ? "opacity-75"
+                          : "text-gray-400")
+                      }
+                    ></i>{" "}
                     Maps
                   </a>
                 </Link>
