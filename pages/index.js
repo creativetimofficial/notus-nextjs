@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import Link from "next/link";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -33,17 +32,16 @@ export default function Index() {
                 components for ReactJS, Vue and Angular.
               </p>
               <div className="mt-12">
-                <Link href="/documentation/download">
-                  <a
-                    href="#pablo"
-                    className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg"
-                    style={{ transition: "all .15s ease" }}
-                  >
-                    Get started
-                  </a>
-                </Link>
                 <a
-                  href="https://github.com/creativetimofficial/tailwind-starter-kit"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs"
+                  target="_blank"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg"
+                  style={{ transition: "all .15s ease" }}
+                >
+                  Get started
+                </a>
+                <a
+                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
@@ -225,16 +223,15 @@ export default function Index() {
                   Typography
                 </span>
               </div>
-              <Link href="/documentation/css/alerts">
-                <a
-                  href="#pablo"
-                  className="font-bold text-gray-800 hover:text-gray-600"
-                  style={{ transition: "all .15s ease" }}
-                >
-                  View All{" "}
-                  <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-                </a>
-              </Link>
+              <a
+                href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
+                target="_blank"
+                className="font-bold text-gray-800 hover:text-gray-600"
+                style={{ transition: "all .15s ease" }}
+              >
+                View All{" "}
+                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+              </a>
             </div>
 
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
@@ -292,42 +289,51 @@ export default function Index() {
           <div className="flex flex-wrap items-center pt-32">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
-              <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-32">
-                <Link href="/documentation/javascript/alerts">
-                  <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8">
-                    <img
-                      alt="..."
-                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
-                    />
-                    <p className="text-lg text-white mt-4 font-semibold">
-                      JavaScript
-                    </p>
-                    <p className="text-base text-white opacity-75 mt-2">
-                      Object-oriented programming language that conforms to
-                      the ECMAScript specification.
-                    </p>
-                  </div>
-                </Link>
-                <Link href="/documentation/angular/alerts">
-                  <div className="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8">
-                    <img
-                      alt="..."
-                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                    />
-                    <p className="text-lg text-white mt-4 font-semibold">
-                      Angular
-                    </p>
-                    <p className="text-base text-white opacity-75 mt-2">
-                      a JavaScript-based open-source front-end web framework
-                      mainly maintained by Google.
-                    </p>
-                  </div>
-                </Link>
-              </div>
+                <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-32">
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp"
+                    target="_blank"
+                  >
+                    <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8">
+                      <img
+                        alt="..."
+                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                      />
+                      <p className="text-lg text-white mt-4 font-semibold">
+                        JavaScript
+                      </p>
+                      <p className="text-base text-white opacity-75 mt-2">
+                        Object-oriented programming language that conforms to
+                        the ECMAScript specification.
+                      </p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular"
+                    target="_blank"
+                  >
+                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8">
+                      <img
+                        alt="..."
+                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                      />
+                      <p className="text-lg text-white mt-4 font-semibold">
+                        Angular
+                      </p>
+                      <p className="text-base text-white opacity-75 mt-2">
+                        a JavaScript-based open-source front-end web framework
+                        mainly maintained by Google.
+                      </p>
+                    </div>
+                  </a>
+                </div>
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                  <Link href="/documentation/react/alerts">
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react"
+                    target="_blank"
+                  >
                     <div className="bg-blue-500 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
@@ -342,8 +348,11 @@ export default function Index() {
                         maintaned by Facebook and community of developers.
                       </p>
                     </div>
-                  </Link>
-                  <Link href="/documentation/vue/alerts">
+                  </a>
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vue"
+                    target="_blank"
+                  >
                     <div className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -358,8 +367,11 @@ export default function Index() {
                         for building user interfaces.
                       </p>
                     </div>
-                  </Link>
-                  <Link href="/documentation/nextjs/alerts">
+                  </a>
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
+                    target="_blank"
+                  >
                     <div className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -370,13 +382,11 @@ export default function Index() {
                         NextJS
                       </p>
                       <p className="text-base text-white opacity-75 mt-2">
-                      The React Framework for Production.
+                        The React Framework for Production.
                       </p>
                     </div>
-                  </Link>
+                  </a>
                 </div>
-
-
               </div>
             </div>
 
@@ -422,16 +432,15 @@ export default function Index() {
                   Tooltips
                 </span>
               </div>
-              <Link href="/documentation/vue/alerts">
-                <a
-                  href="#pablo"
-                  className="font-bold text-gray-800 hover:text-gray-600"
-                  style={{ transition: "all .15s ease" }}
-                >
-                  View all{" "}
-                  <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-                </a>
-              </Link>
+              <a
+                href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
+                target="_blank"
+                className="font-bold text-gray-800 hover:text-gray-600"
+                style={{ transition: "all .15s ease" }}
+              >
+                View all{" "}
+                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -534,7 +543,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Login Page
                   </h5>
-                  <Link href="/login">
+                  <Link href="/auth/login">
                     <div
                       className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
                       style={{ transition: "all .15s ease" }}
@@ -617,7 +626,7 @@ export default function Index() {
                 Star!
               </p>
               <a
-                href="https://github.com/creativetimofficial/tailwind-starter-kit"
+                href="https://github.com/creativetimofficial/tailwind-webapp-nextjs"
                 target="_blank"
                 className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
               >
@@ -680,17 +689,16 @@ export default function Index() {
                 new web app or give an old project a new look!
               </p>
               <div className="sm:block flex flex-col mt-10">
-                <Link href="/documentation/quick-start">
-                  <a
-                    href="#pablo"
-                    className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg"
-                    style={{ transition: "all .15s ease" }}
-                  >
-                    Get started
-                  </a>
-                </Link>
                 <a
-                  href="https://github.com/creativetimofficial/tailwind-starter-kit"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-nextjs"
+                  target="_blank"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg"
+                  style={{ transition: "all .15s ease" }}
+                >
+                  Get started
+                </a>
+                <a
+                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs"
                   target="_blank"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
                 >

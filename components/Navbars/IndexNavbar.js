@@ -38,7 +38,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs"
                 >
                   <i className="text-gray-500 far fa-file-alt text-lg leading-lg mr-2" />{" "}
                   Docs

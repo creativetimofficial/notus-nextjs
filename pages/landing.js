@@ -131,12 +131,11 @@ export default function Landing() {
                   good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                  className="font-bold text-gray-800 mt-8"
-                >
-                  Check Tailwind Webapp NextJS!
-                </a>
+                <Link href="/">
+                  <a href="#pablo" className="font-bold text-gray-800 mt-8">
+                    Check Tailwind Webapp NextJS!
+                  </a>
+                </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
