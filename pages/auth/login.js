@@ -1,6 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
+// layout for page
+
+import Auth from "layouts/Auth.js";
+
 export default function Login() {
   return (
     <>
@@ -126,3 +130,5 @@ export default function Login() {
     </>
   );
 }
+
+Login.layout = Auth;
