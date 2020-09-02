@@ -44,7 +44,9 @@ const IndexDropdown = () => {
         >
           Admin Layout
         </span>
-        <Link href="/admin/dashboard">
+        <Link href="/admin/dashboard" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/admin/dashboard"}>
           <a
             href="#pablo"
             className={
@@ -54,7 +56,9 @@ const IndexDropdown = () => {
             Dashboard
           </a>
         </Link>
-        <Link href="/admin/settings">
+        <Link href="/admin/settings" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/admin/settings"}>
           <a
             href="#pablo"
             className={
@@ -64,7 +68,9 @@ const IndexDropdown = () => {
             Settings
           </a>
         </Link>
-        <Link href="/admin/tables">
+        <Link href="/admin/tables" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/admin/tables"}>
           <a
             href="#pablo"
             className={
@@ -74,7 +80,9 @@ const IndexDropdown = () => {
             Tables
           </a>
         </Link>
-        <Link href="/admin/maps">
+        <Link href="/admin/maps" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/admin/maps"}>
           <a
             href="#pablo"
             className={
@@ -92,7 +100,9 @@ const IndexDropdown = () => {
         >
           Auth Layout
         </span>
-        <Link href="/auth/login">
+        <Link href="/auth/login" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/auth/login"}>
           <a
             href="#pablo"
             className={
@@ -102,7 +112,9 @@ const IndexDropdown = () => {
             Login
           </a>
         </Link>
-        <Link href="/auth/register">
+        <Link href="/auth/register" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/auth/register"}>
           <a
             href="#pablo"
             className={
@@ -120,7 +132,9 @@ const IndexDropdown = () => {
         >
           No Layout
         </span>
-        <Link href="/landing">
+        <Link href="/landing" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/landing"}>
           <a
             href="#pablo"
             className={
@@ -130,7 +144,9 @@ const IndexDropdown = () => {
             Lading
           </a>
         </Link>
-        <Link href="/profile">
+        <Link href="/profile" as={(process.env.NODE_ENV === "production"
+          ? "/tailwind-webapp-nextjs"
+          : "") + "/profile"}>
           <a
             href="#pablo"
             className={
