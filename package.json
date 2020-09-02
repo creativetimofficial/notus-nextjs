@@ -32,7 +32,9 @@
     "build": "next build",
     "dev": "next dev",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
-    "build:tailwind": "tailwind build assets/styles/index.css -o assets/styles/tailwind.css"
+    "build:tailwind": "tailwind build assets/styles/index.css -o assets/styles/tailwind.css",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && rm -rf out/ && npm install && npm run build:tailwind && npm run build && npm run export && cp -r ./assets ./out/assets && touch out/.nojekyll && git add . && git commit -m \"ready to deploy\" && git push && git subtree push --prefix out origin gh-pages"
   },
   "eslintConfig": {
     "extends": "react-app"
