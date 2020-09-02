@@ -3,7 +3,9 @@ import Router from "next/router";
 
 export default class _error extends Component {
   componentDidMount = () => {
-    Router.push("/admin/dashboard");
+    Router.push((process.env.NODE_ENV === "production"
+      ? "/tailwind-webapp-nextjs"
+      : "")+"/admin/dashboard");
   };
 
   render() {
