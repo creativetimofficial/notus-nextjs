@@ -32,7 +32,7 @@ const NotificationDropdown = () => {
         ref={popoverDropdownRef}
         className={
           (dropdownPopoverShow ? "block " : "hidden ") +
-          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1"
+          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg"
         }
         style={{ minWidth: "12rem" }}
       >
