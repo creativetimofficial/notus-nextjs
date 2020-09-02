@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Popper from "popper.js";
+import { createPopper } from '@popperjs/core';
 
 const PagesDropdown = () => {
   // dropdown props
@@ -8,7 +8,7 @@ const PagesDropdown = () => {
   const btnDropdownRef = React.createRef();
   const popoverDropdownRef = React.createRef();
   const openDropdownPopover = () => {
-    new Popper(btnDropdownRef.current, popoverDropdownRef.current, {
+    createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
       placement: "bottom-end",
     });
     setDropdownPopoverShow(true);

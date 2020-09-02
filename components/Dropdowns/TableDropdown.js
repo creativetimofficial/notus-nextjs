@@ -1,5 +1,5 @@
 import React from "react";
-import Popper from "popper.js";
+import { createPopper } from '@popperjs/core';
 
 const NotificationDropdown = () => {
   // dropdown props
@@ -7,7 +7,7 @@ const NotificationDropdown = () => {
   const btnDropdownRef = React.createRef();
   const popoverDropdownRef = React.createRef();
   const openDropdownPopover = () => {
-    new Popper(btnDropdownRef.current, popoverDropdownRef.current, {
+    createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
       placement: "left-start",
     });
     setDropdownPopoverShow(true);
