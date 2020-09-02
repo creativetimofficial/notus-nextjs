@@ -53,7 +53,7 @@ const MapExample = withScriptjs(
           {
             featureType: "water",
             elementType: "all",
-            stylers: [{ color: "#4299e1" }, { visibility: "on" }],
+            stylers: [{ color: "#cbd5e0" }, { visibility: "on" }],
           },
         ],
       }}
