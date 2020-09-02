@@ -1299,6 +1299,24 @@ video {
   background-color: rgba(226, 232, 240, var(--bg-opacity));
 }
 
+.bg-gray-500 {
+  --bg-opacity: 1;
+  background-color: #a0aec0;
+  background-color: rgba(160, 174, 192, var(--bg-opacity));
+}
+
+.bg-gray-600 {
+  --bg-opacity: 1;
+  background-color: #718096;
+  background-color: rgba(113, 128, 150, var(--bg-opacity));
+}
+
+.bg-gray-700 {
+  --bg-opacity: 1;
+  background-color: #4a5568;
+  background-color: rgba(74, 85, 104, var(--bg-opacity));
+}
+
 .bg-gray-800 {
   --bg-opacity: 1;
   background-color: #2d3748;
@@ -1383,12 +1401,6 @@ video {
   background-color: rgba(190, 227, 248, var(--bg-opacity));
 }
 
-.bg-blue-300 {
-  --bg-opacity: 1;
-  background-color: #90cdf4;
-  background-color: rgba(144, 205, 244, var(--bg-opacity));
-}
-
 .bg-blue-400 {
   --bg-opacity: 1;
   background-color: #63b3ed;
@@ -1405,18 +1417,6 @@ video {
   --bg-opacity: 1;
   background-color: #3182ce;
   background-color: rgba(49, 130, 206, var(--bg-opacity));
-}
-
-.bg-blue-800 {
-  --bg-opacity: 1;
-  background-color: #2c5282;
-  background-color: rgba(44, 82, 130, var(--bg-opacity));
-}
-
-.bg-blue-900 {
-  --bg-opacity: 1;
-  background-color: #2a4365;
-  background-color: rgba(42, 67, 101, var(--bg-opacity));
 }
 
 .bg-indigo-500 {
@@ -1449,16 +1449,16 @@ video {
   background-color: rgba(247, 250, 252, var(--bg-opacity));
 }
 
+.active\:bg-gray-600:active {
+  --bg-opacity: 1;
+  background-color: #718096;
+  background-color: rgba(113, 128, 150, var(--bg-opacity));
+}
+
 .active\:bg-gray-700:active {
   --bg-opacity: 1;
   background-color: #4a5568;
   background-color: rgba(74, 85, 104, var(--bg-opacity));
-}
-
-.active\:bg-blue-600:active {
-  --bg-opacity: 1;
-  background-color: #3182ce;
-  background-color: rgba(49, 130, 206, var(--bg-opacity));
 }
 
 .active\:bg-indigo-600:active {
@@ -1553,12 +1553,6 @@ video {
   --border-opacity: 1;
   border-color: #4a5568;
   border-color: rgba(74, 85, 104, var(--border-opacity));
-}
-
-.border-blue-700 {
-  --border-opacity: 1;
-  border-color: #2b6cb0;
-  border-color: rgba(43, 108, 176, var(--border-opacity));
 }
 
 .rounded {
@@ -2776,12 +2770,6 @@ video {
   --text-opacity: 1;
   color: #38b2ac;
   color: rgba(56, 178, 172, var(--text-opacity));
-}
-
-.text-blue-300 {
-  --text-opacity: 1;
-  color: #90cdf4;
-  color: rgba(144, 205, 244, var(--text-opacity));
 }
 
 .text-blue-400 {

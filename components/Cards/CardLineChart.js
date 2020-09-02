@@ -26,8 +26,8 @@ export default function CardLineChart() {
           {
             label: new Date().getFullYear() - 1,
             fill: false,
-            backgroundColor: "#ed64a6",
-            borderColor: "#ed64a6",
+            backgroundColor: "#edf2f7",
+            borderColor: "#edf2f7",
             data: [40, 68, 86, 74, 56, 60, 87],
           },
         ],
@@ -108,7 +108,7 @@ export default function CardLineChart() {
   }, []);
   return (
     <>
-      <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-blue-900">
+      <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-gray-700">
         <div className="rounded-t mb-0 px-4 py-3 bg-transparent">
           <div className="flex flex-wrap items-center">
             <div className="relative w-full max-w-full flex-grow flex-1">

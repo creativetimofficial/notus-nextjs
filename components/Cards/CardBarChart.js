@@ -18,8 +18,8 @@ export default function CardBarChart() {
         datasets: [
           {
             label: new Date().getFullYear(),
-            backgroundColor: "#ed64a6",
-            borderColor: "#ed64a6",
+            backgroundColor: "#4a5568",
+            borderColor: "#4a5568",
             data: [30, 78, 56, 34, 100, 45, 13],
             fill: false,
             barThickness: 8,

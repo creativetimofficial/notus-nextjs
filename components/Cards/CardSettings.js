@@ -10,7 +10,7 @@ export default function CardSettings() {
           <div className="text-center flex justify-between">
             <h6 className="text-gray-800 text-xl font-bold">My account</h6>
             <button
-              className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1"
+              className="bg-gray-500 text-white active:bg-gray-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1"
               type="button"
               style={{ transition: "all .15s ease" }}
             >
