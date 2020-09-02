@@ -46,7 +46,7 @@ export default function FooterAdmin() {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/creativetimofficial/tailwind-starter-kit/blob/master/LICENSE.md"
+                    href="https://github.com/creativetimofficial/tailwind-webapp-nextjs/blob/master/LICENSE.md"
                     className="text-gray-700 hover:text-gray-900 text-sm font-semibold block py-1 px-3"
                   >
                     MIT License
