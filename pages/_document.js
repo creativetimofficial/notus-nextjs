@@ -18,7 +18,7 @@ class MyDocument extends Document {
             href={require("assets/img/brand/apple-icon.png")}
           />
         </Head>
-        <body>
+        <body className="text-gray-800 antialiased">
           <div id="page-transition"></div>
           <Main />
           <NextScript />
