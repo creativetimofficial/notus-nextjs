@@ -81,7 +81,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <button
-                  className="bg-gray-500 text-white active:bg-gray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                  className="bg-gray-800 text-white active:bg-gray-700 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                   type="button"
                   style={{ transition: "all .15s ease" }}
                 >

@@ -35,7 +35,7 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
                   style={{ transition: "all .15s ease" }}
                 >
                   Get started
@@ -54,7 +54,7 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12"
-          src={require("assets/img/ill_header_3.png")}
+          src={require("assets/img/pattern_nextjs.png")}
           alt="..."
           style={{ maxHeight: "860px" }}
         />
@@ -83,7 +83,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-gray-600">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-gray-800">
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
@@ -102,7 +102,7 @@ export default function Index() {
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
-                      className="text-gray-600 fill-current"
+                      className="text-gray-800 fill-current"
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
@@ -692,7 +692,7 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-nextjs"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
                   style={{ transition: "all .15s ease" }}
                 >
                   Get started
