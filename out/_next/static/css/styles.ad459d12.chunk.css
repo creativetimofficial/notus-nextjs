@@ -1461,12 +1461,6 @@ video {
   background-color: rgba(74, 85, 104, var(--bg-opacity));
 }
 
-.active\:bg-blue-600:active {
-  --bg-opacity: 1;
-  background-color: #3182ce;
-  background-color: rgba(49, 130, 206, var(--bg-opacity));
-}
-
 .active\:bg-indigo-600:active {
   --bg-opacity: 1;
   background-color: #5a67d8;
