@@ -1935,6 +1935,10 @@ video {
   height: 4rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -3131,8 +3135,16 @@ video {
   --transform-rotate: 180deg;
 }
 
+.transition-all {
+  transition-property: all;
+}
+
 .transition {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+}
+
+.ease-linear {
+  transition-timing-function: linear;
 }
 
 .ease-in {
@@ -3145,6 +3157,10 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-150 {
+  transition-duration: 150ms;
 }
 
 @-webkit-keyframes spin {
