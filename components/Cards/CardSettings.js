@@ -10,9 +10,8 @@ export default function CardSettings() {
           <div className="text-center flex justify-between">
             <h6 className="text-gray-800 text-xl font-bold">My account</h6>
             <button
-              className="bg-gray-500 text-white active:bg-gray-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1"
+              className="bg-gray-500 text-white active:bg-gray-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
               type="button"
-              style={{ transition: "all .15s ease" }}
             >
               Settings
             </button>
@@ -34,9 +33,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="lucky.jesse"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -50,9 +48,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="email"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="jesse@example.com"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -66,9 +63,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="Lucky"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -82,9 +78,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="Jesse"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -106,9 +101,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -122,9 +116,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="email"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="New York"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -138,9 +131,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="United States"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -154,9 +146,8 @@ export default function CardSettings() {
                   </label>
                   <input
                     type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     defaultValue="Postal Code"
-                    style={{ transition: "all .15s ease" }}
                   />
                 </div>
               </div>
@@ -178,9 +169,8 @@ export default function CardSettings() {
                   </label>
                   <textarea
                     type="text"
-                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                    className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     rows="4"
-                    style={{ transition: "all .15s ease" }}
                     defaultValue="A beautiful Dashboard for React & Tailwindcss. It is Free
                     and Open Source."
                   ></textarea>

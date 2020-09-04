@@ -16,7 +16,7 @@ export default function Maps() {
           <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
             <MapExample
               googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
-              loadingElement={<div style={{ height: "100%" }} />}
+              loadingElement={<div className="h-full" />}
               containerElement={
                 <div
                   style={{ height: "600px" }}
@@ -24,7 +24,7 @@ export default function Maps() {
                 />
               }
               mapElement={
-                <div className="rounded" style={{ height: "100%" }} />
+                <div className="rounded" className="h-full" />
               }
             />
           </div>
