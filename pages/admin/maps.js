@@ -19,8 +19,7 @@ export default function Maps() {
               loadingElement={<div className="h-full" />}
               containerElement={
                 <div
-                  style={{ height: "600px" }}
-                  className="relative w-full rounded"
+                  className="relative w-full rounded h-600-px"
                 />
               }
               mapElement={

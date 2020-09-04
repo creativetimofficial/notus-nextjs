@@ -40,9 +40,8 @@ const UserDropdown = () => {
         ref={popoverDropdownRef}
         className={
           (dropdownPopoverShow ? "block " : "hidden ") +
-          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg"
+          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
         }
-        style={{ minWidth: "12rem" }}
       >
         <a
           href="#pablo"
