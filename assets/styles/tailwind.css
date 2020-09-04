@@ -1299,12 +1299,6 @@ video {
   background-color: rgba(226, 232, 240, var(--bg-opacity));
 }
 
-.bg-gray-500 {
-  --bg-opacity: 1;
-  background-color: #a0aec0;
-  background-color: rgba(160, 174, 192, var(--bg-opacity));
-}
-
 .bg-gray-600 {
   --bg-opacity: 1;
   background-color: #718096;
@@ -1447,12 +1441,6 @@ video {
   --bg-opacity: 1;
   background-color: #f7fafc;
   background-color: rgba(247, 250, 252, var(--bg-opacity));
-}
-
-.active\:bg-gray-600:active {
-  --bg-opacity: 1;
-  background-color: #718096;
-  background-color: rgba(113, 128, 150, var(--bg-opacity));
 }
 
 .active\:bg-gray-700:active {
