@@ -35,8 +35,7 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
-                  style={{ transition: "all .15s ease" }}
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
@@ -62,8 +61,8 @@ export default function Index() {
 
       <section className="mt-40 pb-40 relative bg-gray-200">
         <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute"
-          style={{ height: "80px", transform: "translateZ(0)" }}
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
         >
           <svg
             className="absolute bottom-0 overflow-hidden"
@@ -226,8 +225,7 @@ export default function Index() {
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
                 target="_blank"
-                className="font-bold text-gray-800 hover:text-gray-600"
-                style={{ transition: "all .15s ease" }}
+                className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
               >
                 View All{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
@@ -435,8 +433,7 @@ export default function Index() {
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
                 target="_blank"
-                className="font-bold text-gray-800 hover:text-gray-600"
-                style={{ transition: "all .15s ease" }}
+                className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
               >
                 View all{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
@@ -545,8 +542,7 @@ export default function Index() {
                   </h5>
                   <Link href="/auth/login">
                     <div
-                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
-                      style={{ transition: "all .15s ease" }}
+                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
                     >
                       <img
                         alt="..."
@@ -563,8 +559,7 @@ export default function Index() {
                   </h5>
                   <Link href="/profile">
                     <div
-                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
-                      style={{ transition: "all .15s ease" }}
+                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
                     >
                       <img
                         alt="..."
@@ -581,8 +576,7 @@ export default function Index() {
                   </h5>
                   <Link href="/landing">
                     <div
-                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
-                      style={{ transition: "all .15s ease" }}
+                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
                     >
                       <img
                         alt="..."
@@ -636,10 +630,9 @@ export default function Index() {
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
               <i
-                className="fab fa-github text-gray-800"
+                className="fab fa-github text-gray-800 absolute"
                 style={{
                   fontSize: "55em",
-                  position: "absolute",
                   top: "-150px",
                   right: "-100%",
                   left: "auto",
@@ -653,8 +646,8 @@ export default function Index() {
 
       <section className="pb-16 bg-gray-300 relative pt-32">
         <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute"
-          style={{ height: "80px", transform: "translateZ(0)" }}
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
         >
           <svg
             className="absolute bottom-0 overflow-hidden"
@@ -692,8 +685,7 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-nextjs"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
-                  style={{ transition: "all .15s ease" }}
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>

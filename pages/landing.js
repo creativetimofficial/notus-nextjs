@@ -46,8 +46,8 @@ export default function Landing() {
             </div>
           </div>
           <div
-            className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-            style={{ height: "70px", transform: "translateZ(0)" }}
+            className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-16"
+            style={{ transform: "translateZ(0)" }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -181,8 +181,8 @@ export default function Landing() {
 
         <section className="relative py-20">
           <div
-            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-            style={{ height: "80px", transform: "translateZ(0)" }}
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+            style={{ transform: "translateZ(0)" }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -431,8 +431,8 @@ export default function Landing() {
 
         <section className="pb-20 relative block bg-gray-900">
           <div
-            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-            style={{ height: "80px", transform: "translateZ(0)" }}
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+            style={{ transform: "translateZ(0)" }}
           >
             <svg
               className="absolute bottom-0 overflow-hidden"
@@ -525,9 +525,8 @@ export default function Landing() {
                       </label>
                       <input
                         type="text"
-                        className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                         placeholder="Full Name"
-                        style={{ transition: "all .15s ease" }}
                       />
                     </div>
 
@@ -540,9 +539,8 @@ export default function Landing() {
                       </label>
                       <input
                         type="email"
-                        className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                         placeholder="Email"
-                        style={{ transition: "all .15s ease" }}
                       />
                     </div>
 
@@ -562,9 +560,8 @@ export default function Landing() {
                     </div>
                     <div className="text-center mt-6">
                       <button
-                        className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                        className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
-                        style={{ transition: "all .15s ease" }}
                       >
                         Send Message
                       </button>
