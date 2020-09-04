@@ -8,9 +8,7 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <section
-        className="header relative pt-16 items-center flex h-screen max-h-860-px"
-      >
+      <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
@@ -518,9 +516,7 @@ export default function Index() {
                     Login Page
                   </h5>
                   <Link href="/auth/login">
-                    <div
-                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
-                    >
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
@@ -535,9 +531,7 @@ export default function Index() {
                     Profile Page
                   </h5>
                   <Link href="/profile">
-                    <div
-                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
-                    >
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
@@ -552,9 +546,7 @@ export default function Index() {
                     Landing Page
                   </h5>
                   <Link href="/landing">
-                    <div
-                      className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150"
-                    >
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
@@ -606,9 +598,7 @@ export default function Index() {
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-              <i
-                className="fab fa-github text-gray-800 absolute text-55 -top-150-px -right-100 left-auto opacity-80"
-              ></i>
+              <i className="fab fa-github text-gray-800 absolute text-55 -top-150-px -right-100 left-auto opacity-80"></i>
             </div>
           </div>
         </div>
