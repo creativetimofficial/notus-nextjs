@@ -9,7 +9,7 @@ const IndexDropdown = () => {
   const popoverDropdownRef = React.createRef();
   const openDropdownPopover = () => {
     createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
-      placement: "bottom-end",
+      placement: "bottom-start",
     });
     setDropdownPopoverShow(true);
   };
