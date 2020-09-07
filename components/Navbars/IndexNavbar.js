@@ -24,13 +24,13 @@ export default function Navbar(props) {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="text-white fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
             </button>
           </div>
           <div
             className={
               "lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" +
-              (navbarOpen ? " block rounded shadow-lg" : " hidden")
+              (navbarOpen ? " block" : " hidden")
             }
             id="example-navbar-warning"
           >
