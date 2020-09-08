@@ -52,7 +52,7 @@ export default function FooterSmall(props) {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                    href="https://github.com/creativetimofficial/tailwind-webapp-nextjs/blob/master/LICENSE.md"
                     className="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
                   >
                     MIT License
