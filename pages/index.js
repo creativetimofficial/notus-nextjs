@@ -30,14 +30,14 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs?ref=twnjs-index"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs"
+                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs?ref=twnjs-index"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
@@ -214,7 +214,7 @@ export default function Index() {
                 </span>
               </div>
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
+                href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=twnjs-index"
                 target="_blank"
                 className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
               >
@@ -264,7 +264,7 @@ export default function Index() {
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-32">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp?ref=twnjs-index"
                     target="_blank"
                   >
                     <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8">
@@ -283,7 +283,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=twnjs-index"
                     target="_blank"
                   >
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -304,7 +304,7 @@ export default function Index() {
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react?ref=twnjs-index"
                     target="_blank"
                   >
                     <div className="bg-blue-500 shadow-lg rounded-lg text-center p-8">
@@ -323,7 +323,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vue"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vue?ref=twnjs-index"
                     target="_blank"
                   >
                     <div className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -342,7 +342,7 @@ export default function Index() {
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=twnjs-index"
                     target="_blank"
                   >
                     <div className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8">
@@ -406,7 +406,7 @@ export default function Index() {
                 </span>
               </div>
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs"
+                href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=twnjs-index"
                 target="_blank"
                 className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
               >
@@ -574,7 +574,7 @@ export default function Index() {
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-500">
                 Since{" "}
                 <a
-                  href="https://tailwindcss.com/"
+                  href="https://tailwindcss.com/?ref=creative"
                   className="text-gray-400"
                   target="_blank"
                 >
@@ -589,7 +589,7 @@ export default function Index() {
                 Star!
               </p>
               <a
-                href="https://github.com/creativetimofficial/tailwind-webapp-nextjs"
+                href="https://github.com/creativetimofficial/tailwind-webapp-nextjs?ref=twnjs-index"
                 target="_blank"
                 className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
               >
@@ -643,14 +643,14 @@ export default function Index() {
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-nextjs"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/overflow/webapp-nextjs?ref=twnjs-index"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs"
+                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs?ref=twnjs-index"
                   target="_blank"
                   className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
                 >

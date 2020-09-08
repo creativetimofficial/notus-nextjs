@@ -38,7 +38,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs?ref=twnjs-auth-navbar"
                 >
                   <i className="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2" />{" "}
                   Docs
@@ -74,7 +74,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs"
+                  href="https://github.com/creativetimofficial/tailwind-webapp-nextjs?ref=twnjs-auth-navbar"
                   target="_blank"
                 >
                   <i className="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg " />
