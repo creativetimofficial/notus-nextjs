@@ -31,7 +31,7 @@ export default class MyApp extends App {
     let comment = document.createComment(`
 
 =========================================================
-* * Tailwind Webapp NextJS v1.0.0
+* * Tailwind WebApp NextJS v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/tailwind-webapp-nextjs
@@ -68,7 +68,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>Tailwind Webapp NextJS by Creative Tim</title>
+          <title>Tailwind WebApp NextJS by Creative Tim</title>
         </Head>
         <Layout>
           <Component {...pageProps} />
