@@ -16,7 +16,7 @@ export default function Index() {
                 A beautiful extension for TailwindCSS.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                Tailwind Webapp NextJS is Free and Open Source. It does not
+                Tailwind WebApp NextJS is Free and Open Source. It does not
                 change or add any CSS to the already one from{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
@@ -120,7 +120,7 @@ export default function Index() {
                         CSS Components
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        Tailwind Webapp comes with a huge number of Fully Coded
+                        Tailwind WebApp comes with a huge number of Fully Coded
                         CSS components.
                       </p>
                     </div>
@@ -163,7 +163,7 @@ export default function Index() {
                       </h6>
                       <p className="mb-4 text-gray-600">
                         Built by developers for developers. You will love how
-                        easy is to to work with Tailwind Webapp NextJS.
+                        easy is to to work with Tailwind WebApp NextJS.
                       </p>
                     </div>
                   </div>
@@ -264,7 +264,7 @@ export default function Index() {
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-32">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp?ref=twnjs-index"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=twnjs-index"
                     target="_blank"
                   >
                     <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8">
@@ -498,7 +498,7 @@ export default function Index() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-600">
-              Tailwind Webapp NextJS is a completly new product built using our
+              Tailwind WebApp NextJS is a completly new product built using our
               past experience in web templates. Take the examples we made for
               you and start playing with them.
             </p>
