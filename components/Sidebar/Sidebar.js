@@ -302,6 +302,18 @@ export default function Sidebar() {
                 <Link href="/">
                   <a
                     href="#pablo"
+                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+                  >
+                    <i className="fas fa-link mr-2 text-gray-500 text-base"></i>{" "}
+                    Svelte
+                  </a>
+                </Link>
+              </li>
+
+              <li className="inline-flex">
+                <Link href="/">
+                  <a
+                    href="#pablo"
                     className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
                   >
                     <i className="fab fa-react mr-2 text-gray-500 text-base"></i>{" "}
