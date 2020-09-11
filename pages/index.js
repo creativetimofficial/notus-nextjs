@@ -262,52 +262,29 @@ export default function Index() {
           <div className="flex flex-wrap items-center pt-32">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
-                <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-32">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=twnjs-index"
-                    target="_blank"
-                  >
-                    <div className="bg-orange-500 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        JavaScript
-                      </p>
-                      <p className="text-base text-white opacity-75 mt-2">
-                        Object-oriented programming language that conforms to
-                        the ECMAScript specification.
-                      </p>
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=twnjs-index"
-                    target="_blank"
-                  >
-                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
-                      </p>
-                      <p className="text-base text-white opacity-75 mt-2">
-                        a JavaScript-based open-source front-end web framework
-                        mainly maintained by Google.
-                      </p>
-                    </div>
-                  </a>
-                </div>
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react?ref=twnjs-index"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-svelte?ref=vtw-index"
                     target="_blank"
                   >
-                    <div className="bg-blue-500 shadow-lg rounded-lg text-center p-8">
+                    <div
+                      className="bg-red-600 shadow-lg rounded-lg text-center p-8"
+                    >
+                      <img
+                        alt="..."
+                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                      />
+                      <p className="text-lg text-white mt-4 font-semibold">
+                        Svelte
+                      </p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-react?ref=vtw-index"
+                    target="_blank"
+                  >
+                    <div className="bg-blue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -316,36 +293,15 @@ export default function Index() {
                       <p className="text-lg text-white mt-4 font-semibold">
                         ReactJS
                       </p>
-                      <p className="text-base text-white opacity-75 mt-2">
-                        A JavaScript library for building user interfaces
-                        maintaned by Facebook and community of developers.
-                      </p>
                     </div>
                   </a>
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vue?ref=twnjs-index"
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=vtw-index"
                     target="_blank"
                   >
-                    <div className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Vue.js
-                      </p>
-                      <p className="text-base text-white opacity-75 mt-2">
-                        An open-source Model–view–viewmodel JavaScript framework
-                        for building user interfaces.
-                      </p>
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=twnjs-index"
-                    target="_blank"
-                  >
-                    <div className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <div
+                      className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8"
+                    >
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -354,8 +310,54 @@ export default function Index() {
                       <p className="text-lg text-white mt-4 font-semibold">
                         NextJS
                       </p>
-                      <p className="text-base text-white opacity-75 mt-2">
-                        The React Framework for Production.
+                    </div>
+                  </a>
+                </div>
+                <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=vtw-index"
+                    target="_blank"
+                  >
+                    <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
+                      <img
+                        alt="..."
+                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                      />
+                      <p className="text-lg text-white mt-4 font-semibold">
+                        JavaScript
+                      </p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-angular?ref=vtw-index"
+                    target="_blank"
+                  >
+                    <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                      <img
+                        alt="..."
+                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                      />
+                      <p className="text-lg text-white mt-4 font-semibold">
+                        Angular
+                      </p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-vuejs?ref=vtw-index"
+                    target="_blank"
+                  >
+                    <div
+                      className="bg-green-500 shadow-lg rounded-lg text-center p-8 mt-8"
+                    >
+                      <img
+                        alt="..."
+                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                      />
+                      <p className="text-lg text-white mt-4 font-semibold">
+                        Vue.js
                       </p>
                     </div>
                   </a>
