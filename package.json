@@ -24,7 +24,7 @@
     "react-dom": "16.13.1",
     "react-google-maps": "9.4.5",
     "react-scripts": "3.4.3",
-    "tailwindcss": "1.7.6",
+    "tailwindcss": "1.8.8",
     "webpack": "4.44.1"
   },
   "scripts": {
