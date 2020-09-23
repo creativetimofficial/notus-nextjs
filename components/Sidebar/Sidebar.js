@@ -333,142 +333,93 @@ export default function Sidebar() {
             {/* Navigation */}
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="inline-flex">
-                <Link
-                  href="/"
-                  as={
-                    (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
-                      : "") + "/"
-                  }
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fas fa-paint-brush mr-2 text-gray-500 text-base"></i>{" "}
-                    Styles
-                  </a>
-                </Link>
+                  <i className="fas fa-paint-brush mr-2 text-gray-400 text-base"></i>
+                  Styles
+                </a>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  href="/"
-                  as={
-                    (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
-                      : "") + "/"
-                  }
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fab fa-css3-alt mr-2 text-gray-500 text-base"></i>{" "}
-                    CSS Components
-                  </a>
-                </Link>
+                  <i className="fab fa-css3-alt mr-2 text-gray-400 text-base"></i>
+                  CSS Components
+                </a>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  href="/"
-                  as={
-                    (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
-                      : "") + "/"
-                  }
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fab fa-vuejs mr-2 text-gray-500 text-base"></i>{" "}
-                    VueJS
-                  </a>
-                </Link>
+                  <i className="fab fa-angular mr-2 text-gray-400 text-base"></i>
+                  Angular
+                </a>
               </li>
 
               <li className="inline-flex">
-                <Link
-                  href="/"
-                  as={
-                    (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
-                      : "") + "/"
-                  }
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fas fa-link mr-2 text-gray-500 text-base"></i>{" "}
-                    Svelte
-                  </a>
-                </Link>
+                  <i className="fab fa-js-square mr-2 text-gray-400 text-base"></i>
+                  Javascript
+                </a>
               </li>
 
               <li className="inline-flex">
-                <Link href="/">
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fab fa-react mr-2 text-gray-500 text-base"></i>{" "}
-                    React
-                  </a>
-                </Link>
-              </li>
-
-              <li className="inline-flex">
-                <Link
-                  href="/"
-                  as={
-                    (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
-                      : "") + "/"
-                  }
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fab fa-react mr-2 text-gray-500 text-base"></i>{" "}
-                    NextJS
-                  </a>
-                </Link>
+                  <i className="fab fa-react mr-2 text-gray-400 text-base"></i>
+                  NextJS
+                </a>
               </li>
 
               <li className="inline-flex">
-                <Link href="/">
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fab fa-angular mr-2 text-gray-500 text-base"></i>{" "}
-                    Angular
-                  </a>
-                </Link>
-              </li>
-
-              <li className="inline-flex">
-                <Link
-                  href="/"
-                  as={
-                    (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
-                      : "") + "/"
-                  }
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
-                  <a
-                    href="#pablo"
-                    className="text-gray-800 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
-                  >
-                    <i className="fab fa-js-square mr-2 text-gray-500 text-base"></i>{" "}
-                    Javascript
-                  </a>
-                </Link>
+                  <i className="fab fa-react mr-2 text-gray-400 text-base"></i>
+                  React
+                </a>
               </li>
+
+              <li className="inline-flex">
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+                >
+                  <i className="fas fa-link mr-2 text-gray-400 text-base"></i>
+                  Svelte
+                </a>
+              </li>
+
+              <li className="inline-flex">
+                <a
+                  href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/webapp"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
+                >
+                  <i className="fab fa-vuejs mr-2 text-gray-400 text-base"></i>
+                  VueJS
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>
