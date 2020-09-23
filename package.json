@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.14.0",
-    "@popperjs/core": "2.4.4",
+    "@popperjs/core": "2.5.1",
     "@tailwindcss/custom-forms": "0.2.1",
     "@zeit/next-css": "1.0.1",
     "@zeit/next-sass": "1.0.1",
@@ -24,8 +24,8 @@
     "react-dom": "16.13.1",
     "react-google-maps": "9.4.5",
     "react-scripts": "3.4.3",
-    "tailwindcss": "1.8.8",
-    "webpack": "4.44.1"
+    "tailwindcss": "1.8.10",
+    "webpack": "4.44.2"
   },
   "scripts": {
     "start": "next start",
@@ -53,6 +53,6 @@
     "@types/googlemaps": "3.39.13",
     "@types/markerclustererplus": "2.1.33",
     "@types/react": "16.9.49",
-    "typescript": "4.0.2"
+    "typescript": "4.0.3"
   }
 }
