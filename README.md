@@ -38,16 +38,16 @@ to quickly set up the basic structure for your web project.
 Here are all the page from the project:
 - [Presentation](https://demos.creative-tim.com/tailwind-webapp-nextjs/?ref=twnjs-github-readme)
 - Admin Samples
-  - [Dashboard](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/admin/dashboard.html?ref=twnjs-github-readme)
-  - [Settings](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/admin/settings.html?ref=twnjs-github-readme)
-  - [Tables](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/admin/tables.html?ref=twnjs-github-readme)
-  - [Maps](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/admin/maps.html?ref=twnjs-github-readme)
+  - [Dashboard](https://demos.creative-tim.com/tailwind-webapp-nextjs/admin/dashboard?ref=twnjs-github-readme)
+  - [Settings](https://demos.creative-tim.com/tailwind-webapp-nextjs/admin/settings?ref=twnjs-github-readme)
+  - [Tables](https://demos.creative-tim.com/tailwind-webapp-nextjs/admin/tables?ref=twnjs-github-readme)
+  - [Maps](https://demos.creative-tim.com/tailwind-webapp-nextjs/admin/maps?ref=twnjs-github-readme)
 - Authentication Samples
-  - [Login](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/auth/login.html?ref=twnjs-github-readme)
-  - [Register](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/auth/register.html?ref=twnjs-github-readme)
+  - [Login](https://demos.creative-tim.com/tailwind-webapp-nextjs/auth/login?ref=twnjs-github-readme)
+  - [Register](https://demos.creative-tim.com/tailwind-webapp-nextjs/auth/register?ref=twnjs-github-readme)
 - Presentation Samples
-  - [Landing](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/landing.html?ref=twnjs-github-readme)
-  - [Profile](https://demos.creative-tim.com/tailwind-webapp-nextjs/pages/profile.html?ref=twnjs-github-readme)
+  - [Landing](https://demos.creative-tim.com/tailwind-webapp-nextjs/landing?ref=twnjs-github-readme)
+  - [Profile](https://demos.creative-tim.com/tailwind-webapp-nextjs/profile?ref=twnjs-github-readme)
 
 
 ### Fully Coded Components
