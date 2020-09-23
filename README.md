@@ -1,19 +1,19 @@
-# Tailwind WebApp NextJS <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Ftailwind-webapp-nextjs%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwindcss%20and%20NextJS%20Admin%20and%20Presentation%20Starter%20Kit%20Template.%20Let%20Tailwind%20Webapp%20NextJS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level.%20" target="_blank">![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)</a>
+# Tailwind WebApp NextJS <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Ftailwind-webapp-nextjs%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20NextJS%20UI%20Kit%20and%20Admin.%20Let%20Tailwind%20Webapp%20NextJS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level." target="_blank">![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)</a>
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/creativetimofficial/tailwind-webapp-nextjs/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/tailwind-webapp-nextjs.svg)</a> <a href="https://github.com/creativetimofficial/tailwind-webapp-nextjs/issues?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/tailwind-webapp-nextjs.svg)</a> <a href="https://gitter.im/creative-tim-general/Lobby" target="_blank">![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)</a> <a href="https://discord.gg/E4aHAQy" target="_blank">![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)</a>
 
 ![Tailwind WebApp NextJS](https://github.com/creativetimofficial/public-assets/blob/master/tailwind-webapp-nextjs/tailwind-webapp-nextjs.jpg?raw=true)
 
-### A beautiful Starter Admin and Presentation Template for TailwindCSS and NextJS.
+### A beautiful UI Kit and Admin for Tailwind CSS and NextJS.
 
-Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind WebApp NextJS amaze you with its cool features and build tools and get your project to a whole new level.
+Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level.
 
 Tailwind WebApp NextJS is Free and Open Source. It features multiple HTML and NextJS elements and it comes with dynamic components for NextJS.
 
 It is based on [Tailwind Starter Kit](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation?ref=twnjs-github-readme) by Creative Tim, and it is build with both presentation pages, and pages for an admin dashboard.
 
 Speed up your web development with a beautiful product made by <a href="https://creative-tim.com/" target="_blank">Creative Tim </a>.
-If you like bright and fresh colors, you will love this Free Tailwindcss Template! It features a huge number of components that can help you create amazing websites.
+If you like bright and fresh colors, you will love this Free Tailwind CSS Template! It features a huge number of components that can help you create amazing websites.
 
 ### Get Started
 
@@ -27,7 +27,7 @@ If you like bright and fresh colors, you will love this Free Tailwindcss Templat
 - (If not) Run in terminal `npm run build:tailwind` (each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to run this command)
 - (If not) Run in terminal `npm run dev`
 - Navigate to https://localhost:3000
-- Check more about [tailwindcss](https://tailwindcss.com/?ref=creativetim)
+- Check more about [Tailwind CSS](https://tailwindcss.com/?ref=creativetim)
 
 ### Pages
 
@@ -52,46 +52,31 @@ Here are all the page from the project:
 
 ### Fully Coded Components
 
-Tailwind WebApp NextJS is built with over frontend 120 components, giving you the freedom of choosing and combining. All components can take variations in colors, that you can easily modify using Tailwindcss classes (NOTE: each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to compile again tailwind).
+Tailwind WebApp NextJS is built with over frontend 120 components, giving you the freedom of choosing and combining. All components can take variations in colors, that you can easily modify using Tailwind CSS classes (NOTE: each time you add a new class, a class that does not exist in `src/assets/styles/tailwind.css`, you will need to compile again tailwind).
 
 You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
-This Free Tailwindcss Template is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+This Free Tailwind CSS Template is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
 
 Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
 
 
 ### CSS Components
 
-Tailwind WebApp NextJS comes with 120 Fully Coded CSS elements, such as [Alerts](https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=twnjs-github-readme), [Buttons](https://www.creative-tim.com/learning-lab/tailwind/buttons/webapp-nextjs?ref=twnjs-github-readme), [Inputs](https://www.creative-tim.com/learning-lab/tailwind/inputs/webapp-nextjs?ref=twnjs-github-readme) and many more.
+Tailwind WebApp NextJS comes with 120 Fully Coded CSS elements, such as [Alerts](https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/webapp?ref=twnjs-github-readme), [Buttons](https://www.creative-tim.com/learning-lab/tailwind/nextjs/buttons/webapp?ref=twnjs-github-readme), [Inputs](https://www.creative-tim.com/learning-lab/tailwind/nextjs/inputs/webapp?ref=twnjs-github-readme) and many more.
 
-Please [check all of them here](https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-js?ref=twnjs-github-readme).
+Please [check all of them here](https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/webapp?ref=twnjs-github-readme).
 
 ### NextJS Components
 
 We also feature the following 18 dynamic components:
-- [Alerts](https://www.creative-tim.com/learning-lab/tailwind/alerts/webapp-nextjs?ref=twnjs-github-readme)
-- Popper for Menus
-  - [Dropdown](https://www.creative-tim.com/learning-lab/tailwind/dropdown/webapp-nextjs?ref=twnjs-github-readme)
-  - [Dropup](https://www.creative-tim.com/learning-lab/tailwind/dropup/webapp-nextjs?ref=twnjs-github-readme)
-- [Menus](https://www.creative-tim.com/learning-lab/tailwind/menu/webapp-nextjs?ref=twnjs-github-readme)
-- Modals
-  - [Small](https://www.creative-tim.com/learning-lab/tailwind/small-modal/webapp-nextjs?ref=twnjs-github-readme)
-  - [Regular](https://www.creative-tim.com/learning-lab/tailwind/modal/webapp-nextjs?ref=twnjs-github-readme)
-  - [Large](https://www.creative-tim.com/learning-lab/tailwind/large-modal/webapp-nextjs?ref=twnjs-github-readme)
-- [Navbars](https://www.creative-tim.com/learning-lab/tailwind/navbar/webapp-nextjs?ref=twnjs-github-readme)
-- Popper for popover content
-  - [Left](https://www.creative-tim.com/learning-lab/tailwind/left-popover/webapp-nextjs?ref=twnjs-github-readme)
-  - [Top](https://www.creative-tim.com/learning-lab/tailwind/top-popover/webapp-nextjs?ref=twnjs-github-readme)
-  - [Right](https://www.creative-tim.com/learning-lab/tailwind/right-popover/webapp-nextjs?ref=twnjs-github-readme)
-  - [Bottom](https://www.creative-tim.com/learning-lab/tailwind/bottom-popover/webapp-nextjs?ref=twnjs-github-readme)
-- Tabs
-  - [With Text](https://www.creative-tim.com/learning-lab/tailwind/text-tab/webapp-nextjs?ref=twnjs-github-readme)
-  - [With Icons](https://www.creative-tim.com/learning-lab/tailwind/icon-tab/webapp-nextjs?ref=twnjs-github-readme)
-- Popper for tooltips content
-  - [Left](https://www.creative-tim.com/learning-lab/tailwind/left-tooltip/webapp-nextjs?ref=twnjs-github-readme)
-  - [Top](https://www.creative-tim.com/learning-lab/tailwind/top-tooltip/webapp-nextjs?ref=twnjs-github-readme)
-  - [Right](https://www.creative-tim.com/learning-lab/tailwind/right-tooltip/webapp-nextjs?ref=twnjs-github-readme)
-  - [Bottom](https://www.creative-tim.com/learning-lab/tailwind/bottom-tooltip/webapp-nextjs?ref=twnjs-github-readme)
+- [Alerts](https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/webapp?ref=twnjs-github-readme)
+- [Popper for Menus](https://www.creative-tim.com/learning-lab/tailwind/nextjs/dropdowns/webapp?ref=twnjs-github-readme)
+- [Menus](https://www.creative-tim.com/learning-lab/tailwind/nextjs/menus/webapp?ref=twnjs-github-readme)
+- [Modals](https://www.creative-tim.com/learning-lab/tailwind/nextjs/modals/webapp?ref=twnjs-github-readme)
+- [Navbars](https://www.creative-tim.com/learning-lab/tailwind/nextjs/navbar/webapp?ref=twnjs-github-readme)
+- [Popper for popover content](https://www.creative-tim.com/learning-lab/tailwind/nextjs/popovers/webapp?ref=twnjs-github-readme)
+- [Tabs](https://www.creative-tim.com/learning-lab/tailwind/nextjs/tabs/webapp?ref=twnjs-github-readme)
+- [Popper for tooltips content](https://www.creative-tim.com/learning-lab/tailwind/nextjs/tooltips/webapp?ref=twnjs-github-readme)
 
 
 ## Table of Contents
@@ -116,7 +101,7 @@ We also feature the following 18 dynamic components:
 | [![Tailwind WebApp Angular](https://github.com/creativetimofficial/public-assets/blob/master/tailwind-webapp-angular/tailwind-webapp-angular.jpg?raw=true)](https://www.creative-tim.com/product/tailwind-webapp-angular?ref=twnjs-github-readme)  | [![Tailwind WebApp](https://github.com/creativetimofficial/public-assets/blob/master/tailwind-webapp-js/tailwind-webapp-js.jpg?raw=true)](https://www.creative-tim.com/product/tailwind-webapp-js?ref=twnjs-github-readme)  | [![Tailwind WebApp NextJS](https://github.com/creativetimofficial/public-assets/blob/master/tailwind-webapp-nextjs/tailwind-webapp-nextjs.jpg?raw=true)](https://www.creative-tim.com/product/tailwind-webapp-nextjs?ref=twnjs-github-readme)  | [![Tailwind WebApp React](https://github.com/creativetimofficial/public-assets/blob/master/tailwind-webapp-react/tailwind-webapp-react.jpg?raw=true)](https://www.creative-tim.com/product/tailwind-webapp-react?ref=twnjs-github-readme)  | [![Tailwind WebApp Svelte](https://github.com/creativetimofficial/public-assets/blob/master/tailwind-webapp-svelte/tailwind-webapp-svelte.jpg?raw=true)](https://www.creative-tim.com/product/tailwind-webapp-svelte?ref=twnjs-github-readme)  | [![Vue Tailwind WebApp](https://github.com/creativetimofficial/public-assets/blob/master/vue-tailwind-webapp/vue-tailwind-webapp.jpg?raw=true)](https://www.creative-tim.com/product/vue-tailwind-webapp?ref=twnjs-github-readme)
 
 ## Documentation
-The documentation for the Tailwind WebApp NextJS is hosted at our <a href="https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs?ref=twnjs-readme" target="_blank">website</a>.
+The documentation for the Tailwind WebApp NextJS is hosted at our <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/webapp?ref=twnjs-readme" target="_blank">website</a>.
 
 ## Quick start
 
@@ -249,7 +234,7 @@ Instagram: <a href="https://www.instagram.com/creativetimofficial/" target="_bla
 ## Resources
 - Demo: <a href="https://demos.creative-tim.com/tailwind-webapp-nextjs/?ref=twnjs-readme" target="_blank">https://demos.creative-tim.com/tailwind-webapp-nextjs/?ref=twnjs-readme</a>
 - Download Page: <a href="https://www.creative-tim.com/product/tailwind-webapp-nextjs?ref=twnjs-github-readme" target="_blank">https://www.creative-tim.com/product/tailwind-webapp-nextjs</a>
-- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/overview-nextjs/webapp-js?ref=twnjs-readme" target="_blank">https://www.creative-tim.com/learning-lab/tailwind/overview/webapp-nextjs?ref=twnjs-readme</a>
+- Documentation: <a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/webapp?ref=twnjs-readme" target="_blank">https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/webapp?ref=twnjs-readme</a>
 - License Agreement: <a href="https://www.creative-tim.com/license?ref=twnjs-readme" target="_blank">https://www.creative-tim.com/license?ref=twnjs-readme</a>
 - Support: <a href="https://www.creative-tim.com/contact-us?ref=twnjs-readme" target="_blank">https://www.creative-tim.com/contact-us?ref=twnjs-readme</a>
 - Issues: <a href="https://github.com/creativetimofficial/tailwind-webapp-nextjs/issues" target="_blank">Github Issues Page</a>
