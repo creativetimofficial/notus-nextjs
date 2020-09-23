@@ -64,14 +64,16 @@ const MapExampleScript = withScriptjs(
 );
 
 function MapExample(){
-  <MapExampleScript
-    googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
-    loadingElement={<div className="h-full" />}
-    containerElement={
-      <div className="relative w-full rounded h-600-px" />
-    }
-    mapElement={<div className="rounded h-full" />}
-  />
+  return (
+    <MapExampleScript
+      googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
+      loadingElement={<div className="h-full" />}
+      containerElement={
+        <div className="relative w-full rounded h-600-px" />
+      }
+      mapElement={<div className="rounded h-full" />}
+    />
+  );
 }
 
 export default MapExample;
