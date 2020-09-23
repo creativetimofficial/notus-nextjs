@@ -171,7 +171,7 @@ export default function CardSettings() {
                     type="text"
                     className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                     rows="4"
-                    defaultValue="A beautiful Dashboard for React & Tailwindcss. It is Free
+                    defaultValue="A beautiful Dashboard for NextJS & Tailwind CSS. It is Free
                     and Open Source."
                   ></textarea>
                 </div>
