@@ -2,7 +2,7 @@
   "name": "tailwind-webapp-nexjs",
   "homepage": "https://demos.creative-tim.com/tailwind-webapp-nexjs",
   "version": "1.0.0",
-  "description": "Tailwind WebApp NextJS - A free Tailwind, NextJS and React webapp template by Creative Tim.",
+  "description": "Tailwind WebApp NextJS - A free Tailwind CSS, NextJS and React WebApp template by Creative Tim.",
   "repository": "https://github.com/creativetimofficial/tailwind-webapp-nextjs",
   "license": "MIT",
   "dependencies": {
