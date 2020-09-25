@@ -3594,6 +3594,10 @@ video {
     box-shadow: none;
   }
 
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-right {
     text-align: right;
   }
