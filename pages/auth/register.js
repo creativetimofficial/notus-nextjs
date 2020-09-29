@@ -1,5 +1,9 @@
 import React from "react";
 
+// layout for page
+
+import Auth from "layouts/Auth.js";
+
 export default function Register() {
   return (
     <>
@@ -15,9 +19,8 @@ export default function Register() {
                 </div>
                 <div className="btn-wrapper text-center">
                   <button
-                    className="bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs"
+                    className="bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                     type="button"
-                    style={{ transition: "all .15s ease" }}
                   >
                     <img
                       alt="..."
@@ -27,9 +30,8 @@ export default function Register() {
                     Github
                   </button>
                   <button
-                    className="bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs"
+                    className="bg-white active:bg-gray-100 text-gray-800 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                     type="button"
-                    style={{ transition: "all .15s ease" }}
                   >
                     <img
                       alt="..."
@@ -55,9 +57,8 @@ export default function Register() {
                     </label>
                     <input
                       type="email"
-                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                       placeholder="Name"
-                      style={{ transition: "all .15s ease" }}
                     />
                   </div>
 
@@ -70,9 +71,8 @@ export default function Register() {
                     </label>
                     <input
                       type="email"
-                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                       placeholder="Email"
-                      style={{ transition: "all .15s ease" }}
                     />
                   </div>
 
@@ -85,9 +85,8 @@ export default function Register() {
                     </label>
                     <input
                       type="password"
-                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      className="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                       placeholder="Password"
-                      style={{ transition: "all .15s ease" }}
                     />
                   </div>
 
@@ -96,8 +95,7 @@ export default function Register() {
                       <input
                         id="customCheckLogin"
                         type="checkbox"
-                        className="form-checkbox text-gray-800 ml-1 w-5 h-5"
-                        style={{ transition: "all .15s ease" }}
+                        className="form-checkbox text-gray-800 ml-1 w-5 h-5 ease-linear transition-all duration-150"
                       />
                       <span className="ml-2 text-sm font-semibold text-gray-700">
                         I agree with the{" "}
@@ -114,9 +112,8 @@ export default function Register() {
 
                   <div className="text-center mt-6">
                     <button
-                      className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
+                      className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
-                      style={{ transition: "all .15s ease" }}
                     >
                       Create Account
                     </button>
@@ -130,3 +127,5 @@ export default function Register() {
     </>
   );
 }
+
+Register.layout = Auth;

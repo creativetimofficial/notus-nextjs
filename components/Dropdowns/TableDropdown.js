@@ -1,5 +1,5 @@
 import React from "react";
-import Popper from "popper.js";
+import { createPopper } from "@popperjs/core";
 
 const NotificationDropdown = () => {
   // dropdown props
@@ -7,7 +7,7 @@ const NotificationDropdown = () => {
   const btnDropdownRef = React.createRef();
   const popoverDropdownRef = React.createRef();
   const openDropdownPopover = () => {
-    new Popper(btnDropdownRef.current, popoverDropdownRef.current, {
+    createPopper(btnDropdownRef.current, popoverDropdownRef.current, {
       placement: "left-start",
     });
     setDropdownPopoverShow(true);
@@ -32,9 +32,8 @@ const NotificationDropdown = () => {
         ref={popoverDropdownRef}
         className={
           (dropdownPopoverShow ? "block " : "hidden ") +
-          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1"
+          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
         }
-        style={{ minWidth: "12rem" }}
       >
         <a
           href="#pablo"

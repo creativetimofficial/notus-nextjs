@@ -22,17 +22,17 @@ export default function CardBarChart() {
             borderColor: "#ed64a6",
             data: [30, 78, 56, 34, 100, 45, 13],
             fill: false,
-            barThickness: 8,
+            barThickness: 8
           },
           {
             label: new Date().getFullYear() - 1,
             fill: false,
-            backgroundColor: "#3182ce",
-            borderColor: "#3182ce",
+            backgroundColor: "#4c51bf",
+            borderColor: "#4c51bf",
             data: [27, 68, 86, 74, 10, 4, 87],
-            barThickness: 8,
-          },
-        ],
+            barThickness: 8
+          }
+        ]
       },
       options: {
         maintainAspectRatio: false,
@@ -115,7 +115,7 @@ export default function CardBarChart() {
         </div>
         <div className="p-4 flex-auto">
           {/* Chart */}
-          <div className="relative" style={{ height: "350px" }}>
+          <div className="relative h-350-px">
             <canvas id="bar-chart"></canvas>
           </div>
         </div>

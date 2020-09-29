@@ -4,39 +4,41 @@ import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
 
-// import PageChange from "components/PageChange/PageChange.js";
+import PageChange from "components/PageChange/PageChange.js";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "assets/styles/tailwind.css";
 
-// Router.events.on("routeChangeStart", (url) => {
-//   console.log(`Loading: ${url}`);
-//   document.body.classList.add("body-page-transition");
-//   ReactDOM.render(
-//     <PageChange path={url} />,
-//     document.getElementById("page-transition")
-//   );
-// });
-// Router.events.on("routeChangeComplete", () => {
-//   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
-//   document.body.classList.remove("body-page-transition");
-// });
-// Router.events.on("routeChangeError", () => {
-//   ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
-//   document.body.classList.remove("body-page-transition");
-// });
+Router.events.on("routeChangeStart", (url) => {
+  console.log(`Loading: ${url}`);
+  document.body.classList.add("body-page-transition");
+  ReactDOM.render(
+    <PageChange path={url} />,
+    document.getElementById("page-transition")
+  );
+});
+Router.events.on("routeChangeComplete", () => {
+  ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
+  document.body.classList.remove("body-page-transition");
+});
+Router.events.on("routeChangeError", () => {
+  ReactDOM.unmountComponentAtNode(document.getElementById("page-transition"));
+  document.body.classList.remove("body-page-transition");
+});
 
 export default class MyApp extends App {
   componentDidMount() {
     let comment = document.createComment(`
 
 =========================================================
-* * Tailwind Webapp NextJS v1.0.0
+* Tailwind WebApp NextJS - v1.0.0 based on Tailwind Starter Kit by Creative Tim
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/tailwind-webapp-nextjs
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/tailwind-webapp-nextjs/blob/master/LICENSE.md)
+
+* Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 
 * Coded by Creative Tim
 
@@ -68,7 +70,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>Tailwind Webapp NextJS by Creative Tim</title>
+          <title>Tailwind WebApp NextJS by Creative Tim</title>
         </Head>
         <Layout>
           <Component {...pageProps} />

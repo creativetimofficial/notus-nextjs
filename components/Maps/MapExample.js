@@ -7,7 +7,7 @@ import {
   Marker,
 } from "react-google-maps";
 
-const MapExample = withScriptjs(
+const MapExampleScript = withScriptjs(
   withGoogleMap((props) => (
     <GoogleMap
       defaultZoom={12}
@@ -53,7 +53,7 @@ const MapExample = withScriptjs(
           {
             featureType: "water",
             elementType: "all",
-            stylers: [{ color: "#4299e1" }, { visibility: "on" }],
+            stylers: [{ color: "#cbd5e0" }, { visibility: "on" }],
           },
         ],
       }}
@@ -62,5 +62,18 @@ const MapExample = withScriptjs(
     </GoogleMap>
   ))
 );
+
+function MapExample(){
+  return (
+    <MapExampleScript
+      googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
+      loadingElement={<div className="h-full" />}
+      containerElement={
+        <div className="relative w-full rounded h-600-px" />
+      }
+      mapElement={<div className="rounded h-full" />}
+    />
+  );
+}
 
 export default MapExample;
