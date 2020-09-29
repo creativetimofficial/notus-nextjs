@@ -74,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             content="Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level. "
           />
 
-          <meta itemprop="image" content="<<product_image>>" />
+          <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_tailwindcss_nextjs_thumbnail.jpg" />
 
           {/* Twitter Card data */}
           <meta name="twitter:card" content="product" />
@@ -89,7 +89,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             content="Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level. "
           />
           <meta name="twitter:creator" content="@creativetim" />
-          <meta name="twitter:image" content="<<product_image>>" />
+          <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_tailwindcss_nextjs_thumbnail.jpg" />
 
           {/* Open Graph data */}
           <meta property="fb:app_id" content="655968634437471" />
@@ -102,7 +102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             property="og:url"
             content="http://demos.creative-tim.com/now-ui-dashboard-pro/examples/dashboard.html"
           />
-          <meta property="og:image" content="<<product_image>>" />
+          <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_tailwindcss_nextjs_thumbnail.jpg" />
           <meta
             property="og:description"
             content="Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level. "
