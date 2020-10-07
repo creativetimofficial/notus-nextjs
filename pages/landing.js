@@ -33,8 +33,8 @@ export default function Landing() {
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
                     This is a simple example of a Landing Page you can build
-                    using Tailwind WebApp NextJS. It features multiple CSS
-                    components based on the Tailwind CSS design system.
+                    using Notus NextJS. It features multiple CSS components
+                    based on the Tailwind CSS design system.
                   </p>
                 </div>
               </div>
@@ -138,7 +138,7 @@ export default function Landing() {
                   }
                 >
                   <a href="#pablo" className="font-bold text-gray-800 mt-8">
-                    Check Tailwind WebApp NextJS!
+                    Check Notus NextJS!
                   </a>
                 </Link>
               </div>

@@ -1,9 +1,9 @@
 {
-  "name": "tailwind-webapp-nexjs",
-  "homepage": "https://demos.creative-tim.com/tailwind-webapp-nexjs",
+  "name": "notus-nextjs",
+  "homepage": "https://demos.creative-tim.com/notus-nextjs",
   "version": "1.0.0",
-  "description": "Tailwind WebApp NextJS - A free Tailwind CSS, NextJS and React WebApp template by Creative Tim.",
-  "repository": "https://github.com/creativetimofficial/tailwind-webapp-nextjs",
+  "description": "Notus NextJS - A free Tailwind CSS, NextJS and React Ui Kit and Admin by Creative Tim.",
+  "repository": "https://github.com/creativetimofficial/notus-nextjs",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.14.0",
