@@ -515,7 +515,7 @@ export default function Index() {
                     href="/auth/login"
                     as={
                       (process.env.NODE_ENV === "production"
-                        ? "/tailwind-webapp-nextjs"
+                        ? "/notus-nextjs"
                         : "") + "/auth/login"
                     }
                   >
@@ -537,7 +537,7 @@ export default function Index() {
                     href="/profile"
                     as={
                       (process.env.NODE_ENV === "production"
-                        ? "/tailwind-webapp-nextjs"
+                        ? "/notus-nextjs"
                         : "") + "/profile"
                     }
                   >
@@ -559,7 +559,7 @@ export default function Index() {
                     href="/landing"
                     as={
                       (process.env.NODE_ENV === "production"
-                        ? "/tailwind-webapp-nextjs"
+                        ? "/notus-nextjs"
                         : "") + "/landing"
                     }
                   >

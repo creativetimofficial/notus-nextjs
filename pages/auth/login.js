@@ -115,7 +115,7 @@ export default function Login() {
                   href="/auth/register"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/auth/register"
                   }
                 >

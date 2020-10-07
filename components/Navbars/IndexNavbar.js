@@ -15,7 +15,7 @@ export default function Navbar(props) {
               href="/"
               as={
                 (process.env.NODE_ENV === "production"
-                  ? "/tailwind-webapp-nextjs"
+                  ? "/notus-nextjs"
                   : "") + "/"
               }
             >

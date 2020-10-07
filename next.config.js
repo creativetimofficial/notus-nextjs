@@ -12,7 +12,7 @@ module.exports = withFonts(
       withSass({
         assetPrefix:
           process.env.NODE_ENV === "production"
-            ? "/tailwind-webapp-nextjs"
+            ? "/notus-nextjs"
             : "",
         webpack(config, options) {
           config.module.rules.push({

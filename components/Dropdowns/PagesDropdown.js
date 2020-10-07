@@ -47,7 +47,7 @@ const PagesDropdown = () => {
           href="/admin/dashboard"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/admin/dashboard"
           }
         >
@@ -64,7 +64,7 @@ const PagesDropdown = () => {
           href="/admin/settings"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/admin/settings"
           }
         >
@@ -81,7 +81,7 @@ const PagesDropdown = () => {
           href="/admin/tables"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/admin/tables"
           }
         >
@@ -98,7 +98,7 @@ const PagesDropdown = () => {
           href="/admin/maps"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/admin/maps"
           }
         >
@@ -123,7 +123,7 @@ const PagesDropdown = () => {
           href="/auth/login"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/auth/login"
           }
         >
@@ -140,7 +140,7 @@ const PagesDropdown = () => {
           href="/auth/register"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/auth/register"
           }
         >
@@ -165,7 +165,7 @@ const PagesDropdown = () => {
           href="/landing"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/landing"
           }
         >
@@ -182,7 +182,7 @@ const PagesDropdown = () => {
           href="/profile"
           as={
             (process.env.NODE_ENV === "production"
-              ? "/tailwind-webapp-nextjs"
+              ? "/notus-nextjs"
               : "") + "/profile"
           }
         >

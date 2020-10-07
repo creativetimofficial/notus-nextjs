@@ -25,7 +25,7 @@ export default function Sidebar() {
             href="/"
             as={
               (process.env.NODE_ENV === "production"
-                ? "/tailwind-webapp-nextjs"
+                ? "/notus-nextjs"
                 : "") + "/"
             }
           >
@@ -60,7 +60,7 @@ export default function Sidebar() {
                     href="/"
                     as={
                       (process.env.NODE_ENV === "production"
-                        ? "/tailwind-webapp-nextjs"
+                        ? "/notus-nextjs"
                         : "") + "/"
                     }
                   >
@@ -108,7 +108,7 @@ export default function Sidebar() {
                   href="/admin/dashboard"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/admin/dashboard"
                   }
                 >
@@ -139,7 +139,7 @@ export default function Sidebar() {
                   href="/admin/settings"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/admin/settings"
                   }
                 >
@@ -170,7 +170,7 @@ export default function Sidebar() {
                   href="/admin/tables"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/admin/tables"
                   }
                 >
@@ -201,7 +201,7 @@ export default function Sidebar() {
                   href="/admin/maps"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/admin/maps"
                   }
                 >
@@ -242,7 +242,7 @@ export default function Sidebar() {
                   href="/auth/login"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/auth/login"
                   }
                 >
@@ -261,7 +261,7 @@ export default function Sidebar() {
                   href="/auth/register"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/auth/register"
                   }
                 >
@@ -290,7 +290,7 @@ export default function Sidebar() {
                   href="/landing"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/landing"
                   }
                 >
@@ -309,7 +309,7 @@ export default function Sidebar() {
                   href="/profile"
                   as={
                     (process.env.NODE_ENV === "production"
-                      ? "/tailwind-webapp-nextjs"
+                      ? "/notus-nextjs"
                       : "") + "/profile"
                   }
                 >
