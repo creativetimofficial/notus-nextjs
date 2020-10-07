@@ -51,27 +51,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {/* Canonical SEO */}
           <link
             rel="canonical"
-            href="https://www.creative-tim.com/product/tailwind-webapp-nextjs"
+            href="https://www.creative-tim.com/product/notus-nextjs"
           />
 
           {/*  Social tags      */}
           <meta
             name="keywords"
-            content="free template, free kit, free dashboard, free webapp, free web app, freebie, free, kit, dashboard, webapp, we bapp, starter kit, starter dashboard, starter admin, starter webapp, starter web app, tailwind, tailwindcss, html kit, nextjs kit, html dashboard, nextjs dashboard, html webapp, nextjs webapp html web app, nextjs web app"
+            content="free template, free kit, free dashboard, free webapp, free web app, freebie, free, kit, dashboard, webapp, we bapp, starter kit, starter dashboard, starter admin, starter webapp, starter web app, tailwind, tailwindcss, html kit, nextjs kit, html dashboard, nextjs dashboard, html webapp, nextjs webapp html web app, nextjs web app, notus, notus webapp, notus nextjs, notus javascript, notus kit, notus dashboard, notus admin"
           />
           <meta
             name="description"
-            content="Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level. "
+            content="Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level."
           />
 
           {/* Schema.org markup for Google+ */}
           <meta
             itemprop="name"
-            content="Tailwind Webapp NextJS by Creative Tim"
+            content="Notus NextJS by Creative Tim"
           />
           <meta
             itemprop="description"
-            content="Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level. "
+            content="Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level."
           />
 
           <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_tailwindcss_nextjs_thumbnail.jpg" />
@@ -81,12 +81,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta name="twitter:site" content="@creativetim" />
           <meta
             name="twitter:title"
-            content="Tailwind Webapp NextJS by Creative Tim"
+            content="Notus NextJS by Creative Tim"
           />
 
           <meta
             name="twitter:description"
-            content="Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level. "
+            content="Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level."
           />
           <meta name="twitter:creator" content="@creativetim" />
           <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_tailwindcss_nextjs_thumbnail.jpg" />
@@ -95,7 +95,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta property="fb:app_id" content="655968634437471" />
           <meta
             property="og:title"
-            content="Tailwind Webapp NextJS by Creative Tim"
+            content="Notus NextJS by Creative Tim"
           />
           <meta property="og:type" content="article" />
           <meta
@@ -105,7 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_tailwindcss_nextjs_thumbnail.jpg" />
           <meta
             property="og:description"
-            content="Start your development with a Free Tailwindcss and NextJS Admin and Presentation Starter Kit Template. Let Tailwind Webapp NextJS amaze you with its cool features and build tools and get your project to a whole new level. "
+            content="Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level."
           />
           <meta property="og:site_name" content="Creative Tim" />
           <meta charSet="utf-8" />
