@@ -31,12 +31,12 @@ export default class MyApp extends App {
     let comment = document.createComment(`
 
 =========================================================
-* Tailwind WebApp NextJS - v1.0.0 based on Tailwind Starter Kit by Creative Tim
+* Notus NextJS - v1.0.0 based on Tailwind Starter Kit by Creative Tim
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/tailwind-webapp-nextjs
+* Product Page: https://www.creative-tim.com/product/notus-nextjs
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/tailwind-webapp-nextjs/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/notus-nextjs/blob/master/LICENSE.md)
 
 * Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 
@@ -70,7 +70,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>Tailwind WebApp NextJS by Creative Tim</title>
+          <title>Notus NextJS by Creative Tim</title>
         </Head>
         <Layout>
           <Component {...pageProps} />

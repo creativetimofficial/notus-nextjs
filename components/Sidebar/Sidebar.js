@@ -26,7 +26,7 @@ export default function Sidebar() {
               href="#pablo"
               className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
             >
-              Tailwind WebApp NextJS
+              Notus NextJS
             </a>
           </Link>
           {/* User */}
@@ -54,7 +54,7 @@ export default function Sidebar() {
                       href="#pablo"
                       className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
                     >
-                      Tailwind WebApp NextJS
+                      Notus NextJS
                     </a>
                   </Link>
                 </div>
@@ -264,7 +264,7 @@ export default function Sidebar() {
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -275,7 +275,7 @@ export default function Sidebar() {
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -286,7 +286,7 @@ export default function Sidebar() {
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -297,7 +297,7 @@ export default function Sidebar() {
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -308,7 +308,7 @@ export default function Sidebar() {
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -319,7 +319,7 @@ export default function Sidebar() {
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -330,7 +330,7 @@ export default function Sidebar() {
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -341,7 +341,7 @@ export default function Sidebar() {
 
               <li className="inline-flex">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/webapp"
+                  href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
                   target="_blank"
                   className="text-gray-800 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                 >
@@ -349,7 +349,6 @@ export default function Sidebar() {
                   VueJS
                 </a>
               </li>
-
             </ul>
           </div>
         </div>
