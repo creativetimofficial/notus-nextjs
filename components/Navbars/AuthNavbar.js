@@ -90,12 +90,13 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <button
-                  className="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
+                <a
+                  className="inline-block text-white bg-pink-500 active:bg-pink-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  href="https://www.creative-tim.com/product/notus-nextjs?ref=nnjs-auth"
+                  target="_blank"
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Download
-                </button>
+                  <i class="fas fa-arrow-alt-circle-down"></i> Download
+                </a>
               </li>
             </ul>
           </div>
