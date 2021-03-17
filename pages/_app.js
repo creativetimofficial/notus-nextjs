@@ -36,7 +36,7 @@ export default class MyApp extends App {
 
 * Product Page: https://www.creative-tim.com/product/notus-nextjs
 * Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/notus-nextjs/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md)
 
 * Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 
