@@ -52,7 +52,7 @@ export default function FooterSmall(props) {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/creativetimofficial/notus-nextjs/blob/master/LICENSE.md?ref=nnjs-footer-small"
+                    href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer-small"
                     className="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
                   >
                     MIT License
