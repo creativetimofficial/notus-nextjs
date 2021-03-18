@@ -96,7 +96,7 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/dashboard") !== -1
-                        ? "text-blue-500 hover:text-blue-600"
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
                         : "text-coolGray-700 hover:text-coolGray-500")
                     }
                   >
@@ -120,7 +120,7 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/settings") !== -1
-                        ? "text-blue-500 hover:text-blue-600"
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
                         : "text-coolGray-700 hover:text-coolGray-500")
                     }
                   >
@@ -144,7 +144,7 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/tables") !== -1
-                        ? "text-blue-500 hover:text-blue-600"
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
                         : "text-coolGray-700 hover:text-coolGray-500")
                     }
                   >
@@ -168,7 +168,7 @@ export default function Sidebar() {
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/maps") !== -1
-                        ? "text-blue-500 hover:text-blue-600"
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
                         : "text-coolGray-700 hover:text-coolGray-500")
                     }
                   >
