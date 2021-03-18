@@ -177,7 +177,7 @@ export default function CardTable({ color }) {
                   $1,800 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-green-500 mr-2"></i>{" "}
+                  <i className="fas fa-circle text-emerald-500 mr-2"></i>{" "}
                   completed
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -208,10 +208,10 @@ export default function CardTable({ color }) {
                   <div className="flex items-center">
                     <span className="mr-2">100%</span>
                     <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-green-200">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-emerald-200">
                         <div
                           style={{ width: "100%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                         ></div>
                       </div>
                     </div>
@@ -368,7 +368,7 @@ export default function CardTable({ color }) {
                   $2,200 USD
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  <i className="fas fa-circle text-green-500 mr-2"></i>{" "}
+                  <i className="fas fa-circle text-emerald-500 mr-2"></i>{" "}
                   completed
                 </td>
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
@@ -399,10 +399,10 @@ export default function CardTable({ color }) {
                   <div className="flex items-center">
                     <span className="mr-2">100%</span>
                     <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-green-200">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-emerald-200">
                         <div
                           style={{ width: "100%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                         ></div>
                       </div>
                     </div>
