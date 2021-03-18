@@ -110,17 +110,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta property="og:site_name" content="Creative Tim" />
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <link
-            rel="shortcut icon"
-            href={require("assets/img/brand/favicon.ico")}
-          />
+          <link rel="shortcut icon" href="/img/brand/favicon.ico" />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href={require("assets/img/brand/apple-icon.png")}
+            href="/img/brand/apple-icon.png"
           />
         </Head>
-        <body className="text-gray-800 antialiased">
+        <body className="text-coolGray-700 antialiased">
           {/* Google Tag Manager (noscript) */}
           <noscript>
             <iframe
