@@ -17,8 +17,7 @@ export default function Index() {
                 Notus NextJS - A beautiful extension for Tailwind CSS.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-coolGray-500">
-                Notus NextJS is Free and Open Source. It does not change or add
-                any CSS to the already one from{" "}
+                Notus NextJS is Free and Open Source. It does not change any of the CSS from{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-coolGray-600"
