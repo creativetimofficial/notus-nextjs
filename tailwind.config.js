@@ -18,14 +18,14 @@ module.exports = {
         "screen-75": "75vh",
       },
       fontSize: {
-        "55": "55rem",
+        55: "55rem",
       },
       opacity: {
-        "80": ".8",
+        80: ".8",
       },
       zIndex: {
-        "2": 2,
-        "3": 3,
+        2: 2,
+        3: 3,
       },
       inset: {
         "-100": "-100%",
@@ -65,7 +65,7 @@ module.exports = {
       },
       minWidth: {
         "140-px": "140px",
-        "48": "12rem",
+        48: "12rem",
       },
       backgroundSize: {
         full: "100%",
@@ -86,7 +86,9 @@ module.exports = {
     "visited",
     "disabled",
   ],
-  plugins: [require("@tailwindcss/forms"),plugin(function ({ addComponents, theme }) {
+  plugins: [
+    require("@tailwindcss/forms"),
+    plugin(function ({ addComponents, theme }) {
       const screens = theme("screens", {});
       addComponents([
         {
@@ -128,5 +130,6 @@ module.exports = {
           },
         },
       ]);
-    }),],
+    }),
+  ],
 };
