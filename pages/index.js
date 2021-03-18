@@ -435,7 +435,7 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-50 mr-3">
                           <i className="fas fa-fingerprint"></i>
                         </span>
                       </div>
@@ -449,7 +449,7 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-50 mr-3">
                           <i className="fab fa-html5"></i>
                         </span>
                       </div>
@@ -463,7 +463,7 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-50 mr-3">
                           <i className="far fa-paper-plane"></i>
                         </span>
                       </div>
