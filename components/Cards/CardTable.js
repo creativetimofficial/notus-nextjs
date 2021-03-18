@@ -97,7 +97,7 @@ export default function CardTable({ color }) {
               <tr>
                 <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src={require("assets/img/bootstrap.jpg")}
+                    src="/img/bootstrap.jpg"
                     className="h-12 w-12 bg-white rounded-full border"
                     alt="..."
                   ></img>{" "}
@@ -119,22 +119,22 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
                     <img
-                      src={require("assets/img/team-1-800x800.jpg")}
+                      src="/img/team-1-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
                     ></img>
                     <img
-                      src={require("assets/img/team-2-800x800.jpg")}
+                      src="/img/team-2-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-3-800x800.jpg")}
+                      src="/img/team-3-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-4-470x470.png")}
+                      src="/img/team-4-470x470.png"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
@@ -160,7 +160,7 @@ export default function CardTable({ color }) {
               <tr>
                 <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src={require("assets/img/angular.jpg")}
+                    src="/img/angular.jpg"
                     className="h-12 w-12 bg-white rounded-full border"
                     alt="..."
                   ></img>{" "}
@@ -183,22 +183,22 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
                     <img
-                      src={require("assets/img/team-1-800x800.jpg")}
+                      src="/img/team-1-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
                     ></img>
                     <img
-                      src={require("assets/img/team-2-800x800.jpg")}
+                      src="/img/team-2-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-3-800x800.jpg")}
+                      src="/img/team-3-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-4-470x470.png")}
+                      src="/img/team-4-470x470.png"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
@@ -224,7 +224,7 @@ export default function CardTable({ color }) {
               <tr>
                 <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src={require("assets/img/sketch.jpg")}
+                    src="/img/sketch.jpg"
                     className="h-12 w-12 bg-white rounded-full border"
                     alt="..."
                   ></img>{" "}
@@ -246,22 +246,22 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
                     <img
-                      src={require("assets/img/team-1-800x800.jpg")}
+                      src="/img/team-1-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
                     ></img>
                     <img
-                      src={require("assets/img/team-2-800x800.jpg")}
+                      src="/img/team-2-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-3-800x800.jpg")}
+                      src="/img/team-3-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-4-470x470.png")}
+                      src="/img/team-4-470x470.png"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
@@ -287,7 +287,7 @@ export default function CardTable({ color }) {
               <tr>
                 <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src={require("assets/img/react.jpg")}
+                    src="/img/react.jpg"
                     className="h-12 w-12 bg-white rounded-full border"
                     alt="..."
                   ></img>{" "}
@@ -310,22 +310,22 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
                     <img
-                      src={require("assets/img/team-1-800x800.jpg")}
+                      src="/img/team-1-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
                     ></img>
                     <img
-                      src={require("assets/img/team-2-800x800.jpg")}
+                      src="/img/team-2-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-3-800x800.jpg")}
+                      src="/img/team-3-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-4-470x470.png")}
+                      src="/img/team-4-470x470.png"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
@@ -351,7 +351,7 @@ export default function CardTable({ color }) {
               <tr>
                 <th className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src={require("assets/img/vue.jpg")}
+                    src="/img/vue.jpg"
                     className="h-12 w-12 bg-white rounded-full border"
                     alt="..."
                   ></img>{" "}
@@ -374,22 +374,22 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <div className="flex">
                     <img
-                      src={require("assets/img/team-1-800x800.jpg")}
+                      src="/img/team-1-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow"
                     ></img>
                     <img
-                      src={require("assets/img/team-2-800x800.jpg")}
+                      src="/img/team-2-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-3-800x800.jpg")}
+                      src="/img/team-3-800x800.jpg"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
                     <img
-                      src={require("assets/img/team-4-470x470.png")}
+                      src="/img/team-4-470x470.png"
                       alt="..."
                       className="w-10 h-10 rounded-full border-2 border-coolGray-new shadow -ml-4"
                     ></img>
