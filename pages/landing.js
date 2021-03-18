@@ -248,7 +248,9 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-coolGray-500">Dynamic components</h4>
+                          <h4 className="text-coolGray-500">
+                            Dynamic components
+                          </h4>
                         </div>
                       </div>
                     </li>
