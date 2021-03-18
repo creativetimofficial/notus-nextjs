@@ -12,15 +12,15 @@ export default function Index() {
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-gray-700">
+              <h2 className="font-semibold text-4xl text-coolGray-600">
                 Notus NextJS - A beautiful extension for Tailwind CSS.
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-gray-600">
+              <p className="mt-4 text-lg leading-relaxed text-coolGray-500">
                 Notus NextJS is Free and Open Source. It does not change or add
                 any CSS to the already one from{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-gray-700"
+                  className="text-coolGray-600"
                   target="_blank"
                 >
                   Tailwind CSS
@@ -32,13 +32,13 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-coolGray-500 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
                   href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
+                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-coolGray-700 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
                   Github Star
@@ -54,7 +54,7 @@ export default function Index() {
         />
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-gray-200">
+      <section className="mt-48 md:mt-40 pb-40 relative bg-coolGray-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -69,7 +69,7 @@ export default function Index() {
             y="0"
           >
             <polygon
-              className="text-gray-200 fill-current"
+              className="text-coolGray-100 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -77,7 +77,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-gray-800">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-coolGray-700">
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
@@ -92,7 +92,7 @@ export default function Index() {
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
-                      className="text-gray-800 fill-current"
+                      className="text-coolGray-700 fill-current"
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
@@ -113,13 +113,13 @@ export default function Index() {
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         CSS Components
                       </h6>
-                      <p className="mb-4 text-gray-600">
+                      <p className="mb-4 text-coolGray-500">
                         Notus NextJS comes with a huge number of Fully Coded CSS
                         components.
                       </p>
@@ -127,13 +127,13 @@ export default function Index() {
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         JavaScript Components
                       </h6>
-                      <p className="mb-4 text-gray-600">
+                      <p className="mb-4 text-coolGray-500">
                         We also feature many dynamic components for React,
                         NextJS, Vue and Angular.
                       </p>
@@ -143,11 +143,11 @@ export default function Index() {
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Pages</h6>
-                      <p className="mb-4 text-gray-600">
+                      <p className="mb-4 text-coolGray-500">
                         This extension also comes with 3 sample pages. They are
                         fully coded so you can start working instantly.
                       </p>
@@ -155,13 +155,13 @@ export default function Index() {
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                      <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Documentation
                       </h6>
-                      <p className="mb-4 text-gray-600">
+                      <p className="mb-4 text-coolGray-500">
                         Built by developers for developers. You will love how
                         easy is to to work with Notus NextJS.
                       </p>
@@ -176,47 +176,47 @@ export default function Index() {
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-sitemap text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 CSS Components
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-600">
                 Every element that you need in a product comes built in as a
                 component. All components fit perfectly with each other and can
                 have different colours.
               </p>
               <div className="block pb-6">
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Buttons
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Inputs
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Labels
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Menus
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Navbars
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Pagination
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Progressbars
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Typography
                 </span>
               </div>
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
                 target="_blank"
-                className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
+                className="font-bold text-coolGray-700 hover:text-coolGray-500 ease-linear transition-all duration-150"
               >
                 View All{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
@@ -297,7 +297,7 @@ export default function Index() {
                     href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
-                    <div className="bg-gray-800 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <div className="bg-coolGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -360,51 +360,51 @@ export default function Index() {
             </div>
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Javascript Components
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-600">
                 In order to create a great User Experience some components
                 require JavaScript. In this way you can manipulate the elements
                 on the page and give more options to your users.
               </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-600">
                 We created a set of Components that are dynamic and come to help
                 you.
               </p>
               <div className="block pb-6">
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Alerts
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Dropdowns
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Menus
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Modals
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Navbars
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Popovers
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Tabs
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-white uppercase last:mr-0 mr-2 mt-2">
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Tooltips
                 </span>
               </div>
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
                 target="_blank"
-                className="font-bold text-gray-800 hover:text-gray-600 ease-linear transition-all duration-150"
+                className="font-bold text-coolGray-700 hover:text-coolGray-500 ease-linear transition-all duration-150"
               >
                 View all{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
@@ -417,13 +417,13 @@ export default function Index() {
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
                   Complex Documentation
                 </h3>
-                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                <p className="mt-4 text-lg leading-relaxed text-coolGray-500">
                   This extension comes a lot of fully coded examples that help
                   you get started faster. You can adjust the colors and also the
                   programming language. You can change the text and images and
@@ -433,12 +433,12 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3">
                           <i className="fas fa-fingerprint"></i>
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-gray-600">
+                        <h4 className="text-coolGray-500">
                           Built by Developers for Developers
                         </h4>
                       </div>
@@ -447,12 +447,12 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3">
                           <i className="fab fa-html5"></i>
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-gray-600">
+                        <h4 className="text-coolGray-500">
                           Carefully crafted code for Components
                         </h4>
                       </div>
@@ -461,12 +461,12 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-100 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-coolGray-500 bg-coolGray-new mr-3">
                           <i className="far fa-paper-plane"></i>
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-gray-600">
+                        <h4 className="text-coolGray-500">
                           Dynamic Javascript Components
                         </h4>
                       </div>
@@ -493,7 +493,7 @@ export default function Index() {
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
-            <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-600">
+            <p className="text-lg leading-relaxed mt-4 mb-4 text-coolGray-500">
               Notus NextJS is a completly new product built using our past
               experience in web templates. Take the examples we made for you and
               start playing with them.
@@ -502,7 +502,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="block relative z-1 bg-gray-700">
+      <section className="block relative z-1 bg-coolGray-600">
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
@@ -557,21 +557,21 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-700 overflow-hidden">
+      <section className="py-20 bg-coolGray-600 overflow-hidden">
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
-              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+              <div className="text-coolGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-code-branch text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
                 Open Source
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-500">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-coolGray-400">
                 Since{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creative"
-                  className="text-gray-400"
+                  className="text-coolGray-300"
                   target="_blank"
                 >
                   Tailwind CSS
@@ -580,27 +580,27 @@ export default function Index() {
                 too. You can give this version a try to feel the design and also
                 test the quality of the code!
               </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-500">
+              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-coolGray-400">
                 Get it free on Github and please help us spread the news with a
                 Star!
               </p>
               <a
                 href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
                 target="_blank"
-                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
+                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-coolGray-700 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg"
               >
                 Github Star
               </a>
             </div>
 
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-              <i className="fab fa-github text-gray-800 absolute text-55 -top-150-px -right-100 left-auto opacity-80"></i>
+              <i className="fab fa-github text-coolGray-700 absolute text-55 -top-150-px -right-100 left-auto opacity-80"></i>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="pb-16 bg-gray-300 relative pt-32">
+      <section className="pb-16 bg-coolGray-200 relative pt-32">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -615,7 +615,7 @@ export default function Index() {
             y="0"
           >
             <polygon
-              className="text-gray-300 fill-current"
+              className="text-coolGray-200 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -632,7 +632,7 @@ export default function Index() {
               <h3 className="font-semibold text-3xl">
                 Do you love this Starter Kit?
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed mt-4 mb-4">
+              <p className="text-coolGray-500 text-lg leading-relaxed mt-4 mb-4">
                 Cause if you do, it can be yours now. Hit the buttons below to
                 navigate to get the Free version for your next project. Build a
                 new web app or give an old project a new look!
@@ -641,14 +641,14 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-gray-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-coolGray-500 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
                   href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
                   target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
+                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-coolGray-700 active:bg-coolGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
                   <i className="fab fa-github text-lg mr-1"></i>
                   <span>Help With a Star</span>
