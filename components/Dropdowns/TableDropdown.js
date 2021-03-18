@@ -18,7 +18,7 @@ const NotificationDropdown = () => {
   return (
     <>
       <a
-        className="text-gray-600 py-1 px-3"
+        className="text-coolGray-500 py-1 px-3"
         href="#pablo"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -38,7 +38,7 @@ const NotificationDropdown = () => {
         <a
           href="#pablo"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
           }
           onClick={(e) => e.preventDefault()}
         >
@@ -47,7 +47,7 @@ const NotificationDropdown = () => {
         <a
           href="#pablo"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
           }
           onClick={(e) => e.preventDefault()}
         >
@@ -56,7 +56,7 @@ const NotificationDropdown = () => {
         <a
           href="#pablo"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-coolGray-700"
           }
           onClick={(e) => e.preventDefault()}
         >
