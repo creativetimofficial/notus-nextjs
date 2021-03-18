@@ -71,19 +71,25 @@ export default function Profile() {
                         <span className="text-xl font-bold block uppercase tracking-wide text-coolGray-600">
                           22
                         </span>
-                        <span className="text-sm text-coolGray-400">Friends</span>
+                        <span className="text-sm text-coolGray-400">
+                          Friends
+                        </span>
                       </div>
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-coolGray-600">
                           10
                         </span>
-                        <span className="text-sm text-coolGray-400">Photos</span>
+                        <span className="text-sm text-coolGray-400">
+                          Photos
+                        </span>
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-coolGray-600">
                           89
                         </span>
-                        <span className="text-sm text-coolGray-400">Comments</span>
+                        <span className="text-sm text-coolGray-400">
+                          Comments
+                        </span>
                       </div>
                     </div>
                   </div>
