@@ -57,7 +57,7 @@ webpack                          4.44.2   →   4.46.0
 typescript                        4.0.3   →    4.2.3
 ```
 ### Warning
-_If needed_
+_On a clean install there may be some warnings from request, chokidar, fsevents - they come from node_modules, and they do not affect the product at all._
 
 ## [1.0.0] 2020-09-29
 ### Original Release
