@@ -10,12 +10,12 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#000000" />
           <link
             rel="shortcut icon"
-            href={require("assets/img/brand/favicon.ico")}
+            href="/img/brand/favicon.ico"
           />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href={require("assets/img/brand/apple-icon.png")}
+            href="/img/brand/apple-icon.png"
           />
         </Head>
         <body className="text-coolGray-700 antialiased">
