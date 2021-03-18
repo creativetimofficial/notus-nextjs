@@ -123,7 +123,7 @@ export default function Profile() {
                       </p>
                       <a
                         href="#pablo"
-                        className="font-normal text-blue-500"
+                        className="font-normal text-lightBlue-500"
                         onClick={(e) => e.preventDefault()}
                       >
                         Show more
