@@ -38,6 +38,7 @@
 - `next-fonts` (we'll use the default `Built-In CSS Support` from `NextJS`)
 - `next-compose-plugins` (we'll use the default `Built-In CSS Support` from `NextJS`)
 - `path` (we'll use the default `Built-In CSS Support` from `NextJS`)
+- `webpack` (we'll use the default `Built-In CSS Support` from `NextJS`)
 ### Added dependencies
 - `@tailwindcss/forms` (replaces `@tailwindcss/custom-forms`)
 - `autoprefixer`
@@ -53,7 +54,6 @@ react                           16.13.1   →   17.0.1
 react-dom                       16.13.1   →   17.0.1
 react-scripts                     3.4.3   →    4.0.3
 tailwindcss                      1.8.10   →    2.0.4
-webpack                          4.44.2   →   4.46.0
 typescript                        4.0.3   →    4.2.3
 ```
 ### Warning
