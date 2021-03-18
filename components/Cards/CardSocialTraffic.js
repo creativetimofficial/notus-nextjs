@@ -70,10 +70,10 @@ export default function CardSocialTraffic() {
                   <div className="flex items-center">
                     <span className="mr-2">70%</span>
                     <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-green-200">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-emerald-200">
                         <div
                           style={{ width: "70%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                         ></div>
                       </div>
                     </div>
@@ -112,10 +112,10 @@ export default function CardSocialTraffic() {
                   <div className="flex items-center">
                     <span className="mr-2">75%</span>
                     <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-blue-200">
+                      <div className="overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200">
                         <div
                           style={{ width: "75%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500"
                         ></div>
                       </div>
                     </div>
@@ -136,7 +136,7 @@ export default function CardSocialTraffic() {
                       <div className="overflow-hidden h-2 text-xs flex rounded bg-orange-200">
                         <div
                           style={{ width: "30%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500"
+                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
                         ></div>
                       </div>
                     </div>
