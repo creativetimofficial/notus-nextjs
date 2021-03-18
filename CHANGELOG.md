@@ -37,6 +37,7 @@
 - `next-images` (we'll use the default `Built-In CSS Support` from `NextJS`)
 - `next-fonts` (we'll use the default `Built-In CSS Support` from `NextJS`)
 - `next-compose-plugins` (we'll use the default `Built-In CSS Support` from `NextJS`)
+- `path` (we'll use the default `Built-In CSS Support` from `NextJS`)
 ### Added dependencies
 - `@tailwindcss/forms` (replaces `@tailwindcss/custom-forms`)
 - `autoprefixer`
