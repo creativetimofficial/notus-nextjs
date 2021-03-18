@@ -28,13 +28,13 @@ export default function CardSocialTraffic() {
           <table className="items-center w-full bg-transparent border-collapse">
             <thead className="thead-light">
               <tr>
-                <th className="px-6 bg-coolGray-new text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                <th className="px-6 bg-coolGray-50 text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                   Referral
                 </th>
-                <th className="px-6 bg-coolGray-new text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                <th className="px-6 bg-coolGray-50 text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                   Visitors
                 </th>
-                <th className="px-6 bg-coolGray-new text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left min-w-140-px"></th>
+                <th className="px-6 bg-coolGray-50 text-coolGray-500 align-middle border border-solid border-coolGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left min-w-140-px"></th>
               </tr>
             </thead>
             <tbody>
