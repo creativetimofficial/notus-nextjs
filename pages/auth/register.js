@@ -25,7 +25,7 @@ export default function Register() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/github.svg")}
+                      src="/img/github.svg"
                     />
                     Github
                   </button>
@@ -36,7 +36,7 @@ export default function Register() {
                     <img
                       alt="..."
                       className="w-5 mr-1"
-                      src={require("assets/img/google.svg")}
+                      src="/img/google.svg"
                     />
                     Google
                   </button>
@@ -55,7 +55,7 @@ export default function Register() {
                     >
                       Name
                     </label>
-                    border-0
+                    <input
                       type="email"
                       className="border-0 px-3 py-3 placeholder-coolGray-300 text-coolGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Name"
