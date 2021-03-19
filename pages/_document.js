@@ -117,7 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             href="/img/brand/apple-icon.png"
           />
         </Head>
-        <body className="text-coolGray-700 antialiased">
+        <body className="text-blueGray-700 antialiased">
           {/* Google Tag Manager (noscript) */}
           <noscript>
             <iframe
