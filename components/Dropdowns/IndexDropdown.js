@@ -46,9 +46,8 @@ const IndexDropdown = () => {
         <Link
           href="/admin/dashboard"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/admin/dashboard"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/admin/dashboard"
           }
         >
           <a
@@ -63,9 +62,8 @@ const IndexDropdown = () => {
         <Link
           href="/admin/settings"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/admin/settings"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/admin/settings"
           }
         >
           <a
@@ -80,9 +78,8 @@ const IndexDropdown = () => {
         <Link
           href="/admin/tables"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/admin/tables"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/admin/tables"
           }
         >
           <a
@@ -97,9 +94,8 @@ const IndexDropdown = () => {
         <Link
           href="/admin/maps"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/admin/maps"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/admin/maps"
           }
         >
           <a
@@ -122,9 +118,8 @@ const IndexDropdown = () => {
         <Link
           href="/auth/login"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/auth/login"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/auth/login"
           }
         >
           <a
@@ -139,9 +134,8 @@ const IndexDropdown = () => {
         <Link
           href="/auth/register"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/auth/register"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/auth/register"
           }
         >
           <a
@@ -164,9 +158,8 @@ const IndexDropdown = () => {
         <Link
           href="/landing"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/landing"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/landing"
           }
         >
           <a
@@ -181,9 +174,8 @@ const IndexDropdown = () => {
         <Link
           href="/profile"
           as={
-            (process.env.NODE_ENV === "production"
-              ? "/notus-nextjs"
-              : "") + "/profile"
+            (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+            "/profile"
           }
         >
           <a

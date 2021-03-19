@@ -24,9 +24,8 @@ export default function Sidebar() {
           <Link
             href="/"
             as={
-              (process.env.NODE_ENV === "production"
-                ? "/notus-nextjs"
-                : "") + "/"
+              (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+              "/"
             }
           >
             <a

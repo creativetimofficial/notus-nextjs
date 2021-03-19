@@ -31,7 +31,11 @@ const UserDropdown = () => {
             <img
               alt="..."
               className="w-full rounded-full align-middle border-none shadow-lg"
-              src="/img/team-1-800x800.jpg"
+              src={
+                (process.env.NODE_ENV === "production"
+                  ? "https://demos.creative-tim.com/notus-nextjs"
+                  : "") + "/img/team-1-800x800.jpg"
+              }
             />
           </span>
         </div>

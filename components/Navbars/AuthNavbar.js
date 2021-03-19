@@ -14,9 +14,8 @@ export default function Navbar(props) {
             <Link
               href="/"
               as={
-                (process.env.NODE_ENV === "production"
-                  ? "/notus-nextjs"
-                  : "") + "/"
+                (process.env.NODE_ENV === "production" ? "/notus-nextjs" : "") +
+                "/"
               }
             >
               <a
@@ -95,7 +94,7 @@ export default function Navbar(props) {
                   href="https://www.creative-tim.com/product/notus-nextjs?ref=nnjs-auth"
                   target="_blank"
                 >
-                  <i class="fas fa-arrow-alt-circle-down"></i> Download
+                  <i className="fas fa-arrow-alt-circle-down"></i> Download
                 </a>
               </li>
             </ul>

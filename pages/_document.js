@@ -65,44 +65,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
 
           {/* Schema.org markup for Google+ */}
+          <meta itemProp="name" content="Notus NextJS by Creative Tim" />
           <meta
-            itemprop="name"
-            content="Notus NextJS by Creative Tim"
-          />
-          <meta
-            itemprop="description"
+            itemProp="description"
             content="Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level."
           />
 
-          <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_notus_nextjs_thumbnail.jpg" />
+          <meta
+            itemProp="image"
+            content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_notus_nextjs_thumbnail.jpg"
+          />
 
           {/* Twitter Card data */}
           <meta name="twitter:card" content="product" />
           <meta name="twitter:site" content="@creativetim" />
-          <meta
-            name="twitter:title"
-            content="Notus NextJS by Creative Tim"
-          />
+          <meta name="twitter:title" content="Notus NextJS by Creative Tim" />
 
           <meta
             name="twitter:description"
             content="Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level."
           />
           <meta name="twitter:creator" content="@creativetim" />
-          <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_notus_nextjs_thumbnail.jpg" />
+          <meta
+            name="twitter:image"
+            content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_notus_nextjs_thumbnail.jpg"
+          />
 
           {/* Open Graph data */}
           <meta property="fb:app_id" content="655968634437471" />
-          <meta
-            property="og:title"
-            content="Notus NextJS by Creative Tim"
-          />
+          <meta property="og:title" content="Notus NextJS by Creative Tim" />
           <meta property="og:type" content="article" />
           <meta
             property="og:url"
             content="http://demos.creative-tim.com/now-ui-dashboard-pro/examples/dashboard.html"
           />
-          <meta property="og:image" content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_notus_nextjs_thumbnail.jpg" />
+          <meta
+            property="og:image"
+            content="https://s3.amazonaws.com/creativetim_bucket/products/393/original/opt_notus_nextjs_thumbnail.jpg"
+          />
           <meta
             property="og:description"
             content="Start your development with a Free Tailwind CSS and NextJS UI Kit and Admin. Let Notus NextJS amaze you with its cool features and build tools and get your project to a whole new level."
@@ -110,11 +110,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <meta property="og:site_name" content="Creative Tim" />
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href="/img/brand/favicon.ico" />
+          <link
+            rel="shortcut icon"
+            href={
+              (process.env.NODE_ENV === "production"
+                ? "https://demos.creative-tim.com/notus-nextjs"
+                : "") + "/img/brand/favicon.ico"
+            }
+          />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/img/brand/apple-icon.png"
+            href={
+              (process.env.NODE_ENV === "production"
+                ? "https://demos.creative-tim.com/notus-nextjs"
+                : "") + "/img/brand/apple-icon.png"
+            }
           />
         </Head>
         <body className="text-blueGray-700 antialiased">
