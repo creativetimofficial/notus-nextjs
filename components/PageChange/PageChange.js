@@ -11,8 +11,7 @@ export default function PageChange(props) {
       <div
         className="bg-cover fixed z-40 w-full h-full top-0 left-0"
         style={{
-          backgroundImage:
-            "url(" + require("assets/img/img-1-1000x600.jpg") + ")",
+          backgroundImage: "url('/img/img-1-1000x600.jpg')",
         }}
       ></div>
       <div className="top-0 left-0 w-full h-full block z-50 absolute bg-black bg-opacity-50"></div>
