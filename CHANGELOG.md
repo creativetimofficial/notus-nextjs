@@ -1,20 +1,20 @@
 # Change Log
 
-## [1.1.0] date
+## [1.1.0] 2021-03-19
 ### Bug fixing
 - Rename `master` branch to `main`
 - To make a lot of our changes, we've followed the instructions from here (minus the `colors` and `font-sizes`): https://tailwindcss.com/docs/upgrading-to-v2
-  - For the colors, the only change that we made, is the fact that we've added all Tailwind CSS colors to our `tailwind.config.js` files, and inside our product, all `{type}-gray-{number}` classes were renamed to `{type}-coolGray-{number}`
-  - After that, we've changed `{type}-coolGray-{number}` to `{type}-coolGray-{lower-number}`, i.e. (`100` became `50`, `200` became `100`, ..., `900` became `800`)
-    - You can achieve this, by search in your whole project for `coolGray-100` and replace it with `coolGray-50`
-    - Then, you search in your whole project for `coolGray-200` and replace it with `coolGray-100`
-    - Then, you search in your whole project for `coolGray-300` and replace it with `coolGray-200`
-    - Then, you search in your whole project for `coolGray-400` and replace it with `coolGray-300`
-    - Then, you search in your whole project for `coolGray-500` and replace it with `coolGray-400`
-    - Then, you search in your whole project for `coolGray-600` and replace it with `coolGray-500`
-    - Then, you search in your whole project for `coolGray-700` and replace it with `coolGray-600`
-    - Then, you search in your whole project for `coolGray-800` and replace it with `coolGray-700`
-    - Then, you search in your whole project for `coolGray-900` and replace it with `coolGray-800`
+  - For the colors, the only change that we made, is the fact that we've added all Tailwind CSS colors to our `tailwind.config.js` files, and inside our product, all `{type}-gray-{number}` classes were renamed to `{type}-blueGray-{number}`
+  - After that, we've changed `{type}-blueGray-{number}` to `{type}-blueGray-{lower-number}`, i.e. (`100` became `50`, `200` became `100`, ..., `900` became `800`)
+    - You can achieve this, by search in your whole project for `blueGray-100` and replace it with `blueGray-50`
+    - Then, you search in your whole project for `blueGray-200` and replace it with `blueGray-100`
+    - Then, you search in your whole project for `blueGray-300` and replace it with `blueGray-200`
+    - Then, you search in your whole project for `blueGray-400` and replace it with `blueGray-300`
+    - Then, you search in your whole project for `blueGray-500` and replace it with `blueGray-400`
+    - Then, you search in your whole project for `blueGray-600` and replace it with `blueGray-500`
+    - Then, you search in your whole project for `blueGray-700` and replace it with `blueGray-600`
+    - Then, you search in your whole project for `blueGray-800` and replace it with `blueGray-700`
+    - Then, you search in your whole project for `blueGray-900` and replace it with `blueGray-800`
   - For the colors, the only change that we made, is the fact that we've added all Tailwind CSS colors to our `tailwind.config.js` files, and inside our product, all `{type}-blue-{number}` classes were renamed to `{type}-lightBlue-{number}`
   - For the colors, the only change that we made, is the fact that we've added all Tailwind CSS colors to our `tailwind.config.js` files, and inside our product, all `{type}-green-{number}` classes were renamed to `{type}-emerald-{number}`
 - `lg:bg-transparent` is not working anymore, so we've changed it with `lg:bg-opacity-0`
