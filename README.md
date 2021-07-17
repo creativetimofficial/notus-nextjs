@@ -162,7 +162,6 @@ notus-nextjs
 ├── layouts
 │   ├── Admin.js
 │   └── Auth.js
-├── next.config.js
 ├── package.json
 ├── pages
 │   ├── 404.js
