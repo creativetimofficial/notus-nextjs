@@ -12,7 +12,7 @@
     "chart.js": "2.9.4",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
-    "next": "10.0.9",
+    "next": "^11.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-scripts": "4.0.3",
@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "autoprefixer": "10.2.5",
-    "postcss": "8.2.8"
+    "postcss": "^8.3.6"
   }
 }
