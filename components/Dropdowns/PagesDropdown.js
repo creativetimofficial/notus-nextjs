@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { createPopper } from "@popperjs/core";
+import usePopoverCloseEvents from "hooks/usePopoverCloseEvents";
 
 const PagesDropdown = () => {
   // dropdown props
@@ -16,8 +17,9 @@ const PagesDropdown = () => {
   const closeDropdownPopover = () => {
     setDropdownPopoverShow(false);
   };
+  const componentRef = usePopoverCloseEvents(closeDropdownPopover)
   return (
-    <>
+    <div ref={componentRef}>
       <a
         className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
         href="#pablo"
@@ -140,7 +142,7 @@ const PagesDropdown = () => {
           </a>
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 
