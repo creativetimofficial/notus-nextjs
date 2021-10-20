@@ -1,5 +1,6 @@
 import React from "react";
 import { createPopper } from "@popperjs/core";
+import usePopoverCloseEvents from "hooks/usePopoverCloseEvents";
 
 const NotificationDropdown = () => {
   // dropdown props
@@ -15,8 +16,9 @@ const NotificationDropdown = () => {
   const closeDropdownPopover = () => {
     setDropdownPopoverShow(false);
   };
+  const componentRef = usePopoverCloseEvents(closeDropdownPopover)
   return (
-    <>
+    <div ref={componentRef}>
       <a
         className="text-blueGray-500 py-1 px-3"
         href="#pablo"
@@ -63,7 +65,7 @@ const NotificationDropdown = () => {
           Something else here
         </a>
       </div>
-    </>
+    </div>
   );
 };
 

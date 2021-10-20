@@ -1,5 +1,6 @@
 import React from "react";
 import { createPopper } from "@popperjs/core";
+import usePopoverCloseEvents from "hooks/usePopoverCloseEvents";
 
 const UserDropdown = () => {
   // dropdown props
@@ -15,8 +16,9 @@ const UserDropdown = () => {
   const closeDropdownPopover = () => {
     setDropdownPopoverShow(false);
   };
+  const componentRef = usePopoverCloseEvents(closeDropdownPopover)
   return (
-    <>
+    <div ref={componentRef}>
       <a
         className="text-blueGray-500 block"
         href="#pablo"
@@ -81,7 +83,7 @@ const UserDropdown = () => {
           Seprated link
         </a>
       </div>
-    </>
+    </div>
   );
 };
 
