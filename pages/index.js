@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-import Navbar from "components/Navbars/AuthNavbar.js";
+import Navbar from "components/Navbars/IndexNavbar";
 import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
@@ -64,10 +64,10 @@ export default function Index() {
                     <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white bg-red-400 rounded-full shadow-lg">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">Veteran Owned</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                      You have the peace of mind to work with an organization rooted 
+                      in a moral code built from generations of service.
                     </p>
                   </div>
                 </div>
@@ -79,10 +79,10 @@ export default function Index() {
                     <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white rounded-full shadow-lg bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
+                    <h6 className="text-xl font-semibold">Free Consultations</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                      Get a free 1 hour review of your project by contacting us
+                      through the form below.
                     </p>
                   </div>
                 </div>
@@ -92,12 +92,11 @@ export default function Index() {
                 <div className="relative flex flex-col w-full min-w-0 mb-8 break-words bg-white rounded-lg shadow-lg">
                   <div className="flex-auto px-4 py-5">
                     <div className="inline-flex items-center justify-center w-12 h-12 p-3 mb-5 text-center text-white rounded-full shadow-lg bg-emerald-400">
-                      <i className="fas fa-fingerprint"></i>
+                      <i className="fas fa-heartbeat"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Verified Company</h6>
+                    <h6 className="text-xl font-semibold">Low Profit company</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      Tinker Labs L3C, prides itself on being a company to pay it forward through the generations to come.
                     </p>
                   </div>
                 </div>
