@@ -100,7 +100,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="block pb-2 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
-                        href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer"
+                        href="https://github.com/always-tinkering/tinkerlabsl3c/blob/main/LICENSE.md"
                       >
                         MIT License
                       </a>
@@ -108,7 +108,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="block pb-2 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
-                        href="https://creative-tim.com/terms?ref=nnjs-footer"
+                        href=""
                       >
                         Terms & Conditions
                       </a>
@@ -116,7 +116,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="block pb-2 text-sm font-semibold text-blueGray-600 hover:text-blueGray-800"
-                        href="https://creative-tim.com/privacy?ref=nnjs-footer"
+                        href=""
                       >
                         Privacy Policy
                       </a>

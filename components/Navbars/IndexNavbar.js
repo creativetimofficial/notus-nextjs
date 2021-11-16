@@ -34,45 +34,40 @@ export default function Navbar(props) {
             }
             id="example-navbar-warning"
           >
-            
             <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <IndexDropdown />
-              </li>
+              </li> */}
               <li className="flex items-center">
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase hover:text-blueGray-500 text-blueGray-700 lg:py-2"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F"
+                  href=""
                   target="_blank"
                 >
                   <i className="text-lg text-blueGray-400 fab fa-facebook leading-lg " />
                   <span className="inline-block ml-2 lg:hidden">Share</span>
                 </a>
               </li>
-
               <li className="flex items-center">
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase hover:text-blueGray-500 text-blueGray-700 lg:py-2"
-                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20NextJS%20UI%20Kit%20and%20Admin.%20Let%20Notus%20NextJS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
+                  href=""
                   target="_blank"
                 >
                   <i className="text-lg text-blueGray-400 fab fa-twitter leading-lg " />
                   <span className="inline-block ml-2 lg:hidden">Tweet</span>
                 </a>
               </li>
-
               <li className="flex items-center">
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase hover:text-blueGray-500 text-blueGray-700 lg:py-2"
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index-navbar"
+                  href="https://github.com/always-tinkering"
                   target="_blank"
                 >
                   <i className="text-lg text-blueGray-400 fab fa-github leading-lg " />
                   <span className="inline-block ml-2 lg:hidden">Star</span>
                 </a>
               </li>
-
-             
             </ul>
           </div>
         </div>

@@ -5,6 +5,8 @@ import Link from "next/link";
 import Navbar from "components/Navbars/IndexNavbar";
 import Footer from "components/Footers/Footer.js";
 
+// import deskImg from '../public/img/deskDaringGreatly.png';
+
 export default function Index() {
   return (
 <>
@@ -12,10 +14,10 @@ export default function Index() {
       <main>
         <div className="relative flex items-center content-center justify-center pt-16 pb-32 min-h-screen-75">
           <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
+            className="absolute top-0 w-full h-full bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+                "url('https://images.unsplash.com/photo-1634912314602-0d01437e3540?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80')",
             }}
           >
             <span
@@ -109,31 +111,32 @@ export default function Index() {
                   <i className="text-xl fas fa-user-friends"></i>
                 </div>
                 <h3 className="mb-2 text-3xl font-semibold leading-normal">
-                  Working with us is a pleasure
+                  The Services we Offer
                 </h3>
-                <p className="mt-4 mb-4 text-lg font-light leading-relaxed text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                <p className="mt-4 mb-4 text-lg font-light leading-relaxed text-blueGray-500">
+                  Tinker is a young and ambitious product development company that is focused on the community first.
+                  It believes in Open Source technology, and is commited to working with the community to build solutions to share with the world.
                 </p>
-                <p className="mt-0 mb-4 text-lg font-light leading-relaxed text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
-                </p>
-                <Link href="/">
-                  <a href="#pablo" className="mt-8 font-bold text-blueGray-700">
-                    Check Notus NextJS!
+                <p className="mt-0 mb-4 text-lg font-bold leading-relaxed text-blueGray-600">
+                  @ Tinker Labs, we have the skills and abilities to work with you to bring your product to life.
+                  Contact us below to setup a free consult.
+                  
+
+
+                  {/* <Link href="/">
+                  <a href="#pablo" className="mt-8 font-light text-blueGray-700">
+                    Digital Design
                   </a>
-                </Link>
+                </Link> */}
+                </p>
+                
               </div>
 
               <div className="w-full px-4 ml-auto mr-auto md:w-4/12">
                 <div className="relative flex flex-col w-full min-w-0 mb-6 break-words bg-white rounded-lg shadow-lg bg-blueGray-700">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src="https://images.unsplash.com/photo-1602664876866-d3b33b77756b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -149,12 +152,10 @@ export default function Index() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                      Cutting Edge Product Development
                     </h4>
                     <p className="mt-2 font-light text-white text-md">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                      We strive to keep connected with the best processes and practices found around the world. 
                     </p>
                   </blockquote>
                 </div>
@@ -190,7 +191,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="https://images.unsplash.com/photo-1519033504649-ff52b3119bbf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyaW5nJTIwZ3JlYXRseXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1800&q=60"
                 />
               </div>
               <div className="w-full px-4 ml-auto mr-auto md:w-5/12">
@@ -200,54 +201,9 @@ export default function Index() {
                   </div>
                   <h3 className="text-3xl font-semibold">A growing company</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    Do you want to start your journey with us? Let's see if we are a good fit for eachother, reach out below. Just after you meet OUR TEAM!
                   </p>
-                  <ul className="mt-6 list-none">
-                    <li className="py-2">
-                      <div className="flex items-center">
-                        <div>
-                          <span className="inline-block px-2 py-1 mr-3 text-xs font-semibold uppercase rounded-full text-blueGray-500 bg-blueGray-100">
-                            <i className="fas fa-fingerprint"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-blueGray-500">
-                            Carefully crafted components
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="py-2">
-                      <div className="flex items-center">
-                        <div>
-                          <span className="inline-block px-2 py-1 mr-3 text-xs font-semibold uppercase rounded-full text-blueGray-500 bg-blueGray-100">
-                            <i className="fab fa-html5"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-blueGray-500">
-                            Amazing page examples
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="py-2">
-                      <div className="flex items-center">
-                        <div>
-                          <span className="inline-block px-2 py-1 mr-3 text-xs font-semibold uppercase rounded-full text-blueGray-500 bg-blueGray-100">
-                            <i className="far fa-paper-plane"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-blueGray-500">
-                            Dynamic components
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
+
                 </div>
               </div>
             </div>
@@ -259,25 +215,21 @@ export default function Index() {
             <div className="flex flex-wrap justify-center mb-24 text-center">
               <div className="w-full px-4 lg:w-6/12">
                 <h2 className="text-4xl font-semibold">Here are our heroes</h2>
-                <p className="m-4 text-lg leading-relaxed text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
-                </p>
+                
               </div>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
               <div className="w-full px-4 mb-12 md:w-6/12 lg:w-3/12 lg:mb-0">
                 <div className="px-6">
                   <img
                     alt="..."
-                    src="/img/team-1-800x800.jpg"
+                    src="/img/IMG_4010.jpg"
                     className="mx-auto rounded-full shadow-lg max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">Andrew Germann</h5>
                     <p className="mt-1 text-sm font-semibold uppercase text-blueGray-400">
-                      Web Developer
+                      Solutions Expert <br></br> Founder <br></br> "Army"
                     </p>
                     <div className="mt-6">
                       <button
@@ -310,9 +262,9 @@ export default function Index() {
                     className="mx-auto rounded-full shadow-lg max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">Joseph Layde</h5>
                     <p className="mt-1 text-sm font-semibold uppercase text-blueGray-400">
-                      Founder and CEO
+                      
                     </p>
                     <div className="mt-6">
                       <button
