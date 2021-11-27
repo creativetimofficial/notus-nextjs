@@ -41,21 +41,18 @@ export default function Footer() {
                 <button
                   className="items-center justify-center w-10 h-10 mr-2 font-normal bg-white rounded-full shadow-lg outline-none text-lightBlue-600 align-center focus:outline-none"
                   type="button"
+                  href="https://www.linkedin.com/company/tinker-labs-l3c/"
                 >
-                  <i className="fab fa-facebook-square"></i>
+                  <i className="fab fa-linkedin"></i>
                 </button>
-                <button
+                {/* <button
                   className="items-center justify-center w-10 h-10 mr-2 font-normal text-pink-400 bg-white rounded-full shadow-lg outline-none align-center focus:outline-none"
                   type="button"
+                  href=""
                 >
-                  <i className="fab fa-dribbble"></i>
-                </button>
-                <button
-                  className="items-center justify-center w-10 h-10 mr-2 font-normal bg-white rounded-full shadow-lg outline-none text-blueGray-800 align-center focus:outline-none"
-                  type="button"
-                >
+                  
                   <i className="fab fa-github"></i>
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="w-full px-4 lg:w-6/12">

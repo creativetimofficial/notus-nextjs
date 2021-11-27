@@ -229,28 +229,18 @@ export default function Index() {
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Andrew Germann</h5>
                     <p className="mt-1 text-sm font-semibold uppercase text-blueGray-400">
-                      Solutions Expert <br></br> Founder <br></br> "Army"
+                      Artist <br></br> Co-Founder <br></br> "Army"
                     </p>
-                    <div className="mt-6">
+                    {/* <div className="mt-6">
                       <button
                         className="w-8 h-8 mb-1 mr-1 text-white rounded-full outline-none bg-lightBlue-400 focus:outline-none"
                         type="button"
                       >
                         <i className="fab fa-twitter"></i>
                       </button>
-                      <button
-                        className="w-8 h-8 mb-1 mr-1 text-white rounded-full outline-none bg-lightBlue-600 focus:outline-none"
-                        type="button"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </button>
-                      <button
-                        className="w-8 h-8 mb-1 mr-1 text-white bg-pink-500 rounded-full outline-none focus:outline-none"
-                        type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
-                    </div>
+                      
+                      
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -264,9 +254,9 @@ export default function Index() {
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Joseph Layde</h5>
                     <p className="mt-1 text-sm font-semibold uppercase text-blueGray-400">
-                      
+                    Compliance Officer <br></br> Co-Founder <br></br> "Marine"
                     </p>
-                    <div className="mt-6">
+                    {/* <div className="mt-6">
                       <button
                         className="w-8 h-8 mb-1 mr-1 text-white bg-pink-500 rounded-full outline-none focus:outline-none"
                         type="button"
@@ -291,7 +281,7 @@ export default function Index() {
                       >
                         <i className="fab fa-instagram"></i>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -324,26 +314,21 @@ export default function Index() {
             <div className="flex flex-wrap justify-center text-center">
               <div className="w-full px-4 lg:w-6/12">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                Let's Build Something Together
                 </h2>
-                <p className="mt-4 mb-4 text-lg leading-relaxed text-blueGray-400">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
-                </p>
+                
               </div>
             </div>
             <div className="flex flex-wrap justify-center mt-12">
               <div className="w-full px-4 text-center lg:w-3/12">
                 <div className="inline-flex items-center justify-center w-12 h-12 p-3 bg-white rounded-full shadow-lg text-blueGray-800">
-                  <i className="text-xl fas fa-medal"></i>
+                  <i className="text-xl fas fa-lightbulb"></i>
                 </div>
                 <h6 className="mt-5 text-xl font-semibold text-white">
-                  Excelent Services
+                  Ideation
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                We will work with you to hash out your product concept.
                 </p>
               </div>
               <div className="w-full px-4 text-center lg:w-3/12">
@@ -351,23 +336,21 @@ export default function Index() {
                   <i className="text-xl fas fa-poll"></i>
                 </div>
                 <h5 className="mt-5 text-xl font-semibold text-white">
-                  Grow your market
+                  Know the market
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                We will review and test the market to validate your product's validaty.
                 </p>
               </div>
               <div className="w-full px-4 text-center lg:w-3/12">
                 <div className="inline-flex items-center justify-center w-12 h-12 p-3 bg-white rounded-full shadow-lg text-blueGray-800">
-                  <i className="text-xl fas fa-lightbulb"></i>
+                  <i className="text-xl fas fa-rocket"></i>
                 </div>
                 <h5 className="mt-5 text-xl font-semibold text-white">
-                  Launch time
+                  Launch
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                We will assist you in getting your product out into the market.
                 </p>
               </div>
             </div>

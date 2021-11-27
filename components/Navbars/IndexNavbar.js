@@ -41,17 +41,17 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase hover:text-blueGray-500 text-blueGray-700 lg:py-2"
-                  href=""
+                  href="https://www.linkedin.com/company/tinker-labs-l3c/"
                   target="_blank"
                 >
-                  <i className="text-lg text-blueGray-400 fab fa-facebook leading-lg " />
+                  <i className="text-lg text-blueGray-400 fab fa-linkedin leading-lg " />
                   <span className="inline-block ml-2 lg:hidden">Share</span>
                 </a>
               </li>
               <li className="flex items-center">
                 <a
                   className="flex items-center px-3 py-4 text-xs font-bold uppercase hover:text-blueGray-500 text-blueGray-700 lg:py-2"
-                  href=""
+                  href="https://twitter.com/tinker_labs_"
                   target="_blank"
                 >
                   <i className="text-lg text-blueGray-400 fab fa-twitter leading-lg " />
