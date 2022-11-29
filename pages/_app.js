@@ -10,7 +10,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "styles/tailwind.css";
 
 Router.events.on("routeChangeStart", (url) => {
-  console.log(`Loading: ${url}`);
   document.body.classList.add("body-page-transition");
   ReactDOM.render(
     <PageChange path={url} />,
@@ -70,8 +69,10 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>Notus NextJS by Creative Tim</title>
-          <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+          <title>Qualified Leads | Lead Generation Service</title>
+          {
+            //<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+        }
         </Head>
         <Layout>
           <Component {...pageProps} />

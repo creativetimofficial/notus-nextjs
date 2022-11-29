@@ -3680,6 +3680,44 @@ select {
   transition-duration: 150ms;
 }
 
+.contact-us {
+  padding-top: 7em;
+  padding-bottom: 5em;
+}
+
+.error-msg {
+  border: 1px solid red;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.3em;
+  color: red;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.fb-footer {
+  padding: 0.7em;
+}
+
+.blog-div {
+  margin-top: 4em;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100%;
+}
+
+.post-title {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  color: #000;
+  font-weight: 700;
+  font-family: Inter,sans-serif;
+}
+
 @-webkit-keyframes spin {
   to {
     -webkit-transform: rotate(360deg);

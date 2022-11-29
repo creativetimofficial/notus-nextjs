@@ -129,7 +129,7 @@ export default function Landing() {
                   good to go. Just make sure you enable them first via
                   JavaScript.
                 </p>
-                <Link href="/">
+                <Link legacyBehavior href="/">
                   <a href="#pablo" className="font-bold text-blueGray-700 mt-8">
                     Check Notus NextJS!
                   </a>

@@ -15,7 +15,7 @@ const IndexDropdown = () => {
   };
   const closeDropdownPopover = () => {
     setDropdownPopoverShow(false);
-  };
+  }; 
   return (
     <>
       <a
@@ -27,7 +27,7 @@ const IndexDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        Demo Pages
+        EXPLORE QL 
       </a>
       <div
         ref={popoverDropdownRef}
@@ -36,109 +36,137 @@ const IndexDropdown = () => {
           "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
         }
       >
-        <span
+
+      <span
           className={
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Admin Layout
+          Resources
         </span>
-        <Link href="/admin/dashboard">
+        <Link legacyBehavior href="/resources/blog">
           <a
             href="#pablo"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Dashboard
+            Blog
           </a>
         </Link>
-        <Link href="/admin/settings">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Settings
-          </a>
-        </Link>
-        <Link href="/admin/tables">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Tables
-          </a>
-        </Link>
-        <Link href="/admin/maps">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Maps
-          </a>
-        </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-        <span
-          className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-          }
-        >
-          Auth Layout
-        </span>
-        <Link href="/auth/login">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Login
-          </a>
-        </Link>
-        <Link href="/auth/register">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Register
-          </a>
-        </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
-        <span
-          className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
-          }
-        >
-          No Layout
-        </span>
-        <Link href="/landing">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Landing
-          </a>
-        </Link>
-        <Link href="/profile">
-          <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-            }
-          >
-            Profile
-          </a>
-        </Link>
+        
+        {
+        //   <span
+        //   className={
+        //     "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+        //   }
+        // >
+        //   Admin Layout
+        // </span>
+        // <Link legacyBehavior href="/admin/dashboard">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Dashboard
+        //   </a>
+        // </Link>
+        // <Link legacyBehavior href="/admin/settings">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Settings
+        //   </a>
+        // </Link>
+        // <Link legacyBehavior href="/admin/tables">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Tables
+        //   </a>
+        // </Link>
+        // <Link legacyBehavior href="/admin/maps">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Maps
+        //   </a>
+        // </Link>
+      }
+      
+  
+        
+
+        {
+          //<div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
+        //   <span
+        //   className={
+        //     "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+        //   }
+        // >
+        //   Auth Layout
+        // </span>
+        // <Link legacyBehavior href="/auth/login">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Login
+        //   </a>
+        // </Link>
+        // <Link legacyBehavior href="/auth/register">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Register
+        //   </a>
+        // </Link>
+        // <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
+        // <span
+        //   className={
+        //     "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+        //   }
+        // >
+        //   No Layout
+        // </span>
+        // <Link legacyBehavior href="/landing">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Landing
+        //   </a>
+        // </Link>
+        // <Link legacyBehavior href="/profile">
+        //   <a
+        //     href="#pablo"
+        //     className={
+        //       "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+        //     }
+        //   >
+        //     Profile
+        //   </a>
+        // </Link>
+
+      }
       </div>
     </>
   );
