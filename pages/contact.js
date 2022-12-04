@@ -1,44 +1,27 @@
 import React, { useState, useEffect } from "react";
 import IndexNavbar from "../components/Navbars/IndexNavbar";
+//import BookDemo from "../components/Calendar/BookDemo";
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import validator from 'validator'
-import { GoogleSpreadsheet } from "google-spreadsheet";
 import axios from 'axios';
+import dynamic from "next/dynamic";
+import { useCalendlyEventListener } from "react-calendly";
 
 
 
-const SPREADSHEET_ID = process.env.NEXT_PUBLIC_spreadsheet_id;
-const SHEET_ID = process.env.NEXT_PUBLIC_sheet_id;
-const CLIENT_EMAIL = process.env.NEXT_PUBLIC_client_email;
-const PRIVATE_KEY = process.env.NEXT_PUBLIC_private_key.replace(/\\n/g, '\n');
-
-const doc = new GoogleSpreadsheet(SPREADSHEET_ID);
-
-const appendSpreadsheet = async (row) => {
-  try {
-    await doc.useServiceAccountAuth({
-      client_email: CLIENT_EMAIL,
-      private_key: PRIVATE_KEY,
-    });
-    // loads document properties and worksheets
-    await doc.loadInfo();
-
-    const sheet = await doc.sheetsById[SHEET_ID];
-    const result = await sheet.addRow(row);
-  } catch (e) {
-    console.error('Error: ', e);
-  }
-};
-
+const Calendly = dynamic(() => import("../components/Calendar/BookDemo"), {
+  ssr: false
+});
 
 export default function Contact() {
 
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [fullName, setfullName] = useState("")
-  const [message, setMessage] = useState("")
+  const [industry, setIndustry] = useState("")
   const [errorMsg, setErrorMsg] = useState("")
+  const [state, setState] = useState("")
   const [country, setCountry] = useState("")
 
   useEffect(() => {
@@ -51,6 +34,7 @@ export default function Contact() {
       .request(opts)
       .then(res => {
         if (mounted && res) {
+          setState(res.data.city)
           setCountry(res.data.country)
         }
       })
@@ -61,20 +45,44 @@ export default function Contact() {
 
   async function getMessage(e) {
     e.preventDefault();
-    if (email == "" || fullName == "" || message == "") {
-      setErrorMsg('Missing Field Data!')
-    } else if (!(validator.isEmail(email))) {
-      setErrorMsg('Email Address Error!')
-    } else {
-      const newRow = { Name: fullName, Email: email, Message: message, Country: country};
-      appendSpreadsheet(newRow);
+    const data = {fullName, email, industry, state, country, booked:true};
+      axios({
+        method: 'post',
+        url: 'https://qualified-l-server.vercel.app/api/message',
+        data
+      })
+      .then(res => (console.log(res.data.message)))
+      .catch(err => (console.log('err from owned server', err)))
       setEmail("")
       setfullName("")
-      setMessage("")
+      setIndustry("")
       router.push('/')
-    }
   }
 
+  useCalendlyEventListener({
+    onProfilePageViewed: () => console.log("Profile Page Viewed"),
+    onDateAndTimeSelected: () => console.log("Date And Time Selected"),
+    onEventTypeViewed: () => console.log("Event Type Viewed"),
+    onEventScheduled: (e) => { 
+      getMessage(e)
+    },
+  })
+
+  const handleNameChange = e => {
+    setfullName(e.target.value)
+  }
+
+   const handleEmailChange = e => {
+    setEmail(e.target.value)
+  }
+
+  const handleIndustryChange = e => {
+    if (!(validator.isEmail(email))) {
+      setErrorMsg('Invalid Email Address!')
+    } else {
+      setIndustry(e.target.value)
+    }
+  }
 
 
   return (
@@ -115,7 +123,7 @@ export default function Contact() {
                   </div>
                   <div className="flex-auto px-4 lg:px-10 py-10 pt-0">
                     <div className="text-blueGray-400 text-center mb-3 font-bold">
-                      <h1>LEAVE A MESSAGE</h1>
+                      <h1>SPEAK WITH US</h1>
                     </div>
                     <form>
                       <div className="relative w-full mb-3">
@@ -130,7 +138,7 @@ export default function Contact() {
                           className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                           placeholder="Full Name"
                           value={fullName}
-                          onChange={(e)=> {setfullName(e.target.value)}} 
+                          onChange={handleNameChange} 
                           onClick={() => setErrorMsg("")}
                         />
                       </div>
@@ -146,7 +154,7 @@ export default function Contact() {
                           className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                           placeholder="Email"
                           value={email}
-                          onChange={(e)=> {setEmail(e.target.value)}} 
+                          onChange={handleEmailChange} 
                           onClick={() => setErrorMsg("")}
                         />
                       </div>
@@ -156,20 +164,14 @@ export default function Contact() {
                           className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                           htmlFor="grid-password"
                         >
-                          Message
+                          What Industry is your business
                         </label>
-                        {
-                        //   <input
-                        //   type="textarea"
-                        //   className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                        //   placeholder="Your message"
-                        // />
-                      }
-                        <textarea 
+                        <input
+                          type="text"
                           className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                          placeholder="Your message"
-                          value={message}
-                          onChange={(e) => {setMessage(e.target.value)}} 
+                          placeholder="Industry"
+                          value={industry}
+                          onChange={handleIndustryChange} 
                           onClick={() => setErrorMsg("")}
                         />
                       </div>
@@ -188,13 +190,17 @@ export default function Contact() {
                       // </div>
                     }
 
-                      <div className="text-center mt-6" onClick={getMessage}>
-                        <button
-                          className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                          type="button"
-                        >
-                          Send
-                        </button>
+                      {
+                      //   <div className="text-center mt-6" onClick={getMessage}>
+                      //     <button
+                      //       className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                      //     >
+                      //     Book A Meeting
+                      //   </button>
+                      // </div>
+                    }
+                      <div className="calendly"> 
+                          { (fullName && email && industry) && <Calendly fullName={fullName} email={email}/> }
                       </div>
                     </form>
                   </div>

@@ -3718,6 +3718,25 @@ select {
   font-family: Inter,sans-serif;
 }
 
+.calendly {
+  margin: 1.5em 0 1.5em 0;
+}
+
+.calendly-badge-widget {
+  position: static !important;
+}
+
+.calendly-badge-content {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 0.25em !important;
+  --tw-bg-opacity: 1;
+  background-color: rgba(30, 41, 59, var(--tw-bg-opacity)) !important;
+}
+
+
 @-webkit-keyframes spin {
   to {
     -webkit-transform: rotate(360deg);
