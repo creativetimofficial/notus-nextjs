@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import IndexNavbar from "../components/Navbars/IndexNavbar";
-//import BookDemo from "../components/Calendar/BookDemo";
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import validator from 'validator'
@@ -28,7 +27,7 @@ export default function Contact() {
     let mounted = true;
     const opts = {
       method: 'GET',
-      url: 'http://ipwho.is/'
+      url: 'https://ipwho.is/'
     }
     axios
       .request(opts)
