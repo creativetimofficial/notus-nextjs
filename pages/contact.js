@@ -50,7 +50,7 @@ export default function Contact() {
         url: 'https://qualified-l-server.vercel.app/api/message',
         data
       })
-      .then(res => (console.log(res.data.message)))
+      .then(res => (console.log(res.data.message.createdAt)))
       .catch(err => (console.log('err from owned server', err)))
       setEmail("")
       setfullName("")
