@@ -76,14 +76,6 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     {
-                    //   <li>
-                    //   <a
-                    //     className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                    //     href="/about"
-                    //   >
-                    //     About Us
-                    //   </a>
-                    // </li>
                     // <li>
                     //   <a
                     //     className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
@@ -99,6 +91,14 @@ export default function Footer() {
                         href="/contact"
                       >
                         Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        href="/privacy"
+                      >
+                        Privacy Policy
                       </a>
                     </li>
                     {
