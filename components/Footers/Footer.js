@@ -96,7 +96,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/privacy"
+                        href="/privacy-policy"
                       >
                         Privacy Policy
                       </a>

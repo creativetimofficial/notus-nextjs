@@ -3701,21 +3701,62 @@ select {
 }
 
 .blog-div {
-  margin-top: 4em;
   text-align: left;
   padding-top: 2em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
   height: 100%;
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 4em;
+  padding-bottom: 10em;
+  box-sizing: border-box;
 }
+
+.blog-div p, .blog-div li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p.section {
+  line-height: 1.8;
+}
+
+
+@media screen and (max-width: 600px) {
+  .blog-div {
+    width: 90%;
+  }
+}
+
 
 .post-title {
   font-size: 32px;
   line-height: 40px;
-  margin-bottom: 16px;
+  margin-bottom: 29px;
   color: #000;
   font-weight: 700;
   font-family: Inter,sans-serif;
+  text-align: center;
+}
+
+.sech {
+  font-size: 25px;
+  text-align: left;
+}
+
+.blog-div li {
+  margin-bottom: 1.2em;
+}
+
+.blog-div .sec3 {
+  font-weight: bold;
+}
+
+.blog-div .mid ul {
+  margin-top: 1em;
+  font-style: italic;
 }
 
 .calendly {
