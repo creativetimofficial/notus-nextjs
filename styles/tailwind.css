@@ -3732,11 +3732,46 @@ p.section {
   line-height: 1.8;
 }
 
-
+@media screen and (min-width: 506px) {
+  .blog-posts {
+    padding: 0  1em 0 1em;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .blog-div {
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 677px) {
+  .blog-posts {
+    padding: 0 3em 0 3em;
+  }
+}
+
+@media screen and (min-width: 851px) {
+  .blog-posts {
+    padding: 0 10em 0 10em;
+  }
+}
+
+
+@media screen and (min-width: 1090px) {
+  .blog-posts {
+    padding: 0 15em 0 15em;
+  }
+}
+
+@media screen and (min-width: 1293px) {
+  .blog-posts {
+    padding: 0 20em 0 20em;
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  .blog-posts {
+    padding: 0 23em 0 23em;
   }
 }
 
@@ -3781,7 +3816,6 @@ h1 {
   text-align: left;
 }
 
-
 .sech {
   font-size: 25px;
   text-align: left;
@@ -3804,13 +3838,13 @@ h1 {
   margin: 1.5em 0 1.5em 0;
 }
 
-.art-1, .art-2 h1 {
+.art-1, .art-2, .art-3 h1 {
   font-weight: bold;
   text-align: left;
-  font-size: 1.3em;
+  font-size: 18px;
 }
 
-.art-2 h2 {
+.art-2 h2, .art-4 h2 {
   font-weight: bold;
   text-align: left;
   font-size: 1em;
@@ -3819,6 +3853,14 @@ h1 {
 .art-1 a {
   color: #f15123;
   border-bottom: 1px solid #ddd;
+}
+
+.art-3 img {
+  padding: 10px 50px 0 50px;
+}
+
+.art-4 {
+  padding-bottom: 40px;
 }
 
 .calendly-badge-widget {
