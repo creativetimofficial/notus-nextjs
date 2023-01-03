@@ -24,7 +24,7 @@ Use a more readable tab size (opinionated).
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
-}
+} 
 
 /**
 1. Correct the line height in all browsers.
@@ -3790,6 +3790,11 @@ p.section {
   min-height: 100%;
 }
 
+.blog-posts form {
+  margin: 20px 0 20px 15px;
+  width: 50%;
+}
+
 h1 {
   margin: 20px 15px 10px 15px;
 }
@@ -3850,7 +3855,7 @@ h1 {
   font-size: 1em;
 }
 
-.art-1 a {
+.art-1, .art-3 a {
   color: #f15123;
   border-bottom: 1px solid #ddd;
 }
@@ -3861,6 +3866,29 @@ h1 {
 
 .art-4 {
   padding-bottom: 40px;
+}
+
+.contain img {
+  padding: 0 15px 0 15px;
+}
+
+.pay-btn {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.pay-btn button {
+  text-decoration: none;
+  color: #111;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  box-shadow: 0 0.1rem 0 rgb(255 255 255 / 40%) inset;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-radius: .2rem;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 6px;
 }
 
 .calendly-badge-widget {

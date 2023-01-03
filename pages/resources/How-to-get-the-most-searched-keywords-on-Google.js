@@ -153,11 +153,9 @@ const ToolsPage = () => {
 						answer to the questions and you will be sure to get highly targeted traffic for  
 						those terms. 
 					</p>
-					{
-					// 	<p>
-					// 	To get access to this template and scale your question-based keyword research, click here.
-					// </p>
-				}
+						<p>
+						To get access to this template and scale your question-based keyword research, <a href="/question-based-keyword-tool-checkout">click here</a>.
+					</p>
 				</section>
 				<section className="art-4">
 					<h2>Conclusion</h2>
@@ -173,3 +171,5 @@ const ToolsPage = () => {
 }
 
 export default ToolsPage;
+
+

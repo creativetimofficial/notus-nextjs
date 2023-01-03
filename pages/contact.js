@@ -188,7 +188,7 @@ export default function Contact() {
                       //   </label>
                       // </div>
                     }
-
+ 
                       {
                       //   <div className="text-center mt-6" onClick={getMessage}>
                       //     <button
