@@ -47,6 +47,15 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
+  
+}
+
+html, body {
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
 }
 
 /**
@@ -3724,12 +3733,12 @@ p.section {
 }
 
 
+
 @media screen and (max-width: 600px) {
   .blog-div {
     width: 90%;
   }
 }
-
 
 .post-title {
   font-size: 32px;
@@ -3740,6 +3749,38 @@ p.section {
   font-family: Inter,sans-serif;
   text-align: center;
 }
+
+.blog-posts {
+  margin-top: 60px;
+  min-height: 100%;
+}
+
+h1 {
+  margin: 20px 15px 10px 15px;
+}
+
+.bp-title {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  color: #000;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  padding-top: 40px;
+}
+
+.blog-posts p, h2 {
+  margin: 20px 15px 10px 15px;
+  font-family: Inter, sans-serif;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: left;
+}
+
 
 .sech {
   font-size: 25px;
@@ -3754,13 +3795,30 @@ p.section {
   font-weight: bold;
 }
 
-.blog-div .mid ul {
+.mid {
   margin-top: 1em;
   font-style: italic;
 }
 
 .calendly {
   margin: 1.5em 0 1.5em 0;
+}
+
+.art-1, .art-2 h1 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.art-2 h2 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1em;
+}
+
+.art-1 a {
+  color: #f15123;
+  border-bottom: 1px solid #ddd;
 }
 
 .calendly-badge-widget {

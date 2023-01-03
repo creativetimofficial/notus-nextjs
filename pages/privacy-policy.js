@@ -24,7 +24,7 @@ const PrivacyPage = () => {
 				 </p>
 				 <br/>
 				 <h1 className="post-title sech">Interpretation and Definitions</h1>
-				 <h2 className="sech">Interpretation</h2>
+				 <h2 className="sech">Interpretation</h2> 
 				 <p className="section">
 				 	The words of which the initial letter is capitalized have meanings 
 				 	defined under the following conditions. The following definitions 
@@ -118,12 +118,13 @@ const PrivacyPage = () => {
 					<h2 className="sech">Types of Data Collected</h2>
 					<br/>
 					<h3 className="sec3">Personal Data</h3>
-					<p className="section mid">
+						<p className="section">
 						While using Our Service, We may ask You to provide Us with certain 
 						personally identifiable information that can be used to contact or 
 						identify You. Personally identifiable information may include, but is 
 						not limited to:
-						<ul>
+					</p>
+					<ul className="mid">
 							<li>
 								<p>Email address</p>
 							</li>
@@ -134,7 +135,7 @@ const PrivacyPage = () => {
 							 	<p>Usage Data</p>
 							</li>
 						</ul>
-					</p>
+				
 					<h3 className="sec3">Usage Data</h3>
 					<p className="section">
 						Usage Data is collected automatically when using the Service.
@@ -333,17 +334,19 @@ const PrivacyPage = () => {
 					</p>
 					<br/>
 					<h3 className="sec3">Other legal requirements</h3>
-					<p className="section mid">
-						The Company may disclose Your Personal Data in the good faith 
-						belief that such action is necessary to:
-						<ul>
+					
+						<p className="section">
+							The Company may disclose Your Personal Data in the good faith 
+							belief that such action is necessary to:
+						</p>
+						<ul className="mid">
 						<li>Comply with a legal obligation</li>
 						<li>Protect and defend the rights or property of the Company</li>
 						<li>Prevent or investigate possible wrongdoing in connection with the Service</li>
 						<li>Protect the personal safety of Users of the Service or the public</li>
 						<li>Protect against legal liability</li>
 						</ul>
-					</p>
+				
 					<h2 className="sech">Security of Your Personal Data</h2>
 					<p className="section">
 						The security of Your Personal Data is important to Us, but remember that 
@@ -394,12 +397,12 @@ const PrivacyPage = () => {
 					</p>
 					<br/>
 					<h1 className="post-title sech">Contact Us</h1>
-					<p className="section mid">
+					<p className="section">
 						If you have any questions about this Privacy Policy, You can contact us:
-						<ul>
-							<li>By email: business@qualifiedleadsagency.com</li>
-						</ul>
 					</p>
+					<ul className="mid">
+						<li>By email: business@qualifiedleadsagency.com</li>
+					</ul>
 				</ul>
 		</div>
 	</>)

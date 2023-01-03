@@ -44,7 +44,7 @@ const IndexDropdown = () => {
         >
           Resources
         </span>
-        <Link legacyBehavior href="/resources/tools">
+        <Link legacyBehavior href="/resources/How-to-get-the-most-searched-keywords-on-Google">
           <a
             href="#pablo"
             className={
