@@ -1,15 +1,17 @@
 import React, { useState } from "react";
+import { useRouter } from 'next/router';
 import Head from "next/head";
 import Script from 'next/script'
 import IndexNavbar from "../components/Navbars/IndexNavbar";
 import { v4 as uuidv4 } from 'uuid';
 import isEmail from 'validator/lib/isEmail';
 import { useFlutterwave, closePaymentModal } from 'flutterwave-react-v3';
+import axios from 'axios';
 
 
 
 const SalePage = () => {
-
+	const router = useRouter();
   	const [email, setEmail] = useState("");
   	const [fullName, setfullName] = useState("");
   	const [errorMsg, setErrorMsg] = useState("");
@@ -28,13 +30,14 @@ const SalePage = () => {
   	const signUp = e => {
   		e.preventDefault();
   		if (isEmail(email) && fullName != "") {
+  			const data = {fullName, email, utm_campaign: 'gsheet_kw_research_template'}
   			setConfig({
 			    public_key: process.env.NEXT_PUBLIC_FLW_PUBKEY,
 			    tx_ref: uuidv4(),
 			    amount: 19.99,
 			    currency: "USD",
 			    payment_options: "card",
-			    redirect_url: "http://localhost:3000/",
+			    // redirect_url: "http://localhost:3000/auth",
 			    customer: {
 			      email: email,
 			      name: fullName,
@@ -42,9 +45,17 @@ const SalePage = () => {
 			    customizations: {
 			        title: "Question-based Keyword Research Google Sheets Template",
 			        description: "Payment for Question-based keyword Google Sheets Template",
-			        logo: "img/logo.png",
+			        logo: "/img/logo.png",
 			    },
 			 });
+  			//send to the CRM
+  			axios({
+  				method: 'post',
+		        url: 'http://localhost:4000/api/seo-tools',
+		        data
+  			})
+  			.then(res => (console.log(res.data.message.createdAt)))
+      		.catch(err => (console.log('err when creating contact', err)))
   			setEmail("")
       		setfullName("")
   		}
@@ -127,12 +138,15 @@ const SalePage = () => {
 					{ (Object.keys(config).length !== 0) && <button onClick={() => {
 						handleFlutterPayment({
 							callback: response => {
-								console.log(response)
+								if (response.status == "successful") {
+									setConfig({}) //clear the config state
+									router.push('/auth/user')
+								}
 								closePaymentModal()
 							},
 							onClose: () => {},
 						})
-					}}>Get Template</button> }
+					}}>Pay $19.99</button> }
 				</div>
 			</div>
 		</>
