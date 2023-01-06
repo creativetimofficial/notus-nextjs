@@ -55,9 +55,9 @@ const SalePage = () => {
 		        data
   			})
   			.then(res => (console.log(res.data.message.createdAt)))
-      		.catch(err => (console.log('err when creating contact', err)))
+      	.catch(err => (console.log('err when creating contact', err)))
   			setEmail("")
-      		setfullName("")
+      	setfullName("")
   		}
 
   		if (!(isEmail(email)) || email == "") {

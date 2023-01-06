@@ -13,7 +13,7 @@ Use a better box model (opinionated).
 
 *,
 *::before,
-*::after {
+*::after { 
   box-sizing: border-box;
 }
 
@@ -3732,6 +3732,94 @@ p.section {
   line-height: 1.8;
 }
 
+.user-area {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sign-out {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.sign-out input[type="submit"] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.search-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.spinner {
+  text-align: center;
+  margin: 100px 0 20px 0;
+  animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.loaded {
+  text-align: center;
+  margin: 100px 0 20px 0;
+  padding: 0 15px 0 15px;
+}
+
+
+.search-container input[type="text"] {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-container button {
+  text-decoration: none;
+  color: #111;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  box-shadow: 0 0.1rem 0 rgb(255 255 255 / 40%) inset;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-radius: .2rem;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+
 @media screen and (min-width: 506px) {
   .blog-posts {
     padding: 0  1em 0 1em;
@@ -3811,7 +3899,7 @@ h1 {
   padding-top: 40px;
 }
 
-.blog-posts p, h2 {
+.blog-posts p, .blog-posts h2 {
   margin: 20px 15px 10px 15px;
   font-family: Inter, sans-serif;
   color: #1a1a1a;
@@ -3846,7 +3934,8 @@ h1 {
 .art-1, .art-2, .art-3 h1 {
   font-weight: bold;
   text-align: left;
-  font-size: 18px;
+  font-size: 15px;
+  color: black !important;
 }
 
 .art-2 h2, .art-4 h2 {

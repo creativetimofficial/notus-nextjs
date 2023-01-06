@@ -139,7 +139,7 @@ const ToolsPage = () => {
 					</p>
 					<img src="/img/keywordResearchGIF.gif"/>
 					<p>
-						<a>This question-based keyword Google Sheets template</a> accepts <strong>2-word</strong> head terms and then scans
+						This question-based keyword Google Sheets template accepts <strong>2-word</strong> head terms and then scans
 						Google for all the actual questions that people are searching related to the terms.
 					</p>
 					<img src="/img/question-words.png"/>
