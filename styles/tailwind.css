@@ -1350,6 +1350,11 @@ select {
     background-color: rgba(226, 232, 240, var(--tw-bg-opacity));
 }
 
+.bg-purple-main {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 56, 139, var(--tw-bg-opacity));
+}
+
 .bg-blueGray-400 {
     --tw-bg-opacity: 1;
     background-color: rgba(148, 163, 184, var(--tw-bg-opacity));
@@ -3181,6 +3186,11 @@ select {
     color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
+.text-purple-main {
+    --tw-text-opacity: 1;
+    color: rgba(152, 56, 139, var(--tw-text-opacity));
+}
+
 .text-pink-400 {
     --tw-text-opacity: 1;
     color: rgba(244, 114, 182, var(--tw-text-opacity));
@@ -3284,6 +3294,11 @@ select {
 .text-blueGray-800 {
     --tw-text-opacity: 1;
     color: rgba(30, 41, 59, var(--tw-text-opacity));
+}
+
+.hover\:text-purple-main:hover {
+    --tw-text-opacity: 1;
+    color: rgba(152, 56, 139, var(--tw-text-opacity));
 }
 
 .hover\:text-lightBlue-600:hover {
