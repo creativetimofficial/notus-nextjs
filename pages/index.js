@@ -16,7 +16,7 @@ export default function Index() {
                             <h2 className="font-bold text-5xl text-purple-main">
                                 MD Dental Care
                             </h2>
-                            <h2 className="font-semibold text-5xl text-red-200">
+                            <h2 className="font-semibold text-4xl text-red-200">
                                 Klinik Dokter Gigi Terbaik di Tangerang.
                             </h2>
                             <p className="mt-4 text-lg leading-relaxed text-purple-400">
@@ -24,7 +24,7 @@ export default function Index() {
                                 berpengalaman lebih
                                 dari{" "}
                                 <a
-                                    href="https://tailwindcss.com/?ref=creativetim"
+                                    href="https://www.instagram.com/md_dental_care/"
                                     className="font-bold text-purple-main"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -42,7 +42,7 @@ export default function Index() {
                                     Lihat Daftar Dokter
                                 </a>
                                 <a
-                                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
+                                    href="https://wa.me/6285774085380"
                                     target="_blank"
                                     className="ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-main active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                                 >
@@ -54,7 +54,7 @@ export default function Index() {
                 </div>
                 <img
                     className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-                    src="/img/pattern_nextjs.png"
+                    src="/img/assets/grafik.png"
                     alt="..."
                 />
             </section>
@@ -86,7 +86,7 @@ export default function Index() {
                                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-purple-main">
                                 <img
                                     alt="..."
-                                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                    src="/img/assets/img_main.png"
                                     className="w-full align-middle rounded-t-lg"
                                 />
                                 <blockquote className="relative p-8 mb-4">
@@ -101,8 +101,8 @@ export default function Index() {
                                             className="text-purple-main fill-current"
                                         ></polygon>
                                     </svg>
-                                    <h4 className="text-xl font-bold text-white">
-                                        Telah Berpengalaman Lebih dari 11 Tahun, dan bertambah
+                                    <h4 className="text-2xl font-bold text-white">
+                                        Telah Berpengalaman Lebih dari 11 Tahun.
                                     </h4>
                                     <p className="text-md font-light mt-2 text-white">
                                         Putting together a page has never been easier than matching
@@ -185,52 +185,55 @@ export default function Index() {
                     <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
                         <div
                             className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                            <i className="fas fa-drafting-compass text-xl"></i>
+                            <i className="fas fa-teeth text-xl"></i>
                         </div>
                         <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                            Javascript Components
+                            Lebih dari 9 Layanan Pemeriksaan Gigi
                         </h3>
                         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                            In order to create a great User Experience some components
-                            require JavaScript. In this way you can manipulate the elements
-                            on the page and give more options to your users.
+                            MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi, mulai dari scalling,
+                            bleaching, hingga pembuatan gigi tiruan. Semua dapat dilaksanakan dengan profesional dan
+                            kami selalu memberikan pelayanan terbaik.
                         </p>
                         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                            We created a set of Components that are dynamic and come to help
-                            you.
+                            9 Layanan tersebut adalah sebagai berikut:
                         </p>
                         <div className="block pb-6">
                 <span
                     className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
+                  Scalling
                 </span>
                             <span
                                 className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
+                  Ortodonti
                 </span>
                             <span
                                 className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Bleaching
                 </span>
                             <span
                                 className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
+                  Pedodontik
                 </span>
                             <span
                                 className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
+                  Vaneer Gigi
                 </span>
                             <span
                                 className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Popovers
+                  Implant Gigi
                 </span>
                             <span
                                 className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tabs
+                  Edodontik
                 </span>
                             <span
                                 className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tooltips
+                  Gigi Tiruan
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Odontektomi
                 </span>
                         </div>
                         <a
@@ -245,19 +248,20 @@ export default function Index() {
 
                     <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
                         <div className="justify-center flex flex-wrap relative">
-                            <div className="my-4 w-full lg:w-6/12 px-4">
+
+                            <div className="my-4 w-full lg:w-4/12 px-4">
                                 <a
                                     href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                                            className="shadow-md rounded-full w-1/6 w-16 mx-auto p-2 bg-white"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
                                         />
-                                        <p className="text-lg text-white mt-4 font-semibold">
-                                            Svelte
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Scalling / Pembersihan Karang Gigi
                                         </p>
                                     </div>
                                 </a>
@@ -265,14 +269,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
                                         <img
                                             alt="..."
                                             className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
                                         />
-                                        <p className="text-lg text-white mt-4 font-semibold">
-                                            ReactJS
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Ortodonti / Kawat Gigi
                                         </p>
                                     </div>
                                 </a>
@@ -280,31 +284,32 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
                                         <img
                                             alt="..."
                                             className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
                                         />
-                                        <p className="text-lg text-white mt-4 font-semibold">
-                                            NextJS
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Bleaching / Pemutihan Gigi
                                         </p>
                                     </div>
                                 </a>
                             </div>
-                            <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
+
+                            <div className="my-4 w-full lg:w-4/12 px-4 lg:mt-16">
                                 <a
                                     href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8">
                                         <img
                                             alt="..."
                                             className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
                                         />
-                                        <p className="text-lg text-white mt-4 font-semibold">
-                                            JavaScript
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Pedodontik / Perawatan Gigi Anak
                                         </p>
                                     </div>
                                 </a>
@@ -312,14 +317,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
                                         <img
                                             alt="..."
                                             className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
                                         />
-                                        <p className="text-lg text-white mt-4 font-semibold">
-                                            Angular
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Vaneer Gigi
                                         </p>
                                     </div>
                                 </a>
@@ -327,14 +332,62 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
                                         <img
                                             alt="..."
                                             className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
                                             src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
                                         />
-                                        <p className="text-lg text-white mt-4 font-semibold">
-                                            Vue.js
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Implant Gigi
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div className="my-4 w-full lg:w-4/12 px-4">
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8">
+                                        <img
+                                            alt="..."
+                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Edodontik / Perawatan Syaraf Gigi
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Pembuatan Gigi Tiruan
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Odontektomi / Operasi Gigi Bungsu
                                         </p>
                                     </div>
                                 </a>
