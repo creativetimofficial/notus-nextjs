@@ -9,6 +9,8 @@ export default function Index() {
     return (
         <>
             <IndexNavbar fixed/>
+
+            {/*section 0*/}
             <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
                 <div className="container mx-auto items-center flex flex-wrap">
                     <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
@@ -59,6 +61,7 @@ export default function Index() {
                 />
             </section>
 
+            {/*section 1*/}
             <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
                 <div
                     className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
@@ -181,8 +184,9 @@ export default function Index() {
                     </div>
                 </div>
 
-                <div className="flex flex-wrap items-center pt-32">
-                    <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+                {/*section 2*/}
+                <div className="flex flex-wrap items-center pt-16">
+                    <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-24 ">
                         <div
                             className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                             <i className="fas fa-teeth text-xl"></i>
@@ -191,49 +195,49 @@ export default function Index() {
                             Lebih dari 9 Layanan Pemeriksaan Gigi
                         </h3>
                         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                            MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi, mulai dari scalling,
-                            bleaching, hingga pembuatan gigi tiruan. Semua dapat dilaksanakan dengan profesional dan
-                            kami selalu memberikan pelayanan terbaik.
+                            MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi, mulai dari konsultasi gigi,
+                            perawatan ortodontik (kawat gigi), hingga pemeriksaan rontgen gigi. Semua dapat dilaksanakan
+                            dengan profesional dan kami selalu memberikan pelayanan terbaik.
                         </p>
                         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                             9 Layanan tersebut adalah sebagai berikut:
                         </p>
                         <div className="block pb-6">
                 <span
-                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Scalling
+                    className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Konsultasi Gigi
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Ortodonti
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Jaringan Lunak
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Bleaching
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Penyakit Mulut
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Pedodontik
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Gigi Anak
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Vaneer Gigi
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Bedah Mulut
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Implant Gigi
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Ortodontik
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Edodontik
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Gigi Tiruan
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Gigi Tiruan
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Konservasi
                 </span>
                             <span
-                                className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Odontektomi
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Pemeriksaan Rontgen Gigi
                 </span>
                         </div>
                         <a
@@ -254,14 +258,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full w-1/6 w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                                            className="rounded-lg w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/konsultasi-Gigi.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Scalling / Pembersihan Karang Gigi
+                                            Konsultasi Gigi
                                         </p>
                                     </div>
                                 </a>
@@ -269,14 +273,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-jaringan-lunak.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Ortodonti / Kawat Gigi
+                                            Perawatan Jaringan Lunak
                                         </p>
                                     </div>
                                 </a>
@@ -284,14 +288,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-penyakit-mulut.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Bleaching / Pemutihan Gigi
+                                            Perawatan Penyakit Mulut
                                         </p>
                                     </div>
                                 </a>
@@ -302,14 +306,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-gigi-anak.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Pedodontik / Perawatan Gigi Anak
+                                            Perawatan Gigi Anak
                                         </p>
                                     </div>
                                 </a>
@@ -317,14 +321,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-bedah-mulut.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Vaneer Gigi
+                                            Perawatan Bedah Mulut
                                         </p>
                                     </div>
                                 </a>
@@ -332,14 +336,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-ortodontik.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Implant Gigi
+                                            Perawatan Ortodontik
                                         </p>
                                     </div>
                                 </a>
@@ -350,14 +354,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-gigi-tiruan.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Edodontik / Perawatan Syaraf Gigi
+                                            Perawatan Gigi Tiruan
                                         </p>
                                     </div>
                                 </a>
@@ -365,14 +369,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-konservasi.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Pembuatan Gigi Tiruan
+                                            Perawatan Konservasi
                                         </p>
                                     </div>
                                 </a>
@@ -380,14 +384,14 @@ export default function Index() {
                                     href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
                                     target="_blank"
                                 >
-                                    <div className="bg-white shadow-lg rounded-lg text-center p-8 mt-8">
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                         <img
                                             alt="..."
-                                            className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                                            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/pemeriksaan-rontgen-gigi.jpg"
                                         />
                                         <p className="text-lg text-purple-main mt-4 font-semibold">
-                                            Odontektomi / Operasi Gigi Bungsu
+                                            Pemeriksaan Rontgen Gigi
                                         </p>
                                     </div>
                                 </a>
@@ -396,101 +400,220 @@ export default function Index() {
                     </div>
                 </div>
 
-
-                <div className="container mx-auto overflow-hidden pb-20">
-                    <div className="flex flex-wrap items-center">
-                        <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-                            <div
-                                className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                                <i className="fas fa-teeth text-xl"></i>
+                {/*section 3*/}
+                <div className="flex flex-wrap items-center pt-16">
+                    <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
+                        <div className="justify-center flex flex-wrap relative">
+                            <div className="my-4 w-full lg:w-4/12 px-4">
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/konsultasi-Gigi.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Konsultasi Gigi
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-jaringan-lunak.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Perawatan Jaringan Lunak
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-penyakit-mulut.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Perawatan Penyakit Mulut
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
-                            <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                                9+ Layanan Gigi
-                            </h3>
-                            <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                                Every element that you need in a product comes built in as a
-                                component. All components fit perfectly with each other and can
-                                have different colours.
-                            </p>
-                            <div className="block pb-6">
-                <span
-                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Buttons
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Inputs
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Labels
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Pagination
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Progressbars
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Typography
-                </span>
-                            </div>
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                                target="_blank"
-                                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-                            >
-                                View All{" "}
-                                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-                            </a>
-                        </div>
 
-                        <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
-                            <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-                                <img
-                                    alt="..."
-                                    src="/img/component-btn.png"
-                                    className="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
-                                />
-                                <img
-                                    alt="..."
-                                    src="/img/component-profile-card.png"
-                                    className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
-                                />
-                                <img
-                                    alt="..."
-                                    src="/img/component-info-card.png"
-                                    className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
-                                />
-                                <img
-                                    alt="..."
-                                    src="/img/component-info-2.png"
-                                    className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
-                                />
-                                <img
-                                    alt="..."
-                                    src="/img/component-menu.png"
-                                    className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
-                                />
-                                <img
-                                    alt="..."
-                                    src="/img/component-btn-pink.png"
-                                    className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
-                                />
+                            <div className="my-4 w-full lg:w-4/12 px-4 lg:mt-16">
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-gigi-anak.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Perawatan Gigi Anak
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-bedah-mulut.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Perawatan Bedah Mulut
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-ortodontik.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Perawatan Ortodontik
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div className="my-4 w-full lg:w-4/12 px-4">
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-gigi-tiruan.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Perawatan Gigi Tiruan
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/perawatan-konservasi.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Perawatan Konservasi
+                                        </p>
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
+                                    target="_blank"
+                                >
+                                    <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                                        <img
+                                            alt="..."
+                                            className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                                            src="/img/menus/pemeriksaan-rontgen-gigi.jpg"
+                                        />
+                                        <p className="text-lg text-purple-main mt-4 font-semibold">
+                                            Pemeriksaan Rontgen Gigi
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
+
+                    <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-24 ">
+                        <div
+                            className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                            <i className="fas fa-teeth text-xl"></i>
+                        </div>
+                        <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                            Lebih dari 9 Layanan Pemeriksaan Gigi
+                        </h3>
+                        <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                            MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi, mulai dari konsultasi gigi,
+                            perawatan ortodontik (kawat gigi), hingga pemeriksaan rontgen gigi. Semua dapat dilaksanakan
+                            dengan profesional dan kami selalu memberikan pelayanan terbaik.
+                        </p>
+                        <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                            9 Layanan tersebut adalah sebagai berikut:
+                        </p>
+                        <div className="block pb-6">
+                <span
+                    className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Konsultasi Gigi
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Jaringan Lunak
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Penyakit Mulut
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Gigi Anak
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Bedah Mulut
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Ortodontik
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Gigi Tiruan
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Perawatan Konservasi
+                </span>
+                            <span
+                                className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
+                  Pemeriksaan Rontgen Gigi
+                </span>
+                        </div>
+                        <a
+                            href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
+                            target="_blank"
+                            className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
+                        >
+                            View all{" "}
+                            <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                        </a>
+                    </div>
+
 
                 </div>
 

@@ -3547,6 +3547,14 @@ select {
     width: 4rem;
 }
 
+.w-24 {
+    width: 6rem;
+}
+
+.w-32 {
+    width: 8rem;
+}
+
 .w-auto {
     width: auto;
 }
