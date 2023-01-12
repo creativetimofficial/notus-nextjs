@@ -49,6 +49,16 @@ export default function Navbar(props) {
                             {/*<li className="flex items-center">*/}
                             {/*    <IndexDropdown/>*/}
                             {/*</li>*/}
+                            {/*Beranda*/}
+                            <li className="flex items-center">
+                                <a
+                                    className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                                    href="/"
+                                >
+                                    <i className="text-blueGray-400 fas fa-home text-lg leading-lg mr-2"/>{" "}
+                                    Beranda
+                                </a>
+                            </li>
 
                             {/*Servis*/}
                             <li className="flex items-center">
@@ -76,7 +86,7 @@ export default function Navbar(props) {
                                     className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                                     href="https://www.instagram.com/md_dental_care/"
                                 >
-                                    <i className="text-blueGray-400 fas fa-comment-dots text-lg leading-lg mr-2"/>{" "}
+                                    <i className="text-blueGray-400 fas fa-comment-medical text-lg leading-lg mr-2"/>{" "}
                                     Testimonial
                                 </a>
                             </li>

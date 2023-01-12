@@ -1533,6 +1533,16 @@ select {
     border-radius: 9999px;
 }
 
+.rounded-full-top {
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+
+.rounded-full-bot {
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
 .rounded-t {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
