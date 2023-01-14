@@ -51,54 +51,59 @@ export default function Navbar(props) {
                             {/*</li>*/}
                             {/*Beranda*/}
                             <li className="flex items-center">
+                            <Link href="/">
                                 <a
                                     className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                    href="/"
                                 >
                                     <i className="text-blueGray-400 fas fa-home text-lg leading-lg mr-2"/>{" "}
                                     Beranda
                                 </a>
+                                </Link>
                             </li>
 
                             {/*Servis*/}
                             <li className="flex items-center">
+                                <Link href="/layanan">
                                 <a
                                     className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                    href="https://www.instagram.com/md_dental_care/"
                                 >
                                     <i className="text-blueGray-400 fas fa-teeth text-lg leading-lg mr-2"/>{" "}
                                     Layanan
                                 </a>
+                                </Link>
                             </li>
                             {/*Dokter*/}
                             <li className="flex items-center">
+                            <Link href="/dokter">
                                 <a
                                     className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                    href="https://www.instagram.com/md_dental_care/"
                                 >
                                     <i className="text-blueGray-400 fas fa-user-md text-lg leading-lg mr-2"/>{" "}
                                     Dokter
                                 </a>
+                                </Link>
                             </li>
                             {/*Tertimonial*/}
                             <li className="flex items-center">
+                            <Link href="/testimonial">
                                 <a
                                     className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                    href="https://www.instagram.com/md_dental_care/"
                                 >
                                     <i className="text-blueGray-400 fas fa-comment-medical text-lg leading-lg mr-2"/>{" "}
                                     Testimonial
                                 </a>
+                                </Link>
                             </li>
                             {/*Tentang Kami*/}
                             <li className="flex items-center">
+                            <Link href="/tentang-kami">
                                 <a
                                     className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                    href="https://www.instagram.com/md_dental_care/"
                                 >
                                     <i className="text-blueGray-400 fas fa-info-circle text-lg leading-lg mr-2"/>{" "}
                                     Tentang Kami
                                 </a>
+                                </Link>
                             </li>
                             <li className="flex items-center">
                                 <button

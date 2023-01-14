@@ -239,14 +239,12 @@ export default function Index() {
                   Pemeriksaan Rontgen Gigi
                 </span>
                             </div>
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                                target="_blank"
-                                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-                            >
+                            <Link href="/layanan">
+                            <a className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150">
                                 View all{" "}
                                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
                             </a>
+                            </Link>
                         </div>
 
                         <div className="w-full md:w-6/12 px-4">
@@ -506,14 +504,12 @@ export default function Index() {
                   Drg. Elia Roza
                 </span>
                             </div>
-                            <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                                target="_blank"
-                                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-                            >
+                            <Link href="/dokter">
+                            <a className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150">
                                 View all{" "}
                                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
                             </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
