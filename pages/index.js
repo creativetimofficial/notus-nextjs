@@ -36,13 +36,6 @@ export default function Index() {
                             </p>
                             <div className="mt-10">
                                 <a
-                                    href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                                    className="ml-1 text-purple-main font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-white active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                                    target="_blank"
-                                >
-                                    Lihat Daftar Dokter
-                                </a>
-                                <a
                                     href="https://wa.me/6285774085380"
                                     target="_blank"
                                     className="ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-main active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
@@ -60,7 +53,7 @@ export default function Index() {
                 />
             </section>
 
-        {/*section 1*/}
+            {/*section 1*/}
             <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
                 <div
                     className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
@@ -115,10 +108,10 @@ export default function Index() {
                             </div>
                         </div>
 
-                        <div className="w-full md:w-6/12 px-4 -mt-24">
+                        <div className="w-full md:w-6/12 px-4 mb-24">
                             <div className="flex flex-wrap">
                                 <div className="w-full md:w-6/12 px-4">
-                                    <div className="relative flex flex-col mt-4">
+                                    <div className="relative flex flex-col">
                                         <div className="px-4 py-5 flex-auto">
                                             <div
                                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
@@ -149,7 +142,7 @@ export default function Index() {
                                     </div>
                                 </div>
                                 <div className="w-full md:w-6/12 px-4">
-                                    <div className="relative flex flex-col min-w-0 mt-4">
+                                    <div className="relative flex flex-col min-w-0">
                                         <div className="px-4 py-5 flex-auto">
                                             <div
                                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
@@ -594,6 +587,7 @@ export default function Index() {
                     </div>
                 </div>
 
+                {/*section 4*/}
                 <div className="justify-center text-center flex flex-wrap mt-48">
                     <div className="w-full md:w-6/12 px-12 md:px-4">
                         <h2 className="font-semibold text-4xl">Beberapa Foto dari MD Dental Care</h2>
@@ -603,120 +597,166 @@ export default function Index() {
                         </p>
                     </div>
                 </div>
-            </section>
 
-            <section className="block relative z-1 bg-blueGray-600">
-                <div className="container mx-auto">
-                    <div className="justify-center flex flex-wrap">
-                        <div className="w-full lg:w-12/12 px-4  -mt-24">
-                            <div className="flex flex-wrap">
-                                <div className="w-full lg:w-4/12 px-4">
-                                    <h5 className="text-xl font-semibold pb-4 text-center">
-                                        Ruang Depan
-                                    </h5>
-                                    {/*<Link href="/auth/login">*/}
+                <section className="block relative z-1 mt-24">
+                    <div className="container mx-auto">
+                        <div className="justify-center flex flex-wrap">
+                            <div className="w-full lg:w-12/12 px-4  -mt-24">
+                                <div className="flex flex-wrap">
+                                    <div className="w-full lg:w-4/12 px-4">
+                                        <h5 className="text-xl font-semibold pb-4 text-center">
+                                            Pintu Masuk
+                                        </h5>
+                                        {/*<Link href="/auth/login">*/}
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
                                                 alt="..."
                                                 className="align-middle border-none max-w-full h-auto rounded-lg"
-                                                src="/img/assets/pic_2.png"
+                                                src="/img/photos/pic_1.png"
                                             />
                                         </div>
-                                    {/*</Link>*/}
+                                        {/*</Link>*/}
+                                    </div>
+
+                                    <div className="w-full lg:w-4/12 px-4">
+                                        <h5 className="text-xl font-semibold pb-4 text-center">
+                                            Ruang Depan
+                                        </h5>
+                                        {/*<Link href="/profile">*/}
+                                        <div
+                                            className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                                            <img
+                                                alt="..."
+                                                className="align-middle border-none max-w-full h-auto rounded-lg"
+                                                src="/img/photos/pic_2.png"
+                                            />
+                                        </div>
+                                        {/*</Link>*/}
+                                    </div>
+
+                                    <div className="w-full lg:w-4/12 px-4">
+                                        <h5 className="text-xl font-semibold pb-4 text-center">
+                                            Ruang Tunggu
+                                        </h5>
+                                        {/*<Link href="/landing">*/}
+                                        <div
+                                            className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                                            <img
+                                                alt="..."
+                                                className="align-middle border-none max-w-full h-auto rounded-lg"
+                                                src="/img/photos/pic_3.png"
+                                            />
+                                        </div>
+                                        {/*</Link>*/}
+                                    </div>
                                 </div>
 
-                                <div className="w-full lg:w-4/12 px-4">
-                                    <h5 className="text-xl font-semibold pb-4 text-center">
-                                        Ruang Tunggu
-                                    </h5>
-                                    {/*<Link href="/profile">*/}
+                                <div className="flex flex-wrap">
+                                    <div className="w-full lg:w-4/12 px-4">
+                                        <h5 className="text-xl font-semibold pb-4 text-center">
+                                            Peralatan Praktik
+                                        </h5>
+                                        {/*<Link href="/auth/login">*/}
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
                                                 alt="..."
                                                 className="align-middle border-none max-w-full h-auto rounded-lg"
-                                                src="/img/assets/pic_3.png"
+                                                src="/img/photos/pic_4.png"
                                             />
                                         </div>
-                                    {/*</Link>*/}
-                                </div>
+                                        {/*</Link>*/}
+                                    </div>
 
-                                <div className="w-full lg:w-4/12 px-4">
-                                    <h5 className="text-xl font-semibold pb-4 text-center">
-                                        Ruang Praktik
-                                    </h5>
-                                    {/*<Link href="/landing">*/}
+                                    <div className="w-full lg:w-4/12 px-4">
+                                        <h5 className="text-xl font-semibold pb-4 text-center">
+                                            Ruang Praktik
+                                        </h5>
+                                        {/*<Link href="/profile">*/}
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
                                                 alt="..."
                                                 className="align-middle border-none max-w-full h-auto rounded-lg"
-                                                src="/img/assets/pic_4.png"
+                                                src="/img/photos/pic_5.png"
                                             />
                                         </div>
-                                    {/*</Link>*/}
+                                        {/*</Link>*/}
+                                    </div>
+
+                                    <div className="w-full lg:w-4/12 px-4">
+                                        <h5 className="text-xl font-semibold pb-4 text-center">
+                                            Rak Peralatan
+                                        </h5>
+                                        {/*<Link href="/landing">*/}
+                                        <div
+                                            className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                                            <img
+                                                alt="..."
+                                                className="align-middle border-none max-w-full h-auto rounded-lg"
+                                                src="/img/photos/pic_6.png"
+                                            />
+                                        </div>
+                                        {/*</Link>*/}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section className="bg-blueGray-600 overflow-hidden">
-                <div className=" container mx-auto pb-64">
-                    <div className=" flex flex-wrap justify-center">
-                        <div className=" w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-40">
-                            <div
-                                className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                                <i className="fas fa-calendar-alt text-xl"></i>
-                            </div>
-                            <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
-                                Jadwalkan Kunjungan
-                            </h3>
-                            <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
-                                Kamu dapat membuat jadwal untuk kunjungan di{" "}
+                <section className="overflow-hidden">
+                    <div className=" container mx-auto pb-64">
+                        <div className=" flex flex-wrap justify-center">
+                            <div className=" w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-40">
+                                <div
+                                    className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                                    <i className="fas fa-calendar-alt text-xl"></i>
+                                </div>
+                                <h3 className="text-3xl mb-2 font-semibold leading-normal text-blueGray-500">
+                                    Jadwalkan Kunjungan
+                                </h3>
+                                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-500">
+                                    Kamu dapat membuat jadwal untuk kunjungan di{" "}
+                                    <a
+                                        href="https://tailwindcss.com/?ref=creative"
+                                        className="text-blueGray-600"
+                                        target="_blank"
+                                    >
+                                        MD Dental Care
+                                    </a>{" "}
+                                    dengan mengisi form nama, tanggal, dan keluhan dibawah ini.
+                                </p>
+                                <div className="nama mb-3 pt-0">
+                                    <input type="text" placeholder="Masukan nama (contoh : mita)"
+                                           className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"/>
+                                </div>
+                                <div className="mb-3 pt-0">
+                                    <input type="text" placeholder="Masukan tanggal (contoh : 01/01/2023)"
+                                           className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"/>
+                                </div>
+                                <div className="mb-3 pt-0">
+                                    <input type="text" placeholder="Masukan keluhan (contoh : gigi bolong)"
+                                           className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"/>
+                                </div>
+                                <p className="text-lg font-light leading-relaxed mt-0 mb-2 text-blueGray-500">
+                                    Pastikan informasi yang dimasukan sudah benar, lalu klik tombol dibawah ini ya...
+                                </p>
                                 <a
-                                    href="https://tailwindcss.com/?ref=creative"
-                                    className="text-blueGray-300"
+                                    href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
                                     target="_blank"
+                                    className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-main active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                                 >
-                                    MD Dental Care
-                                </a>{" "}
-                                dengan mengisi form nama, tanggal, dan keluhan dibawah ini.
-                            </p>
-                            <div className="nama mb-3 pt-0">
-                                <input type="text" placeholder="Masukan nama (contoh : mita)"
-                                       className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"/>
+                                    Buat Konsultasi
+                                </a>
                             </div>
-                            <div className="mb-3 pt-0">
-                                <input type="text" placeholder="Masukan tanggal (contoh : 01/01/2023)"
-                                       className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"/>
-                            </div>
-                            <div className="mb-3 pt-0">
-                                <input type="text" placeholder="Masukan keluhan (contoh : gigi bolong)"
-                                       className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"/>
-                            </div>
-                            <p className="text-lg font-light leading-relaxed mt-0 mb-2 text-blueGray-400">
-                                Pastikan informasi yang dimasukan sudah benar, lalu klik tombol dibawah ini!.
-                            </p>
-                            <a
-                                href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                                target="_blank"
-                                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-main active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-                            >
-                                Buat Konsultasi
-                            </a>
-                        </div>
-
-                        <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-                            <i className="fas fa-calendar-alt text-blueGray-700 absolute text-55 -top-150-px -right-100 left-auto opacity-80"></i>
                         </div>
                     </div>
-                </div>
+                </section>
             </section>
 
-            <section className="pb-16 bg-blueGray-200 relative pt-32">
+            <section className="pb-16 relative pt-32">
                 <div
                     className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
                     style={{transform: "translateZ(0)"}}
@@ -731,7 +771,7 @@ export default function Index() {
                         y="0"
                     >
                         <polygon
-                            className="text-blueGray-200 fill-current"
+                            className="text-white fill-current"
                             points="2560 0 2560 100 0 100"
                         ></polygon>
                     </svg>
