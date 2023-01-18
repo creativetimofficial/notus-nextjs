@@ -411,7 +411,7 @@ export default function Index() {
                                             <img
                                                 alt="..."
                                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                                src="/img/assets/img_dummy.png"
+                                                src="/img/assets/drg_mita_derayanti.png"
                                             />
                                             <p className="text-lg text-purple-main mt-2 mb-4 font-semibold">
                                                 Drg. Mita Derayanti
@@ -426,7 +426,7 @@ export default function Index() {
                                             <img
                                                 alt="..."
                                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                                src="/img/assets/img_dummy.png"
+                                                src="/img/assets/drg_ikrimah.png"
                                             />
                                             <p className="text-lg text-purple-main mt-2 mb-4 font-semibold">
                                                 Drg. Ikrimah
@@ -459,7 +459,7 @@ export default function Index() {
                                             <img
                                                 alt="..."
                                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                                src="/img/assets/img_dummy.png"
+                                                src="/img/assets/drg_elia_roza.png"
                                             />
                                             <p className="text-lg text-purple-main mt-2 mb-4 font-semibold">
                                                 Drg. Elia Roza
