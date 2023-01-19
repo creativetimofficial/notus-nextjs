@@ -779,10 +779,10 @@ export default function Index() {
 
                 <div className="container mx-auto">
                     <div
-                        className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
+                        className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative">
                         <div className="w-full text-center lg:w-8/12">
                             <p className="text-4xl text-center">
-                            </p>
+                            </p>    
                             <h3 className="font-semibold text-3xl">
                                 Alamat Klinik MD Dental Care
                             </h3>
@@ -793,6 +793,9 @@ export default function Index() {
                             <div className="text-center mt-16"></div>
                         </div>
                     </div>
+                    <iframe className="relative my-4 w-full lg:w-12/12 px-12 -mt-24 h-80"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.11026168253!2d106.966125!3d-6.249199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d3d255470b1%3A0x4feed62257fefd43!2sKSP%20Sejahtera%20Bersama%20Cabang%20KH.%20Noer%20Ali!5e0!3m2!1sid!2sus!4v1668658214139!5m2!1sid!2sus"
+          loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <Footer/>
