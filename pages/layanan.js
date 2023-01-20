@@ -10,17 +10,17 @@ export default function Layanan() {
         <>
             <IndexNavbar fixed/>
                             {/*section 2*/}
-                            <div className="container mx-auto">
-                    <div className="flex flex-wrap items-center pt-20">
-                        <div className="w-full md:w-12/12 lg:w-12/12 px-12 items-center">
+                            <div className="justify-center flex flex-wrap items-center pt-20 pb-20 bg-blueGray-100">
+                    <div className="bg-blueGray-100 justify-center flex flex-wrap items-center pt-20">
+                        <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center">
                             <div
                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                 <i className="fas fa-teeth text-xl"></i>
                             </div>
-                            <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                            <h3 className="text-5xl mb-2 font-semibold leading-normal">
                                 Lebih dari 9 Layanan Pemeriksaan Gigi
                             </h3>
-                            <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                            <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                                 MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi, mulai dari konsultasi
                                 gigi,
                                 perawatan ortodontik (kawat gigi), hingga pemeriksaan rontgen gigi.
@@ -70,7 +70,7 @@ export default function Layanan() {
                     </div>
                 </div>
 
-                <div className="justify-center flex flex-wrap items-center pt-20 pb-20">
+                <div className="justify-center flex flex-wrap items-center pb-20 bg-blueGray-100">
                 <div className="w-full md:w-8/12 px-4">
                             <div className="justify-center flex flex-wrap relative">
                                 <div className="my-4 w-full lg:w-4/12 px-4">

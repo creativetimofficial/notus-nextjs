@@ -9,22 +9,21 @@ export default function Dokter() {
     return (
         <>
             <IndexNavbar fixed/>
-                            <div className="container mx-auto">
-                    <div className="flex flex-wrap items-center pt-20">
-                        <div className="w-full md:w-12/12 lg:w-12/12 px-12 items-center">
-                        <div
+            <div className="justify-center flex flex-wrap items-center pt-20 pb-20 bg-blueGray-100">
+                    <div className="bg-blueGray-100 justify-center flex flex-wrap items-center pt-20">
+                        <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center">
+                            <div
                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                                <i className="fas fa-user-md text-xl"></i>
+                                <i className="fas fa-teeth text-xl"></i>
                             </div>
-                            <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                                Bekerja Sama dengan 4 Dokter Profesional
+                            <h3 className="text-5xl mb-2 font-semibold leading-normal">
+                            Bekerja Sama dengan 4 Dokter Profesional
                             </h3>
-                            <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                                MD Dental Care telah beroperasi selama lebih dari 11 tahun dengan bekerja sama dengan 4
-                                Dokter Gigi Profesional.
+                            <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                            MD Dental Care telah beroperasi selama lebih dari 11 tahun dengan bekerja sama dengan 4 Dokter Gigi Profesional. MD Dental Care telah beroperasi selama lebih dari 11 tahun dengan bekerja sama dengan 4 Dokter Gigi Profesional.
                             </p>
                             <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                                4 Dokter tersebut adalah sebagai berikut:
+                            4 Dokter tersebut adalah sebagai berikut:
                             </p>
                             <div className="block pb-6">
                 <span
@@ -48,15 +47,15 @@ export default function Dokter() {
                     </div>
                 </div>
 
-                <div className="justify-center flex flex-wrap items-center pt-20 pb-20">
+                <div className="justify-center flex flex-wrap items-center bg-blueGray-100 pb-20">
                     
-                <div className="my-4 w-full lg:w-4/12 px-4">
-                                        <div className="bg-white shadow-lg rounded-full-bot text-center p-4">
+                <div className="my-4 lg:w-4/12 px-12">
+                                        <div className=" bg-white shadow-lg rounded-full-bot text-center p-4">
                                             <button>
                                             <img
                                                 alt="..."
                                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                                src="/img/assets/img_dummy.png"
+                                                src="/img/assets/drg_mita_derayanti.png"
                                             />
                                             <p className="text-lg text-purple-main mt-2 mb-4 font-semibold">
                                                 Drg. Mita Derayanti
@@ -68,7 +67,7 @@ export default function Dokter() {
                                             <img
                                                 alt="..."
                                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                                src="/img/assets/img_dummy.png"
+                                                src="/img/assets/drg_ikrimah.png"
                                             />
                                             <p className="text-lg text-purple-main mt-2 mb-4 font-semibold">
                                                 Drg. Ikrimah
@@ -77,7 +76,7 @@ export default function Dokter() {
                                         </div>
                                 </div>
 
-                                <div className="my-4 w-full lg:w-4/12 px-4 lg:mt-16">
+                                <div className="my-4 w-full lg:w-4/12 px-12">
                                         <div className="bg-white shadow-lg rounded-full-bot text-center p-4 mt-8">
                                             <button>
                                             <img
@@ -95,7 +94,7 @@ export default function Dokter() {
                                             <img
                                                 alt="..."
                                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                                src="/img/assets/img_dummy.png"
+                                                src="/img/assets/drg_elia_roza.png"
                                             />
                                             <p className="text-lg text-purple-main mt-2 mb-4 font-semibold">
                                                 Drg. Elia Roza
