@@ -233,7 +233,7 @@ export default function Index() {
                             </div>
                             <Link href="/layanan">
                                 <a className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150">
-                                    View all{" "}
+                                    Lihat Lebih{" "}
                                     <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
                                 </a>
                             </Link>
@@ -498,7 +498,7 @@ export default function Index() {
                             </div>
                             <Link href="/dokter">
                                 <a className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150">
-                                    View all{" "}
+                                    Lihat Lebih{" "}
                                     <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
                                 </a>
                             </Link>
@@ -583,6 +583,13 @@ export default function Index() {
                                     </li>
                                 </ul>
                             </div>
+                            <Link href="/dokter">
+                                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                <a className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150">
+                                    Lihat Lebih{" "}
+                                    <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -707,7 +714,7 @@ export default function Index() {
                 </section>
 
                 <section className="overflow-hidden">
-                    <div className=" container mx-auto pb-64">
+                    <div className=" container mx-auto pb-48">
                         <div className=" flex flex-wrap justify-center">
                             <div className=" w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-40">
                                 <div
@@ -754,9 +761,31 @@ export default function Index() {
                         </div>
                     </div>
                 </section>
+
+                <div className="container mx-auto mt-48">
+                    <div
+                        className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative">
+                        <div className="w-full text-center lg:w-8/12">
+                            <p className="text-4xl text-center">
+                            </p>
+                            <h3 className="font-semibold text-3xl">
+                                Alamat Klinik MD Dental Care
+                            </h3>
+                            <p className="text-blueGray-500 text-lg leading-relaxed mt-4">
+                                Klinik MD Dental Care terletak di Jl. Kav. Perkebunan Raya No.174B, Bencongan Indah,
+                                Kec. Klp. Dua, Kabupaten Tangerang, Banten.
+                            </p>
+                            <div className="text-center mt-16"></div>
+                        </div>
+                        {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
+                        <iframe className="relative w-full px-12 h-350-px -mt-12"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.334218923034!2d106.60991729999999!3d-6.219583399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ffbd37d05bed%3A0xb7fd377c431ab923!2sKlinik%20MY%20DENTIST!5e0!3m2!1sen!2sid!4v1674281388400!5m2!1sen!2sid"
+                                loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </section>
 
-            <section className="pb-16 relative pt-32">
+            <section className="pb-16 relative">
                 <div
                     className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
                     style={{transform: "translateZ(0)"}}
@@ -777,26 +806,7 @@ export default function Index() {
                     </svg>
                 </div>
 
-                <div className="container mx-auto">
-                    <div
-                        className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative">
-                        <div className="w-full text-center lg:w-8/12">
-                            <p className="text-4xl text-center">
-                            </p>    
-                            <h3 className="font-semibold text-3xl">
-                                Alamat Klinik MD Dental Care
-                            </h3>
-                            <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                                Klinik MD Dental Care terletak di Jl. Kav. Perkebunan Raya No.174B, Bencongan Indah,
-                                Kec. Klp. Dua, Kabupaten Tangerang, Banten.
-                            </p>
-                            <div className="text-center mt-16"></div>
-                        </div>
-                    </div>
-                    <iframe className="relative my-4 w-full lg:w-12/12 px-12 -mt-24 h-80"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.11026168253!2d106.966125!3d-6.249199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d3d255470b1%3A0x4feed62257fefd43!2sKSP%20Sejahtera%20Bersama%20Cabang%20KH.%20Noer%20Ali!5e0!3m2!1sid!2sus!4v1668658214139!5m2!1sid!2sus"
-          loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+
             </section>
             <Footer/>
         </>
