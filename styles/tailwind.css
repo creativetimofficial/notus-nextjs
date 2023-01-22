@@ -2269,6 +2269,11 @@ select {
     margin-right: 1rem;
 }
 
+.mx-14 {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
 .my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -2434,6 +2439,10 @@ select {
 
 .-ml-20 {
     margin-left: -5rem;
+}
+
+.-mt-12 {
+    margin-top: -3rem;
 }
 
 .-mt-24 {
@@ -3922,6 +3931,10 @@ select {
 
     .md\:pb-2 {
         padding-bottom: 0.5rem;
+    }
+
+    .md\:pr-6 {
+        padding-right: 1.5rem;
     }
 
     .md\:pr-12 {
