@@ -5,6 +5,7 @@ import AOS from 'aos'
 import { useEffect } from 'react'
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import Head from "next/head";
 
 export default function Index() {
     useEffect(() => {
@@ -12,6 +13,9 @@ export default function Index() {
       }, [])
     return (
         <>
+        <Head>
+            <title>Beranda | MD Dental Care</title>
+        </Head>
             <IndexNavbar fixed/>
             {/*section 0*/}
             <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
@@ -587,7 +591,7 @@ export default function Index() {
                                     </li>
                                 </ul>
                             </div>
-                            <Link href="/dokter">
+                            <Link href="/testimonial">
                                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                                 <a className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150">
                                     Lihat Lebih{" "}

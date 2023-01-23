@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -35,21 +36,21 @@ export default function Footer() {
                                     className="bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                                     type="button"
                                 >
-                                    <a href="https://www.instagram.com/md_dental_care/?hl=id"
+                                    <a href="https://www.instagram.com/md_dental_care/?hl=id" target="_blank"
                                        className="fab fa-instagram"></a>
                                 </button>
                                 <button
                                     className="bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                                     type="button"
                                 >
-                                    <a href="https://wa.me/6285774085380"
+                                    <a href="https://wa.me/6285774085380" target="_blank"
                                        className="fab fa-whatsapp"></a>
                                 </button>
                                 <button
                                     className="bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                                     type="button"
                                 >
-                                    <a href="https://goo.gl/maps/PjfLscoJpjk4eUKp7"
+                                    <a href="https://goo.gl/maps/PjfLscoJpjk4eUKp7" target="_blank"
                                        className="fas fa-map-marker-alt"></a>
                                 </button>
                             </div>
@@ -62,36 +63,42 @@ export default function Footer() {
                   </span>
                                     <ul className="list-unstyled">
                                         <li>
+                                        <Link href="/layanan">
                                             <a
                                                 className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                                href="https://www.creative-tim.com/presentation?ref=nnjs-footer"
                                             >
                                                 Layanan
                                             </a>
+                                        </Link>
                                         </li>
                                         <li>
+                                        <Link href="/dokter">
                                             <a
                                                 className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                                                href="https://blog.creative-tim.com?ref=nnjs-footer"
                                             >
                                                 Dokter
                                             </a>
+                                            </Link>
                                         </li>
                                         <li>
+                                        <Link href="/testimonial">
                                             <a
                                                 className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                                                 href="https://www.github.com/creativetimofficial?ref=nnjs-footer"
                                             >
                                                 Testimonial
                                             </a>
+                                            </Link>
                                         </li>
                                         <li>
+                                        <Link href="/tentang-kami">
                                             <a
                                                 className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                                                 href="https://www.creative-tim.com/bootstrap-themes/free?ref=nnjs-footer"
                                             >
                                                 Tentang Kami
                                             </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>

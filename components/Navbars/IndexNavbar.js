@@ -33,7 +33,7 @@ export default function Navbar(props) {
                             <li className="flex items-center">
                                 <a
                                     className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                    href="https://www.instagram.com/md_dental_care/"
+                                    href="https://www.instagram.com/md_dental_care/" target="_blank"
                                 >
                                     <i className="text-blueGray-400 fab fa-instagram text-lg leading-lg mr-2"/>{" "}
                                     Instagram

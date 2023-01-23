@@ -3,14 +3,23 @@ import React from "react";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import Head from "next/head";
+import AOS from 'aos'
+import { useEffect } from 'react'
 
 export default function Dokter() {
+    useEffect(() => {
+        AOS.init()
+      }, [])
     return (
         <>
+        <Head>
+            <title>Dokter | MD Dental Care</title>
+        </Head>
             <IndexNavbar fixed/>
             <div className="justify-center flex flex-wrap items-center pt-20 pb-20 bg-blueGray-100">
                 <div className="bg-blueGray-100 justify-center flex flex-wrap items-center pt-20">
-                    <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center">
+                    <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center" data-aos="fade-up">
                         <div
                             className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                             <i className="fas fa-teeth text-xl"></i>
@@ -50,7 +59,7 @@ export default function Dokter() {
 
             <div className="justify-center flex flex-wrap items-center bg-blueGray-100 pb-20">
 
-                <div className="-mt-24 max-w-sm px-12">
+                <div className="-mt-24 max-w-sm px-12" data-aos="fade-up">
                     <div className=" bg-white shadow-lg rounded-full-bot text-center p-4">
                         <button>
                             <img
@@ -77,7 +86,7 @@ export default function Dokter() {
                     </div>
                 </div>
 
-                <div className="w-full max-w-sm px-12">
+                <div className="w-full max-w-sm px-12" data-aos="fade-up">
                     <div className="bg-white shadow-lg rounded-full-bot text-center p-4 mt-8">
                         <button>
                             <img

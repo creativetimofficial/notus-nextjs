@@ -4,15 +4,24 @@ import Link from "next/link";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import Head from "next/head";
+import AOS from 'aos'
+import { useEffect } from 'react'
 
 export default function Layanan() {
+    useEffect(() => {
+        AOS.init()
+      }, [])
     return (
         <>
+        <Head>
+            <title>Layanan | MD Dental Care</title>
+        </Head>
             <IndexNavbar fixed/>
                             {/*section 2*/}
                             <div className="justify-center flex flex-wrap items-center pt-20 pb-20 bg-blueGray-100">
                     <div className="bg-blueGray-100 justify-center flex flex-wrap items-center pt-20">
-                        <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center">
+                        <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center" data-aos="fade-up">
                             <div
                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                 <i className="fas fa-teeth text-xl"></i>
@@ -71,7 +80,7 @@ export default function Layanan() {
                 </div>
 
                 <div className="justify-center flex flex-wrap items-center pb-20 bg-blueGray-100">
-                <div className="w-full md:w-8/12">
+                <div className="w-full md:w-8/12" data-aos="fade-up">
                             <div className="justify-center flex flex-wrap relative -mt-12">
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
