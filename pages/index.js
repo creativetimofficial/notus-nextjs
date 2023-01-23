@@ -1,11 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import Link from "next/link";
-
+import AOS from 'aos'
+import { useEffect } from 'react'
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Index() {
+    useEffect(() => {
+        AOS.init()
+      }, [])
     return (
         <>
             <IndexNavbar fixed/>
@@ -78,7 +82,7 @@ export default function Index() {
                     <div className="flex flex-wrap items-center">
                         <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-24">
                             <div
-                                className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white">
+                                className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white" data-aos="fade-right">
                                 <img
                                     alt="..."
                                     src="/img/assets/img_main.png"
@@ -108,7 +112,7 @@ export default function Index() {
                             </div>
                         </div>
 
-                        <div className="w-full md:w-6/12 px-4 mb-24">
+                        <div className="w-full md:w-6/12 px-4 mb-24" data-aos="fade-left">
                             <div className="flex flex-wrap">
                                 <div className="w-full md:w-6/12 px-4">
                                     <div className="relative flex flex-col">
@@ -177,7 +181,7 @@ export default function Index() {
                 {/*section 2*/}
                 <div className="container mx-auto">
                     <div className="flex flex-wrap items-center pt-16">
-                        <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-12">
+                        <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-12" data-aos="fade-right">
                             <div
                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                 <i className="fas fa-teeth text-xl"></i>
@@ -239,7 +243,7 @@ export default function Index() {
                             </Link>
                         </div>
 
-                        <div className="w-full md:w-6/12 px-4">
+                        <div className="w-full md:w-6/12 px-4" data-aos="fade-left">
                             <div className="justify-center flex flex-wrap relative">
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
@@ -393,7 +397,7 @@ export default function Index() {
                 <div className="container mx-auto">
                     <div className="flex flex-wrap items-center pt-16">
 
-                        <div className="w-full md:w-6/12 px-4">
+                        <div className="w-full md:w-6/12 px-4" data-aos="fade-right">
                             <div className="justify-center flex flex-wrap relative">
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
@@ -463,7 +467,7 @@ export default function Index() {
                             </div>
                         </div>
 
-                        <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto">
+                        <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto" data-aos="fade-left">
                             <div
                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                 <i className="fas fa-user-md text-xl"></i>
@@ -509,7 +513,7 @@ export default function Index() {
                 {/*section 3*/}
                 <div className="container mx-auto">
                     <div className="flex flex-wrap items-center pt-48">
-                        <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+                        <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0" data-aos="fade-right">
                             <img
                                 alt="..."
                                 className="max-w-full rounded-lg shadow-xl"
@@ -521,7 +525,7 @@ export default function Index() {
                             />
                         </div>
 
-                        <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
+                        <div className="w-full md:w-5/12 ml-auto px-12 md:px-4" data-aos="fade-left">
                             <div className="md:pr-12">
                                 <div
                                     className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
@@ -595,7 +599,7 @@ export default function Index() {
                 </div>
 
                 {/*section 4*/}
-                <div className="justify-center text-center flex flex-wrap mt-48">
+                <div className="justify-center text-center flex flex-wrap mt-48" data-aos="fade-up">
                     <div className="w-full md:w-6/12 px-12 md:px-4">
                         <h2 className="font-semibold text-4xl">Beberapa Foto dari MD Dental Care</h2>
                         <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
@@ -605,7 +609,7 @@ export default function Index() {
                     </div>
                 </div>
 
-                <section className="block relative z-1 mt-24">
+                <section className="block relative z-1 mt-24" data-aos="fade-up">
                     <div className="container mx-auto">
                         <div className="justify-center flex flex-wrap">
                             <div className="w-full lg:w-12/12 px-4  -mt-24">
