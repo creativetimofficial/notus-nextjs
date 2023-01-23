@@ -4,14 +4,23 @@ import Link from "next/link";
 
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import Head from "next/head";
+import AOS from 'aos'
+import { useEffect } from 'react'
 
 export default function Testimonial() {
+    useEffect(() => {
+        AOS.init()
+      }, [])
     return (
         <>
+        <Head>
+            <title>Testimonial | MD Dental Care</title>
+        </Head>
             <IndexNavbar fixed/>
                             <div className="justify-center flex flex-wrap items-center pt-20 pb-20 bg-blueGray-100">
                     <div className="bg-blueGray-100 justify-center flex flex-wrap items-center pt-20">
-                        <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center">
+                        <div className="w-full md:w-8/12 lg:w-8/12 px-4 items-center" data-aos="fade-up">
                         <div className="md:pr-12">
                                 <div
                                     className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
@@ -78,7 +87,7 @@ export default function Testimonial() {
                 </div>
 
                 <div className="justify-center flex flex-wrap items-center pb-20 bg-blueGray-100">
-                <div className="w-full md:w-12/12">
+                <div className="w-full md:w-12/12" data-aos="fade-up">
                             <div className="justify-center flex flex-wrap relative -mt-12">
                             <img
                                 alt="..."
