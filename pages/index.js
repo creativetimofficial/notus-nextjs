@@ -5,17 +5,6 @@ import AOS from 'aos'
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import Head from "next/head";
-import {
-    konsultasiGigi,
-    konsultasiMain,
-    perawatanBedahMulut,
-    perawatanKonservasi,
-    perawatanOrtodontik,
-    perawatanPedodonti,
-    perawatanPenyakitMulut,
-    perawatanPeridonti,
-    perawatanProsthodonti
-} from "./whatsapp.pages";
 
 
 export default function Index() {
@@ -55,7 +44,7 @@ export default function Index() {
                             </p>
                             <div className="mt-10">
                                 <a
-                                    href={konsultasiMain}
+                                    href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20konsultasi%20dalam%20waktu%20dekat%20ini.%20`}
                                     target="_blank"
                                     className="ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-main active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                                 >
@@ -261,7 +250,7 @@ export default function Index() {
                             <div className="justify-center flex flex-wrap relative">
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
-                                        href={konsultasiGigi}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Konsultasi%20Gigi%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
@@ -276,7 +265,7 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href={perawatanPeridonti}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Peridonti%20/%20Jaringan%20Lunak%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
@@ -291,7 +280,7 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href={perawatanPenyakitMulut}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Penyakit%20Mulut%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
@@ -309,7 +298,7 @@ export default function Index() {
 
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
-                                        href={perawatanPedodonti}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Pedodonti%20/%20Gigi%20Anak%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
@@ -324,7 +313,7 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href={perawatanBedahMulut}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Bedah%20Mulut%20/%20Pencabutan%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
@@ -339,7 +328,7 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href={perawatanOrtodontik}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Ortodontik%20%20/%20Kawat%20Gigi%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
@@ -357,7 +346,7 @@ export default function Index() {
 
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
-                                        href={perawatanProsthodonti}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Prosthodonti%20/%20Gigi%20Tiruan%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
@@ -372,7 +361,7 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href={perawatanKonservasi}
+                                        href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Konservasi%20/%20Penambalan%20dan%20Perawatan%20Syaraf%20Gigi%20dalam%20waktu%20dekat%20ini.%20`}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
