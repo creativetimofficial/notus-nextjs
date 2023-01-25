@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import {konsultasiMain} from "../../pages/whatsapp.pages";
 // components
 
 export default function Navbar(props) {
@@ -103,7 +102,8 @@ export default function Navbar(props) {
                                 </Link>
                             </li>
                             <li className="flex items-center">
-                                <Link href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20konsultasi%20dalam%20waktu%20dekat%20ini.%20`}>
+                                <Link
+                                    href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20konsultasi%20dalam%20waktu%20dekat%20ini.%20`}>
                                     <button
                                         className="bg-purple-main text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
 
