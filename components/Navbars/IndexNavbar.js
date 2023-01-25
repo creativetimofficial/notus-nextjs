@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {konsultasiMain} from "../../pages/whatsapp";
+import {konsultasiMain} from "../../pages/whatsapp.pages";
 // components
 
 export default function Navbar(props) {

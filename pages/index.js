@@ -15,7 +15,8 @@ import {
     perawatanPenyakitMulut,
     perawatanPeridonti,
     perawatanProsthodonti
-} from "./whatsapp";
+} from "./whatsapp.pages";
+
 
 export default function Index() {
     useEffect(() => {
