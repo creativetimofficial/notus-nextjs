@@ -32,7 +32,7 @@ export default function Layanan() {
                             <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                                 MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi, mulai dari konsultasi
                                 gigi,
-                                perawatan ortodontik (kawat gigi), hingga pemeriksaan rontgen gigi.
+                                Perawatan Ortodontik / Kawat Gigi (kawat gigi), hingga pemeriksaan rontgen gigi.
                             </p>
                             <p className="text-xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                                 9 Layanan tersebut adalah sebagai berikut :
@@ -44,7 +44,7 @@ export default function Layanan() {
                 </span>
                                 <span
                                     className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                  Perawatan Jaringan Lunak
+                  Perawatan Periodonti / Jaringan Lunak
                 </span>
                                 <span
                                     className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
@@ -52,27 +52,23 @@ export default function Layanan() {
                 </span>
                                 <span
                                     className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                  Perawatan Gigi Anak
+                  Perawatan Pedodonti / Gigi Anak
                 </span>
                                 <span
                                     className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                  Perawatan Bedah Mulut
+                   Perawatan Bedah Mulut / Pencabutan
                 </span>
                                 <span
                                     className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                  Perawatan Ortodontik
+                  Perawatan Ortodontik / Kawat Gigi
                 </span>
                                 <span
                                     className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                  Perawatan Gigi Tiruan
+                  Perawatan Prosthodonti / Gigi Tiruan
                 </span>
                                 <span
                                     className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                  Perawatan Konservasi
-                </span>
-                                <span
-                                    className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                  Pemeriksaan Rontgen Gigi
+                  Perawatan Konservasi / Penambalan dan Perawatan Syaraf Gigi
                 </span>
                             </div>
                         </div>
@@ -103,7 +99,7 @@ export default function Layanan() {
                                                 src="/img/menus/perawatan-jaringan-lunak.jpg"
                                             />
                                             <p className="text-xl text-purple-main mt-4 font-semibold">
-                                                Perawatan Jaringan Lunak
+                                                Perawatan Periodonti / Jaringan Lunak
                                             </p>
                                             </button>
                                         </div>
@@ -121,7 +117,7 @@ export default function Layanan() {
                                         </div>
                                 </div>
 
-                                <div className="my-4 w-full lg:w-4/12 px-4 lg:mt-16">
+                                <div className="my-4 w-full lg:w-4/12 px-4">
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
                                             <button>
                                             <img
@@ -130,7 +126,7 @@ export default function Layanan() {
                                                 src="/img/menus/perawatan-gigi-anak.jpg"
                                             />
                                             <p className="text-xl text-purple-main mt-4 font-semibold">
-                                                Perawatan Gigi Anak
+                                                Perawatan Pedodonti / Gigi Anak
                                             </p>
                                             </button>
                                         </div>
@@ -142,7 +138,7 @@ export default function Layanan() {
                                                 src="/img/menus/perawatan-bedah-mulut.jpg"
                                             />
                                             <p className="text-xl text-purple-main mt-4 font-semibold">
-                                                Perawatan Bedah Mulut
+                                                 Perawatan Bedah Mulut / Pencabutan
                                             </p>
                                             </button>
                                         </div>
@@ -154,7 +150,7 @@ export default function Layanan() {
                                                 src="/img/menus/perawatan-ortodontik.jpg"
                                             />
                                             <p className="text-xl text-purple-main mt-4 font-semibold">
-                                                Perawatan Ortodontik
+                                                Perawatan Ortodontik / Kawat Gigi
                                             </p>
                                             </button>
                                         </div>
@@ -169,7 +165,7 @@ export default function Layanan() {
                                                 src="/img/menus/perawatan-gigi-tiruan.jpg"
                                             />
                                             <p className="text-xl text-purple-main mt-4 font-semibold">
-                                                Perawatan Gigi Tiruan
+                                                Perawatan Prosthodonti / Gigi Tiruan
                                             </p>
                                             </button>
                                         </div>
@@ -181,19 +177,7 @@ export default function Layanan() {
                                                 src="/img/menus/perawatan-konservasi.jpg"
                                             />
                                             <p className="text-xl text-purple-main mt-4 font-semibold">
-                                                Perawatan Konservasi
-                                            </p>
-                                            </button>
-                                        </div>
-                                        <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
-                                            <button>
-                                            <img
-                                                alt="..."
-                                                className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                                                src="/img/menus/pemeriksaan-rontgen-gigi.jpg"
-                                            />
-                                            <p className="text-xl text-purple-main mt-4 font-semibold">
-                                                Pemeriksaan Rontgen Gigi
+                                                Perawatan Konservasi / Penambalan dan Perawatan Syaraf Gigi
                                             </p>
                                             </button>
                                         </div>

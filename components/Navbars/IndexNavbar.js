@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import {konsultasiMain} from "../../pages/whatsapp";
 // components
 
 export default function Navbar(props) {
@@ -102,14 +103,16 @@ export default function Navbar(props) {
                                 </Link>
                             </li>
                             <li className="flex items-center">
-                                <button
-                                    className="bg-purple-main text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                                <Link href={konsultasiMain}>
+                                    <button
+                                        className="bg-purple-main text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
 
-                                    type="button"
-                                >
-                                    <i
-                                        className="fab fa-whatsapp"></i> Konsultasi
-                                </button>
+                                        type="button"
+                                    >
+                                        <i
+                                            className="fab fa-whatsapp"></i> Konsultasi
+                                    </button>
+                                </Link>
                             </li>
                         </ul>
                     </div>

@@ -92,7 +92,7 @@ export default function Dokter() {
                             <img
                                 alt="..."
                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                src="/img/assets/img_dummy.png"
+                                src="/img/assets/drg_ihsan.jpg"
                             />
                             <p className="text-2xl text-purple-main mt-2 mb-6 mx-14 font-semibold">
                                 Drg. M Ihsan Pramadya

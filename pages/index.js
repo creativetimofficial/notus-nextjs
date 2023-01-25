@@ -1,21 +1,31 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React from "react";
+import React, {useEffect} from "react";
 import Link from "next/link";
 import AOS from 'aos'
-import { useEffect } from 'react'
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import Head from "next/head";
+import {
+    konsultasiGigi,
+    konsultasiMain,
+    perawatanBedahMulut,
+    perawatanKonservasi,
+    perawatanOrtodontik,
+    perawatanPedodonti,
+    perawatanPenyakitMulut,
+    perawatanPeridonti,
+    perawatanProsthodonti
+} from "./whatsapp";
 
 export default function Index() {
     useEffect(() => {
         AOS.init()
-      }, [])
+    }, [])
     return (
         <>
-        <Head>
-            <title>Beranda | MD Dental Care</title>
-        </Head>
+            <Head>
+                <title>Beranda | MD Dental Care</title>
+            </Head>
             <IndexNavbar fixed/>
             {/*section 0*/}
             <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
@@ -29,7 +39,7 @@ export default function Index() {
                                 Klinik Dokter Gigi Terbaik di Tangerang.
                             </h2>
                             <p className="mt-4 text-lg leading-relaxed text-purple-400">
-                                MD Dental Care adalah Klinik dokter gigi profesional di Tangerang yang sudah
+                                MD Dental Care adalah Klinik Dokter Gigi profesional di Tangerang yang sudah
                                 berpengalaman lebih
                                 dari{" "}
                                 <a
@@ -44,7 +54,7 @@ export default function Index() {
                             </p>
                             <div className="mt-10">
                                 <a
-                                    href="https://wa.me/6285774085380"
+                                    href={konsultasiMain}
                                     target="_blank"
                                     className="ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-main active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                                 >
@@ -86,7 +96,8 @@ export default function Index() {
                     <div className="flex flex-wrap items-center">
                         <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-24">
                             <div
-                                className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white" data-aos="fade-right">
+                                className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white"
+                                data-aos="fade-right">
                                 <img
                                     alt="..."
                                     src="/img/assets/img_main.png"
@@ -105,10 +116,10 @@ export default function Index() {
                                         ></polygon>
                                     </svg>
                                     <h4 className="text-2xl font-bold text-purple-main">
-                                        Telah Berpengalaman Lebih dari 11 Tahun.
+                                        Telah Berpengalaman Lebih dari 16 Tahun.
                                     </h4>
                                     <p className="text-md font-light mt-2">
-                                        MD Dental Care adalah sebuah klinik dokter gigi terpercaya menyediakan lebih
+                                        MD Dental Care adalah sebuah klinik Dokter Gigi terpercaya menyediakan lebih
                                         dari 9 layanan gigi, yang telah bekerjasama dengan 4 dokter profesional selama
                                         11 tahun terakhir.
                                     </p>
@@ -156,9 +167,10 @@ export default function Index() {
                                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                                                 <i className="fas fa-user-md"></i>
                                             </div>
-                                            <h6 className="text-xl mb-1 font-semibold">4 Dokter Profesional</h6>
+                                            <h6 className="text-xl mb-1 font-semibold">4 Dokter Berpengalaman</h6>
                                             <p className="mb-4 text-blueGray-500">
-                                                MD Dental Care telah bekerja sama dengan 4 Dokter Gigi Profesional.
+                                                MD Dental Care telah bekerja sama dengan 4 Dokter yang telah
+                                                berpengalaman.
                                             </p>
                                         </div>
                                     </div>
@@ -185,7 +197,8 @@ export default function Index() {
                 {/*section 2*/}
                 <div className="container mx-auto">
                     <div className="flex flex-wrap items-center pt-16">
-                        <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-12" data-aos="fade-right">
+                        <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-12"
+                             data-aos="fade-right">
                             <div
                                 className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                 <i className="fas fa-teeth text-xl"></i>
@@ -196,7 +209,7 @@ export default function Index() {
                             <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                                 MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi, mulai dari konsultasi
                                 gigi,
-                                perawatan ortodontik (kawat gigi), hingga pemeriksaan rontgen gigi.
+                                perawatan Ortodontik (Kawat Gigi), hingga pemeriksaan rontgen gigi.
                             </p>
                             <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                                 9 Layanan tersebut adalah sebagai berikut:
@@ -208,7 +221,7 @@ export default function Index() {
                 </span>
                                 <span
                                     className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Perawatan Jaringan Lunak
+                  Perawatan Periodonti / Jaringan Lunak
                 </span>
                                 <span
                                     className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
@@ -216,27 +229,23 @@ export default function Index() {
                 </span>
                                 <span
                                     className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Perawatan Gigi Anak
+                  Perawatan Pedodonti / Gigi Anak
                 </span>
                                 <span
                                     className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Perawatan Bedah Mulut
+                  Perawatan Bedah Mulut / Pencabutan
                 </span>
                                 <span
                                     className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Perawatan Ortodontik
+                  Perawatan Ortodontik / Kawat Gigi
                 </span>
                                 <span
                                     className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Perawatan Gigi Tiruan
+                  Perawatan Prosthodonti / Gigi Tiruan
                 </span>
                                 <span
                                     className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Perawatan Konservasi
-                </span>
-                                <span
-                                    className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Pemeriksaan Rontgen Gigi
+                  Perawatan Konservasi / Penambalan dan Perawatan Syaraf Gigi
                 </span>
                             </div>
                             <Link href="/layanan">
@@ -251,12 +260,12 @@ export default function Index() {
                             <div className="justify-center flex flex-wrap relative">
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
+                                        href={konsultasiGigi}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
                                             <img
-                                                alt="..."
+                                                alt='Konsultasi Gigi'
                                                 className="rounded-lg w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/konsultasi-Gigi.jpg"
                                             />
@@ -266,27 +275,27 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
+                                        href={perawatanPeridonti}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                             <img
-                                                alt="..."
+                                                alt='Perawatan Periodonti / Jaringan Lunak'
                                                 className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/perawatan-jaringan-lunak.jpg"
                                             />
                                             <p className="text-lg text-purple-main mt-4 font-semibold">
-                                                Perawatan Jaringan Lunak
+                                                Perawatan Periodonti / Jaringan Lunak
                                             </p>
                                         </div>
                                     </a>
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
+                                        href={perawatanPenyakitMulut}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                             <img
-                                                alt="..."
+                                                alt='Perawatan Penyakit Mulut'
                                                 className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/perawatan-penyakit-mulut.jpg"
                                             />
@@ -297,49 +306,49 @@ export default function Index() {
                                     </a>
                                 </div>
 
-                                <div className="my-4 w-full lg:w-4/12 px-4 lg:mt-16">
+                                <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                                        href={perawatanPedodonti}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
                                             <img
-                                                alt="..."
+                                                alt='Perawatan Pedodonti / Gigi Anak'
                                                 className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/perawatan-gigi-anak.jpg"
                                             />
                                             <p className="text-lg text-purple-main mt-4 font-semibold">
-                                                Perawatan Gigi Anak
+                                                Perawatan Pedodonti / Gigi Anak
                                             </p>
                                         </div>
                                     </a>
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                                        href={perawatanBedahMulut}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                             <img
-                                                alt="..."
+                                                alt='Perawatan Bedah Mulut / Pencabutan'
                                                 className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/perawatan-bedah-mulut.jpg"
                                             />
                                             <p className="text-lg text-purple-main mt-4 font-semibold">
-                                                Perawatan Bedah Mulut
+                                                Perawatan Bedah Mulut / Pencabutan
                                             </p>
                                         </div>
                                     </a>
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
+                                        href={perawatanOrtodontik}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                             <img
-                                                alt="..."
+                                                alt='Perawatan Ortodontik / Kawat Gigi'
                                                 className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/perawatan-ortodontik.jpg"
                                             />
                                             <p className="text-lg text-purple-main mt-4 font-semibold">
-                                                Perawatan Ortodontik
+                                                Perawatan Ortodontik / Kawat Gigi
                                             </p>
                                         </div>
                                     </a>
@@ -347,47 +356,32 @@ export default function Index() {
 
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                                        href={perawatanProsthodonti}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4">
                                             <img
-                                                alt="..."
+                                                alt='Perawatan Prosthodonti / Gigi Tiruan'
                                                 className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/perawatan-gigi-tiruan.jpg"
                                             />
                                             <p className="text-lg text-purple-main mt-4 font-semibold">
-                                                Perawatan Gigi Tiruan
+                                                Perawatan Prosthodonti / Gigi Tiruan
                                             </p>
                                         </div>
                                     </a>
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                                        href={perawatanKonservasi}
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                                             <img
-                                                alt="..."
+                                                alt='Perawatan Konservasi / Penambalan dan Perawatan Syaraf Gigi'
                                                 className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                                                 src="/img/menus/perawatan-konservasi.jpg"
                                             />
                                             <p className="text-lg text-purple-main mt-4 font-semibold">
-                                                Perawatan Konservasi
-                                            </p>
-                                        </div>
-                                    </a>
-                                    <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                                        target="_blank"
-                                    >
-                                        <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
-                                            <img
-                                                alt="..."
-                                                className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                                                src="/img/menus/pemeriksaan-rontgen-gigi.jpg"
-                                            />
-                                            <p className="text-lg text-purple-main mt-4 font-semibold">
-                                                Pemeriksaan Rontgen Gigi
+                                                Perawatan Konservasi / Penambalan dan Perawatan Syaraf Gigi
                                             </p>
                                         </div>
                                     </a>
@@ -405,7 +399,7 @@ export default function Index() {
                             <div className="justify-center flex flex-wrap relative">
                                 <div className="my-4 w-full lg:w-4/12 px-4">
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
+                                        href="/dokter"
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-full-bot text-center p-4">
@@ -420,7 +414,7 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
+                                        href="/dokter"
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-full-top text-center p-4 mt-8">
@@ -438,14 +432,14 @@ export default function Index() {
 
                                 <div className="my-4 w-full lg:w-4/12 px-4 lg:mt-16">
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
+                                        href="/dokter"
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-full-bot text-center p-4 mt-8">
                                             <img
                                                 alt="..."
                                                 className="rounded-full w-full mx-auto p-1 bg-white"
-                                                src="/img/assets/img_dummy.png"
+                                                src="/img/assets/drg_ihsan.jpg"
                                             />
                                             <p className="text-lg text-purple-main mt-2 mb-4 font-semibold">
                                                 Drg. M Ihsan Pramadya
@@ -453,7 +447,7 @@ export default function Index() {
                                         </div>
                                     </a>
                                     <a
-                                        href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
+                                        href="/dokter"
                                         target="_blank"
                                     >
                                         <div className="bg-white shadow-lg rounded-full-top text-center p-4 mt-8">
@@ -480,7 +474,7 @@ export default function Index() {
                                 Bekerja Sama dengan 4 Dokter Profesional
                             </h3>
                             <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                                MD Dental Care telah beroperasi selama lebih dari 11 tahun dengan bekerja sama dengan 4
+                                MD Dental Care telah beroperasi selama Lebih dari 16 Tahun dengan bekerja sama dengan 4
                                 Dokter Gigi Profesional.
                             </p>
                             <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
@@ -539,7 +533,7 @@ export default function Index() {
                                     Testimonial Pelayanan Terbaik
                                 </h3>
                                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                                    MD Dental Care akan memberikan pelayanan terbaik dengan harga termurah, dengan
+                                    MD Dental Care memberikan pelayanan terbaik dengan harga termurah, dengan
                                     serangaian fasilitas pendukung seperti ruangan ber-AC, Tempat parkir luas, dan masih
                                     banyak lagi.
                                 </p>
