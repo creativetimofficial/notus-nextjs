@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.2.5",
-    "postcss": "8.2.8"
+    "postcss": "8.2.8",
+    "prettier": "2.8.3"
   }
 }

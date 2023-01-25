@@ -2421,6 +2421,10 @@ select {
     margin-top: 12rem;
 }
 
+.mt-64 {
+    margin-top: 14rem;
+}
+
 .mr-auto {
     margin-right: auto;
 }
@@ -2455,6 +2459,10 @@ select {
 
 .-mt-48 {
     margin-top: -12rem;
+}
+
+.mt-96 {
+    margin-top: 24rem;
 }
 
 .-mt-64 {
