@@ -380,7 +380,6 @@ export default function Index() {
           <div className="flex flex-wrap items-center pt-16">
             <div className="w-full md:w-6/12 px-4" data-aos="fade-right">
               <div className="justify-center flex flex-wrap relative">
-              
                 <div className="my-4 w-full lg:w-4/12 px-4">
                   <a href="/dokter" target="_blank">
                     <div className="bg-white shadow-lg rounded-full-bot text-center p-4">
@@ -393,7 +392,8 @@ export default function Index() {
                         Drg. Mita Derayanti
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Pagi : Selasa, Kamis dan Sabtu (Pukul 08.00 - 11.00)
+                        Praktek Pagi : Selasa, Kamis dan Sabtu (Pukul 08.00 -
+                        11.00)
                       </p>
                     </div>
                   </a>
@@ -426,7 +426,8 @@ export default function Index() {
                         Drg. M Ihsan Pramadya
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Sore : Senin, Rabu dan Jum'at (Pukul 17.00 - 20.00)
+                        Praktek Sore : Senin, Rabu dan Jum'at (Pukul 17.00 -
+                        20.00)
                       </p>
                     </div>
                   </a>
@@ -441,7 +442,8 @@ export default function Index() {
                         Drg. Elia Roza
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Sore : Selasa, Kamis dan Sabtu (Pukul 17.00 - 20.00)
+                        Praktek Sore : Selasa, Kamis dan Sabtu (Pukul 17.00 -
+                        20.00)
                       </p>
                     </div>
                   </a>
