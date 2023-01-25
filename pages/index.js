@@ -511,10 +511,10 @@ export default function Index() {
                 {/*section 3*/}
                 <div className="container mx-auto">
                     <div className="flex flex-wrap items-center pt-48">
-                        <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0" data-aos="fade-right">
+                        <div className="w-full md:w-6/12 mr-auto pt-24 md:pt-0" data-aos="fade-right">
                             <img
                                 alt="..."
-                                className="max-w-full rounded-lg shadow-xl"
+                                className="max-w-full"
                                 style={{
                                     transform:
                                         "scale(1) perspective(1040px)",
@@ -616,7 +616,7 @@ export default function Index() {
                                         <h5 className="text-xl font-semibold pb-4 text-center">
                                             Pintu Masuk
                                         </h5>
-                                        {/*<Link href="/auth/login">*/}
+                                        <Link href="./tentang-kami">
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
@@ -625,14 +625,14 @@ export default function Index() {
                                                 src="/img/photos/pic_1.png"
                                             />
                                         </div>
-                                        {/*</Link>*/}
+                                        </Link>
                                     </div>
 
                                     <div className="w-full lg:w-4/12 px-4">
                                         <h5 className="text-xl font-semibold pb-4 text-center">
                                             Ruang Depan
                                         </h5>
-                                        {/*<Link href="/profile">*/}
+                                        <Link href="./tentang-kami">
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
@@ -641,14 +641,14 @@ export default function Index() {
                                                 src="/img/photos/pic_2.png"
                                             />
                                         </div>
-                                        {/*</Link>*/}
+                                        </Link>
                                     </div>
 
                                     <div className="w-full lg:w-4/12 px-4">
                                         <h5 className="text-xl font-semibold pb-4 text-center">
                                             Ruang Tunggu
                                         </h5>
-                                        {/*<Link href="/landing">*/}
+                                        <Link href="./tentang-kami">
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
@@ -657,7 +657,7 @@ export default function Index() {
                                                 src="/img/photos/pic_3.png"
                                             />
                                         </div>
-                                        {/*</Link>*/}
+                                        </Link>
                                     </div>
                                 </div>
 
@@ -666,7 +666,7 @@ export default function Index() {
                                         <h5 className="text-xl font-semibold pb-4 text-center">
                                             Peralatan Praktik
                                         </h5>
-                                        {/*<Link href="/auth/login">*/}
+                                        <Link href="./tentang-kami">
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
@@ -675,14 +675,14 @@ export default function Index() {
                                                 src="/img/photos/pic_4.png"
                                             />
                                         </div>
-                                        {/*</Link>*/}
+                                        </Link>
                                     </div>
 
                                     <div className="w-full lg:w-4/12 px-4">
                                         <h5 className="text-xl font-semibold pb-4 text-center">
                                             Ruang Praktik
                                         </h5>
-                                        {/*<Link href="/profile">*/}
+                                        <Link href="./tentang-kami">
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
@@ -691,14 +691,14 @@ export default function Index() {
                                                 src="/img/photos/pic_5.png"
                                             />
                                         </div>
-                                        {/*</Link>*/}
+                                        </Link>
                                     </div>
 
                                     <div className="w-full lg:w-4/12 px-4">
                                         <h5 className="text-xl font-semibold pb-4 text-center">
                                             Rak Peralatan
                                         </h5>
-                                        {/*<Link href="/landing">*/}
+                                        <Link href="./tentang-kami">
                                         <div
                                             className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                                             <img
@@ -707,7 +707,7 @@ export default function Index() {
                                                 src="/img/photos/pic_6.png"
                                             />
                                         </div>
-                                        {/*</Link>*/}
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
