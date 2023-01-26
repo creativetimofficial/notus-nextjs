@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useRouter } from 'next/router';
 import axios from 'axios';
 
 
@@ -7,7 +8,8 @@ const User = () => {
 	const [input, setInput] = useState("");
 	const [loading, setLoading] = useState(false);
 	const [loadText, setLoadText] = useState("");
-	const [loadClass, setLoadClass] = useState("spinner")
+	const [loadClass, setLoadClass] = useState("spinner");
+	const router = useRouter();
 
 
 	const handleInputChange = e => {
@@ -46,12 +48,12 @@ const User = () => {
 	}
 
 	const enabled = input != "";
-
+ 
 	return(
-		<>
+		<> 
 			<div className="user-area">
 				<div className="sign-out">
-					<input type="submit" value="Sign Out"/>
+					<input type="submit" value="Sign Out" onClick={() => router.push('/auth/login')}/>
 				</div>
 				{ loading && <div className={loadClass}>{ loadText }</div> }
 				<form>

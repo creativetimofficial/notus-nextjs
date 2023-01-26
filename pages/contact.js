@@ -7,7 +7,7 @@ import axios from 'axios';
 import dynamic from "next/dynamic";
 import { useCalendlyEventListener } from "react-calendly";
 
-
+import Auth from "layouts/Auth.js";
 
 const Calendly = dynamic(() => import("../components/Calendar/BookDemo"), {
   ssr: false
@@ -224,3 +224,6 @@ export default function Contact() {
     </>
   )
 }
+
+Contact.layout = Auth;
+

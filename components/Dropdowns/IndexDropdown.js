@@ -14,7 +14,7 @@ const IndexDropdown = () => {
     setDropdownPopoverShow(true);
   };
   const closeDropdownPopover = () => {
-    setDropdownPopoverShow(false);
+    setDropdownPopoverShow(false); 
   }; 
   return (
     <>
