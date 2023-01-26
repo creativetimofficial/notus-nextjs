@@ -10,7 +10,7 @@
 
 # production
 /build
-qlkeys.json
+keys
 
 # misc
 .DS_Store
