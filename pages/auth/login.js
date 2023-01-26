@@ -16,7 +16,7 @@ export default function Login() {
                 <div className="text-center mb-3">
                   <h6 className="text-blueGray-500 text-sm font-bold">
                     Sign in with
-                  </h6>
+                  </h6> 
                 </div>
                 <div className="btn-wrapper text-center">
                   <button
@@ -103,7 +103,7 @@ export default function Login() {
                 </a>
               </div>
               <div className="w-1/2 text-right">
-                <Link href="/auth/register">
+                <Link legacyBehavior href="/auth/register">
                   <a href="#pablo" className="text-blueGray-200">
                     <small>Create new account</small>
                   </a>

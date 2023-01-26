@@ -43,7 +43,7 @@ const PagesDropdown = () => {
         >
           Admin Layout
         </span>
-        <Link href="/admin/dashboard">
+        <Link legacyBehavior href="/admin/dashboard">
           <a
             href="#pablo"
             className={
@@ -53,7 +53,7 @@ const PagesDropdown = () => {
             Dashboard
           </a>
         </Link>
-        <Link href="/admin/settings">
+        <Link legacyBehavior href="/admin/settings">
           <a
             href="#pablo"
             className={
@@ -63,7 +63,7 @@ const PagesDropdown = () => {
             Settings
           </a>
         </Link>
-        <Link href="/admin/tables">
+        <Link legacyBehavior href="/admin/tables">
           <a
             href="#pablo"
             className={
@@ -73,7 +73,7 @@ const PagesDropdown = () => {
             Tables
           </a>
         </Link>
-        <Link href="/admin/maps">
+        <Link legacyBehavior href="/admin/maps">
           <a
             href="#pablo"
             className={
@@ -91,7 +91,7 @@ const PagesDropdown = () => {
         >
           Auth Layout
         </span>
-        <Link href="/auth/login">
+        <Link legacyBehavior href="/auth/login">
           <a
             href="#pablo"
             className={
@@ -101,7 +101,7 @@ const PagesDropdown = () => {
             Login
           </a>
         </Link>
-        <Link href="/auth/register">
+        <Link legacyBehavior href="/auth/register">
           <a
             href="#pablo"
             className={
@@ -119,7 +119,7 @@ const PagesDropdown = () => {
         >
           No Layout
         </span>
-        <Link href="/landing">
+        <Link legacyBehavior href="/landing">
           <a
             href="#pablo"
             className={
@@ -129,7 +129,7 @@ const PagesDropdown = () => {
             Landing
           </a>
         </Link>
-        <Link href="/profile">
+        <Link legacyBehavior href="/profile">
           <a
             href="#pablo"
             className={

@@ -7,8 +7,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href="/img/brand/favicon.ico" />
+          <meta name="description" content="" />
+          <link rel="icon" href="/img/brand/favicon.ico"/>
           <link
             rel="apple-touch-icon"
             sizes="76x76"
@@ -23,6 +23,7 @@ class MyDocument extends Document {
       </Html>
     );
   }
-}
+} 
 
 export default MyDocument;
+ 

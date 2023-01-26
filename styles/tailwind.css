@@ -13,7 +13,7 @@ Use a better box model (opinionated).
 
 *,
 *::before,
-*::after {
+*::after { 
   box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ Use a more readable tab size (opinionated).
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
-}
+} 
 
 /**
 1. Correct the line height in all browsers.
@@ -47,6 +47,15 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
+  
+}
+
+html, body {
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
 }
 
 /**
@@ -3679,6 +3688,312 @@ select {
 .duration-150 {
   transition-duration: 150ms;
 }
+
+.contact-us {
+  padding-top: 7em;
+  padding-bottom: 5em;
+}
+
+.error-msg {
+  border: 1px solid red;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.3em;
+  color: red;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.fb-footer {
+  padding: 0.7em;
+}
+
+.blog-div {
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  height: 100%;
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 4em;
+  padding-bottom: 10em;
+  box-sizing: border-box;
+}
+
+.blog-div p, .blog-div li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p.section {
+  line-height: 1.8;
+}
+
+.user-area {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sign-out {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.sign-out input[type="submit"] {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.search-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.spinner {
+  text-align: center;
+  margin: 100px 0 20px 0;
+  animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.loaded {
+  text-align: center;
+  margin: 100px 0 20px 0;
+  padding: 0 15px 0 15px;
+}
+
+
+.search-container input[type="text"] {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-container button {
+  text-decoration: none;
+  color: #111;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  box-shadow: 0 0.1rem 0 rgb(255 255 255 / 40%) inset;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-radius: .2rem;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+
+@media screen and (min-width: 506px) {
+  .blog-posts {
+    padding: 0  1em 0 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog-div {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 677px) {
+  .blog-posts {
+    padding: 0 3em 0 3em;
+  }
+}
+
+@media screen and (min-width: 851px) {
+  .blog-posts {
+    padding: 0 10em 0 10em;
+  }
+}
+
+
+@media screen and (min-width: 1090px) {
+  .blog-posts {
+    padding: 0 15em 0 15em;
+  }
+}
+
+@media screen and (min-width: 1293px) {
+  .blog-posts {
+    padding: 0 20em 0 20em;
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  .blog-posts {
+    padding: 0 23em 0 23em;
+  }
+}
+
+.post-title {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 29px;
+  color: #000;
+  font-weight: 700;
+  font-family: Inter,sans-serif;
+  text-align: center;
+}
+
+.blog-posts {
+  margin-top: 60px;
+  min-height: 100%;
+}
+
+.blog-posts form {
+  margin: 20px 0 20px 15px;
+  width: 50%;
+}
+
+h1 {
+  margin: 20px 15px 10px 15px;
+}
+
+.bp-title {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  color: #000;
+  font-weight: 700;
+  font-family: Inter, sans-serif;
+  padding-top: 40px;
+}
+
+.blog-posts p, .blog-posts h2 {
+  margin: 20px 15px 10px 15px;
+  font-family: Inter, sans-serif;
+  color: #1a1a1a;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.sech {
+  font-size: 25px;
+  text-align: left;
+}
+
+.blog-div li {
+  margin-bottom: 1.2em;
+}
+
+.blog-div .sec3 {
+  font-weight: bold;
+}
+
+.mid {
+  margin-top: 1em;
+  font-style: italic;
+}
+
+.calendly {
+  margin: 1.5em 0 1.5em 0;
+}
+
+.art-1, .art-2, .art-3 h1 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 15px;
+  color: black !important;
+}
+
+.art-2 h2, .art-4 h2 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1em;
+}
+
+.art-1, .art-3 a {
+  color: #f15123;
+  border-bottom: 1px solid #ddd;
+}
+
+.art-3 img {
+  padding: 10px 50px 0 50px;
+}
+
+.art-4 {
+  padding-bottom: 40px;
+}
+
+.contain img {
+  padding: 0 15px 0 15px;
+}
+
+.pay-btn {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.pay-btn button {
+  text-decoration: none;
+  color: #111;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  box-shadow: 0 0.1rem 0 rgb(255 255 255 / 40%) inset;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-radius: .2rem;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+.calendly-badge-widget {
+  position: static !important;
+}
+
+.calendly-badge-content {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 0.25em !important;
+  --tw-bg-opacity: 1;
+  background-color: rgba(30, 41, 59, var(--tw-bg-opacity)) !important;
+}
+
 
 @-webkit-keyframes spin {
   to {

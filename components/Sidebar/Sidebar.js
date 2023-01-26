@@ -21,7 +21,7 @@ export default function Sidebar() {
             <i className="fas fa-bars"></i>
           </button>
           {/* Brand */}
-          <Link href="/">
+          <Link legacyBehavior href="/">
             <a
               href="#pablo"
               className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
@@ -49,7 +49,7 @@ export default function Sidebar() {
             <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
-                  <Link href="/">
+                  <Link legacyBehavior href="/">
                     <a
                       href="#pablo"
                       className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
@@ -90,7 +90,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none">
               <li className="items-center">
-                <Link href="/admin/dashboard">
+                <Link legacyBehavior href="/admin/dashboard">
                   <a
                     href="#pablo"
                     className={
@@ -114,7 +114,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/admin/settings">
+                <Link legacyBehavior href="/admin/settings">
                   <a
                     href="#pablo"
                     className={
@@ -138,7 +138,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/admin/tables">
+                <Link legacyBehavior href="/admin/tables">
                   <a
                     href="#pablo"
                     className={
@@ -162,7 +162,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/admin/maps">
+                <Link legacyBehavior href="/admin/maps">
                   <a
                     href="#pablo"
                     className={
@@ -196,7 +196,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link href="/auth/login">
+                <Link legacyBehavior href="/auth/login">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -208,7 +208,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/auth/register">
+                <Link legacyBehavior href="/auth/register">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -230,7 +230,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link href="/landing">
+                <Link legacyBehavior href="/landing">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -242,7 +242,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/profile">
+                <Link legacyBehavior href="/profile">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
