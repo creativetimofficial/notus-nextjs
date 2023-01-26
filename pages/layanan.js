@@ -73,108 +73,149 @@ export default function Layanan() {
         <div className="w-full md:w-8/12" data-aos="fade-up">
           <div className="justify-center flex flex-wrap relative -mt-12">
             <div className="my-4 w-full lg:w-4/12 px-4">
-              <div className="bg-white shadow-lg rounded-lg text-center p-4">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/konsultasi-Gigi.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Konsultasi Gigi
-                  </p>
-                </button>
-              </div>
-              <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/perawatan-jaringan-lunak.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Perawatan Periodonti / Jaringan Lunak
-                  </p>
-                </button>
-              </div>
-              <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/perawatan-penyakit-mulut.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Perawatan Penyakit Mulut
-                  </p>
-                </button>
-              </div>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Konsultasi%20Gigi%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/konsultasi-Gigi.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Konsultasi Gigi
+                    </p>
+                  </button>
+                </div>
+              </a>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Peridonti%20/%20Jaringan%20Lunak%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/perawatan-jaringan-lunak.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Perawatan Periodonti / Jaringan Lunak
+                    </p>
+                  </button>
+                </div>
+              </a>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Penyakit%20Mulut%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/perawatan-penyakit-mulut.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Perawatan Penyakit Mulut
+                    </p>
+                  </button>
+                </div>
+              </a>
             </div>
 
             <div className="my-4 w-full lg:w-4/12 px-4">
-              <div className="bg-white shadow-lg rounded-lg text-center p-4">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/perawatan-gigi-anak.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Perawatan Pedodonti / Gigi Anak
-                  </p>
-                </button>
-              </div>
-              <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/perawatan-bedah-mulut.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Perawatan Bedah Mulut / Pencabutan
-                  </p>
-                </button>
-              </div>
-              <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/perawatan-ortodontik.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Perawatan Ortodontik / Kawat Gigi
-                  </p>
-                </button>
-              </div>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Pedodonti%20/%20Gigi%20Anak%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/perawatan-gigi-anak.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Perawatan Pedodonti / Gigi Anak
+                    </p>
+                  </button>
+                </div>
+              </a>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Bedah%20Mulut%20/%20Pencabutan%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/perawatan-bedah-mulut.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Perawatan Bedah Mulut / Pencabutan
+                    </p>
+                  </button>
+                </div>
+              </a>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Ortodontik%20%20/%20Kawat%20Gigi%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/perawatan-ortodontik.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Perawatan Ortodontik / Kawat Gigi
+                    </p>
+                  </button>
+                </div>
+              </a>
             </div>
 
             <div className="my-4 w-full lg:w-4/12 px-4">
-              <div className="bg-white shadow-lg rounded-lg text-center p-4">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/perawatan-gigi-tiruan.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Perawatan Prosthodonti / Gigi Tiruan
-                  </p>
-                </button>
-              </div>
-              <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
-                <button>
-                  <img
-                    alt="..."
-                    className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                    src="/img/menus/perawatan-konservasi.jpg"
-                  />
-                  <p className="text-xl text-purple-main mt-4 font-semibold">
-                    Perawatan Konservasi / Penambalan dan Perawatan Syaraf Gigi
-                  </p>
-                </button>
-              </div>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Prosthodonti%20/%20Gigi%20Tiruan%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/perawatan-gigi-tiruan.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Perawatan Prosthodonti / Gigi Tiruan
+                    </p>
+                  </button>
+                </div>
+              </a>
+              <a
+                href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Perawatan%20Konservasi%20/%20Penambalan%20dan%20Perawatan%20Syaraf%20Gigi%20dalam%20waktu%20dekat%20ini.%20`}
+                target="_blank"
+              >
+                <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
+                  <button>
+                    <img
+                      alt="..."
+                      className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
+                      src="/img/menus/perawatan-konservasi.jpg"
+                    />
+                    <p className="text-xl text-purple-main mt-4 font-semibold">
+                      Perawatan Konservasi / Penambalan dan Perawatan Syaraf
+                      Gigi
+                    </p>
+                  </button>
+                </div>
+              </a>
             </div>
           </div>
         </div>
