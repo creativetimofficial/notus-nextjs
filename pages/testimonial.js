@@ -30,9 +30,10 @@ export default function Testimonial() {
                 Testimonial Pelayanan Terbaik
               </h3>
               <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                MD Dental Care akan memberikan pelayanan terbaik dengan harga
-                termurah, dengan serangaian fasilitas pendukung seperti ruangan
-                ber-AC, Tempat parkir luas, dan masih banyak lagi.
+                Sudah 15 th MD Dental Care memberikan pelayanan terbaik dan
+                memuaskan di kelasnya, dengan serangaian fasilitas pendukung
+                seperti ruangan ber-AC, Tempat parkir luas, dan masih banyak
+                lagi.
               </p>
               <ul className="list-none mt-6">
                 <li className="py-2">
@@ -89,6 +90,8 @@ export default function Testimonial() {
             </div>
           </div>
         </div>
+
+        
       </div>
 
       <Footer />

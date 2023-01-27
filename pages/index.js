@@ -36,7 +36,7 @@ export default function Index() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  11 Tahun,{" "}
+                  15 Tahun,{" "}
                 </a>
                 Kepuasan pelanggan adalah tujuan kami.
               </p>
@@ -85,7 +85,7 @@ export default function Index() {
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-24">
               <div
                 className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-white"
-                data-aos="fade-right"
+                data-aos="fade-left"
               >
                 <img
                   alt="..."
@@ -105,13 +105,12 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-2xl font-bold text-purple-main">
-                    Telah Berpengalaman Lebih dari 16 Tahun.
+                    Telah Berpengalaman Lebih dari 15 Tahun.
                   </h4>
                   <p className="text-md font-light mt-2">
                     MD Dental Care adalah sebuah klinik Dokter Gigi terpercaya
-                    menyediakan lebih dari 9 layanan gigi, yang telah
-                    bekerjasama dengan 4 dokter profesional selama 11 tahun
-                    terakhir.
+                    menyediakan lebih dari 8 layanan gigi, yang telah bekerja
+                    sama dengan 5 dokter profesional selama 15 tahun terakhir.
                   </p>
                 </blockquote>
               </div>
@@ -126,11 +125,11 @@ export default function Index() {
                         <i className="fas fa-teeth"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        9 Layanan Gigi
+                        8 Layanan Gigi
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        MD Dental Care menyediakan lebih dari 9 layanan
-                        konsultasi gigi.
+                        MD Dental Care menyediakan lebih dari 8 layanan
+                        perawatan gigi, baik untuk pasien anak maupun dewasa.
                       </p>
                     </div>
                   </div>
@@ -143,8 +142,8 @@ export default function Index() {
                         Pelayanan Terbaik
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        MD Dental Care akan memberikan pelayanan terbaik dan
-                        termurah dikelasnya.
+                        Sudah 15 th MD Dental Care memberikan pelayanan terbaik
+                        dan memuaskan di kelasnya.
                       </p>
                     </div>
                   </div>
@@ -156,11 +155,11 @@ export default function Index() {
                         <i className="fas fa-user-md"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        4 Dokter Berpengalaman
+                        5 Dokter Berpengalaman
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        MD Dental Care telah bekerja sama dengan 4 Dokter yang
-                        telah berpengalaman.
+                        MD Dental Care telah bekerja sama dengan 4 Dokter Gigi
+                        umum dan 1 Dokter Gigi Spesialis bedah mulut rujukan.
                       </p>
                     </div>
                   </div>
@@ -195,15 +194,14 @@ export default function Index() {
                 <i className="fas fa-teeth text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Lebih dari 9 Layanan Pemeriksaan Gigi
+                Lebih dari 8 Layanan Pemeriksaan Gigi
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi,
-                mulai dari konsultasi gigi, perawatan Ortodontik (Kawat Gigi),
-                hingga pemeriksaan rontgen gigi.
+                MD Dental Care menyediakan lebih dari 8 layanan perawatan gigi,
+                baik untuk pasien anak maupun dewasa.
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                9 Layanan tersebut adalah sebagai berikut:
+                8 Layanan tersebut adalah sebagai berikut:
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
@@ -239,8 +237,8 @@ export default function Index() {
               </Link>
             </div>
 
-            <div className="w-full md:w-6/12 px-4" data-aos="fade-left">
-              <div className="justify-center flex flex-wrap relative">
+            <div className="w-full md:w-6/12 px-4" data-aos="fade-right">
+              <div className="justify-center flex flex-wrap relative mr-auto ml-auto">
                 <div className="my-4 w-full lg:w-4/12 px-4">
                   <a
                     href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20Konsultasi%20Gigi%20dalam%20waktu%20dekat%20ini.%20`}
@@ -378,7 +376,7 @@ export default function Index() {
         {/*section 3*/}
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center pt-16">
-            <div className="w-full md:w-6/12 px-4" data-aos="fade-right">
+            <div className="w-full md:w-6/12 px-4 ml-auto" data-aos="fade-left">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-4/12 px-4">
                   <a href="/dokter" target="_blank">
@@ -392,8 +390,8 @@ export default function Index() {
                         Drg. Mita Derayanti
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Pagi : Selasa, Kamis dan Sabtu (Pukul 08.00 -
-                        11.00)
+                        Praktek Pagi : Selasa (16.00 - 20.00), Rabu, Kamis dan
+                        Sabtu (Pukul 08.00 - 12.00)
                       </p>
                     </div>
                   </a>
@@ -408,7 +406,7 @@ export default function Index() {
                         Drg. Ikrimah
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Pagi : Rabu dan Jum'at (Pukul 08.00 - 11.00)
+                        Praktek Pagi : Senin dan Jum'at (Pukul 09.00 - 12.00)
                       </p>
                     </div>
                   </a>
@@ -442,8 +440,8 @@ export default function Index() {
                         Drg. Elia Roza
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Sore : Selasa, Kamis dan Sabtu (Pukul 17.00 -
-                        20.00)
+                        Praktek Sore : Selasa (09.00 - 12.00), Kamis dan Sabtu
+                        (Pukul 17.00 - 20.00)
                       </p>
                     </div>
                   </a>
@@ -470,21 +468,21 @@ export default function Index() {
             </div>
 
             <div
-              className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto"
+              className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 ml-auto mr-auto -mt-12"
               data-aos="fade-left"
             >
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                 <i className="fas fa-user-md text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Bekerja Sama dengan 4 Dokter Profesional
+                Bekerja Sama dengan 5 Dokter Profesional
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                MD Dental Care telah beroperasi selama Lebih dari 16 Tahun
-                dengan bekerja sama dengan 4 Dokter Gigi Profesional.
+                MD Dental Care telah bekerja sama dengan 4 Dokter Gigi umum dan
+                1 Dokter Gigi Spesialis bedah mulut rujukan.
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                4 Dokter tersebut adalah sebagai berikut:
+                5 Dokter tersebut adalah sebagai berikut:
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
@@ -517,34 +515,21 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center pt-48">
             <div
-              className="w-full md:w-6/12 mr-auto pt-24 md:pt-0"
+              className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 ml-auto -mt-12"
               data-aos="fade-right"
-            >
-              <img
-                alt="..."
-                className="max-w-full"
-                style={{
-                  transform: "scale(1) perspective(1040px)",
-                }}
-                src="/img/assets/pic_1.png"
-              />
-            </div>
-
-            <div
-              className="w-full md:w-5/12 ml-auto px-12 md:px-4"
-              data-aos="fade-left"
             >
               <div className="md:pr-12">
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-comment-medical text-xl"></i>
                 </div>
-                <h3 className="text-3xl font-semibold">
+                <h3 className="text-3xl mb-2 font-semibold leading-normal">
                   Testimonial Pelayanan Terbaik
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  MD Dental Care memberikan pelayanan terbaik dengan harga
-                  termurah, dengan serangaian fasilitas pendukung seperti
-                  ruangan ber-AC, Tempat parkir luas, dan masih banyak lagi.
+                  Sudah 15 th MD Dental Care memberikan pelayanan terbaik dan
+                  memuaskan di kelasnya, dengan serangaian fasilitas pendukung
+                  seperti ruangan ber-AC, Tempat parkir luas, dan masih banyak
+                  lagi.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -598,6 +583,20 @@ export default function Index() {
                   <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
                 </a>
               </Link>
+            </div>
+
+            <div
+              className="w-full md:w-6/12 ml-auto mr-auto pt-24 md:pt-0"
+              data-aos="fade-right"
+            >
+              <img
+                alt="..."
+                className="max-w-full"
+                style={{
+                  transform: "scale(1) perspective(1040px)",
+                }}
+                src="/img/assets/pic_1.png"
+              />
             </div>
           </div>
         </div>
@@ -724,7 +723,10 @@ export default function Index() {
         <section className="overflow-hidden">
           <div className=" container mx-auto pb-48">
             <div className=" flex flex-wrap justify-center">
-              <div className=" w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-40">
+              <div
+                className=" w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-40"
+                data-aos="fade-up"
+              >
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-calendar-alt text-xl"></i>
                 </div>
@@ -780,7 +782,10 @@ export default function Index() {
         </section>
 
         <div className="container mx-auto mt-48">
-          <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative">
+          <div
+            className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative"
+            data-aos="fade-up"
+          >
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center"></p>
               <h3 className="font-semibold text-3xl">

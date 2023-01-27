@@ -126,9 +126,35 @@ export default function TentangKami() {
               </div>
             </div>
           </div>
+
+          <div className="container mx-auto mt-96">
+            <div
+              className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative"
+              data-aos="fade-up"
+            >
+              <div className="w-full text-center lg:w-8/12">
+                <p className="text-4xl text-center"></p>
+                <h3 className="font-semibold text-3xl">
+                  Alamat Klinik MD Dental Care
+                </h3>
+                <p className="text-blueGray-500 text-lg leading-relaxed mt-4">
+                  Klinik MD Dental Care terletak di Jl. Kav. Perkebunan Raya
+                  No.174B, Bencongan Indah, Kec. Klp. Dua, Kabupaten Tangerang,
+                  Banten.
+                </p>
+                <div className="text-center mt-16"></div>
+              </div>
+              {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
+              <iframe
+                className="relative w-full px-12 h-350-px -mt-12"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.334218923034!2d106.60991729999999!3d-6.219583399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ffbd37d05bed%3A0xb7fd377c431ab923!2sKlinik%20MY%20DENTIST!5e0!3m2!1sen!2sid!4v1674281388400!5m2!1sen!2sid"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </div>
-
       <Footer />
     </>
   );

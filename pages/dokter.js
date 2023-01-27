@@ -27,16 +27,14 @@ export default function Dokter() {
               <i className="fas fa-teeth text-xl"></i>
             </div>
             <h3 className="text-5xl mb-2 font-semibold leading-normal">
-              Bekerja Sama dengan 4 Dokter Profesional
+              Bekerja Sama dengan 5 Dokter Profesional
             </h3>
             <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              MD Dental Care telah beroperasi selama lebih dari 11 tahun dengan
-              bekerja sama dengan 4 Dokter Gigi Profesional. MD Dental Care
-              telah beroperasi selama lebih dari 11 tahun dengan bekerja sama
-              dengan 4 Dokter Gigi Profesional.
+              MD Dental Care telah bekerja sama dengan 4 Dokter Gigi umum dan 1
+              Dokter Gigi Spesialis bedah mulut rujukan.
             </p>
             <p className="text-xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              4 Dokter tersebut adalah sebagai berikut :
+              5 Dokter tersebut adalah sebagai berikut :
             </p>
             <div className="block pb-6">
               <span className="text-xl font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">

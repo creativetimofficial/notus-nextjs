@@ -29,15 +29,14 @@ export default function Layanan() {
               <i className="fas fa-teeth text-xl"></i>
             </div>
             <h3 className="text-5xl mb-2 font-semibold leading-normal">
-              Lebih dari 9 Layanan Pemeriksaan Gigi
+              Lebih dari 8 Layanan Pemeriksaan Gigi
             </h3>
             <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              MD Dental Care menyediakan lebih dari 9 layanan konsultasi gigi,
-              mulai dari konsultasi gigi, Perawatan Ortodontik / Kawat Gigi
-              (kawat gigi), hingga pemeriksaan rontgen gigi.
+              MD Dental Care menyediakan lebih dari 8 layanan perawatan gigi,
+              baik untuk pasien anak maupun dewasa.
             </p>
             <p className="text-xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              9 Layanan tersebut adalah sebagai berikut :
+              8 Layanan tersebut adalah sebagai berikut :
             </p>
             <div className="block pb-6">
               <span className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
