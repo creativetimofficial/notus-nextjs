@@ -25,7 +25,7 @@ export default function Index() {
                 MD Dental Care
               </h2>
               <h2 className="font-semibold text-4xl text-red-200">
-                Klinik Dokter Gigi Terbaik di Tangerang.
+                Klinik Dokter Gigi terpercaya di Tangerang.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-purple-400">
                 MD Dental Care adalah Klinik Dokter Gigi profesional di
@@ -105,7 +105,7 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-2xl font-bold text-purple-main">
-                    Telah Berpengalaman Lebih dari 15 Tahun.
+                    Telah berpengalaman lebih dari 15 tahun
                   </h4>
                   <p className="text-md font-light mt-2">
                     MD Dental Care adalah sebuah klinik Dokter Gigi terpercaya
@@ -390,7 +390,7 @@ export default function Index() {
                         Drg. Mita Derayanti
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Pagi : Selasa (16.00 - 20.00), Rabu, Kamis dan
+                        Praktek Selasa (16.00 - 20.00), Rabu, Kamis dan
                         Sabtu (Pukul 08.00 - 12.00)
                       </p>
                     </div>
@@ -406,7 +406,7 @@ export default function Index() {
                         Drg. Ikrimah
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Pagi : Senin dan Jum'at (Pukul 09.00 - 12.00)
+                        Praktek Senin dan Jum'at (Pukul 09.00 - 12.00)
                       </p>
                     </div>
                   </a>

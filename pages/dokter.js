@@ -70,7 +70,7 @@ export default function Dokter() {
                 Drg. Mita Derayanti
               </p>
               <p className="text-lg mb-4 px-4 font-semibold">
-                Praktek Pagi : Selasa, Kamis dan Sabtu (Pukul 08.00 - 11.00)
+                Praktek Selasa, Kamis dan Sabtu (Pukul 08.00 - 11.00)
               </p>
             </button>
           </div>
@@ -85,7 +85,7 @@ export default function Dokter() {
                 Drg. Ikrimah
               </p>
               <p className="text-lg mb-4 px-4 font-semibold">
-                Praktek Pagi : Rabu dan Jum'at (Pukul 08.00 - 11.00)
+                Praktek Rabu dan Jum'at (Pukul 08.00 - 11.00)
               </p>
             </button>
           </div>
