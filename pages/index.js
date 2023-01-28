@@ -744,22 +744,23 @@ export default function Index() {
                   </a>{" "}
                   dengan mengisi form nama, tanggal, dan keluhan dibawah ini.
                 </p>
+                <form action="/api/chat" method="post">
                 <div className="nama mb-3 pt-0">
-                  <input
+                  <input required id="name" name="name"
                     type="text"
                     placeholder="Masukan nama (contoh : mita)"
                     className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"
                   />
                 </div>
                 <div className="mb-3 pt-0">
-                  <input
+                  <input required id="tgl" name="tgl"
                     type="text"
                     placeholder="Masukan tanggal (contoh : 01/01/2023)"
                     className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"
                   />
                 </div>
                 <div className="mb-3 pt-0">
-                  <input
+                  <input required id="keluhan" name="keluhan"
                     type="text"
                     placeholder="Masukan keluhan (contoh : gigi bolong)"
                     className="px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:shadow-outline w-full"
@@ -769,13 +770,12 @@ export default function Index() {
                   Pastikan informasi yang dimasukan sudah benar, lalu klik
                   tombol dibawah ini ya...
                 </p>
-                <a
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                  target="_blank"
+                <button type="submit"
                   className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-main active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
                   Buat Konsultasi
-                </a>
+                </button>
+                </form>
               </div>
             </div>
           </div>
