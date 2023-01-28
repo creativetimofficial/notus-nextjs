@@ -130,7 +130,7 @@ export default function Dokter() {
               <img
                 alt="..."
                 className="rounded-full w-full mx-auto p-1 bg-white"
-                src="/img/assets/drg_santi.jpg"
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/drg_santi_z6g7jp.png"
               />
               <p className="text-2xl text-purple-main mt-2 mb-4 font-bold">
                 Drg. Santi Anggraini SpBM

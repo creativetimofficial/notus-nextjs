@@ -43,7 +43,7 @@ export default function TentangKami() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945663/MD%20Dental%20Care/assets/pic_1_qmvdsm.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_1_zoasbd.png"
                       />
                     </div>
                     {/*</Link>*/}
@@ -58,7 +58,7 @@ export default function TentangKami() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photos/pic_2.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945638/MD%20Dental%20Care/photos/pic_2_lzzww1.png"
                       />
                     </div>
                     {/*</Link>*/}
@@ -72,7 +72,7 @@ export default function TentangKami() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photos/pic_3.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_3_nwr948.png"
                       />
                     </div>
                     {/*</Link>*/}
@@ -87,7 +87,7 @@ export default function TentangKami() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photos/pic_4.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_4_sueyfh.png"
                       />
                     </div>
                     {/*</Link>*/}
@@ -102,7 +102,7 @@ export default function TentangKami() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photos/pic_5.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_5_apqemf.png"
                       />
                     </div>
                     {/*</Link>*/}
@@ -117,7 +117,7 @@ export default function TentangKami() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photos/pic_6.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_6_duh8j0.png"
                       />
                     </div>
                     {/*</Link>*/}

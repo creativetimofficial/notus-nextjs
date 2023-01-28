@@ -8,7 +8,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href="/img/brand/favicon.ico" />
+          <link rel="shortcut icon" href="/img/brand/md-dental-icon.png" />
           <link
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             rel="stylesheet"
@@ -18,7 +18,7 @@ class MyDocument extends Document {
             sizes="76x76"
             href="/img/brand/md-dental-icon.png"
           />
-          <link rel="icon" href="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/logo_md_dental_purple_exyzsx.png" />
+          <link rel="icon" href="/img/brand/md-dental-icon.png" />
         </Head>
         <body className="text-blueGray-700 antialiased">
           <div id="page-transition"></div>

@@ -453,7 +453,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="rounded-full w-full mx-auto p-1 bg-white"
-                        src="/img/assets/drg_santi.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/drg_santi_z6g7jp.png"
                       />
                       <p className="text-lg text-purple-main mt-2 mb-2 font-semibold">
                         Drg. Santi Anggraini SpBM
@@ -632,7 +632,7 @@ export default function Index() {
                         <img
                           alt="..."
                           className="align-middle border-none max-w-full h-auto rounded-lg"
-                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945663/MD%20Dental%20Care/assets/pic_1_qmvdsm.png"
+                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_1_zoasbd.png"
                         />
                       </div>
                     </Link>
@@ -647,7 +647,7 @@ export default function Index() {
                         <img
                           alt="..."
                           className="align-middle border-none max-w-full h-auto rounded-lg"
-                          src="/img/photos/pic_2.png"
+                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945638/MD%20Dental%20Care/photos/pic_2_lzzww1.png"
                         />
                       </div>
                     </Link>
@@ -662,7 +662,7 @@ export default function Index() {
                         <img
                           alt="..."
                           className="align-middle border-none max-w-full h-auto rounded-lg"
-                          src="/img/photos/pic_3.png"
+                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_3_nwr948.png"
                         />
                       </div>
                     </Link>
@@ -679,7 +679,7 @@ export default function Index() {
                         <img
                           alt="..."
                           className="align-middle border-none max-w-full h-auto rounded-lg"
-                          src="/img/photos/pic_4.png"
+                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_4_sueyfh.png"
                         />
                       </div>
                     </Link>
@@ -694,7 +694,7 @@ export default function Index() {
                         <img
                           alt="..."
                           className="align-middle border-none max-w-full h-auto rounded-lg"
-                          src="/img/photos/pic_5.png"
+                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_5_apqemf.png"
                         />
                       </div>
                     </Link>
@@ -709,7 +709,7 @@ export default function Index() {
                         <img
                           alt="..."
                           className="align-middle border-none max-w-full h-auto rounded-lg"
-                          src="/img/photos/pic_6.png"
+                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945637/MD%20Dental%20Care/photos/pic_6_duh8j0.png"
                         />
                       </div>
                     </Link>
