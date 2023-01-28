@@ -30,7 +30,7 @@ export default function Testimonial() {
                 Testimonial Pelayanan Terbaik
               </h3>
               <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Sudah 15 th MD Dental Care memberikan pelayanan terbaik dan
+                Lebih dari 15 th MD Dental Care memberikan pelayanan terbaik dan
                 memuaskan di kelasnya, dengan serangaian fasilitas pendukung
                 seperti ruangan ber-AC, Tempat parkir luas, dan masih banyak
                 lagi.
@@ -85,13 +85,14 @@ export default function Testimonial() {
           <div className="justify-center flex flex-wrap w-full md:w-8/12 lg:w-8/12 px-4 mt-24 mb-24 items-center">
             <div className="w-full md:w-12/12" data-aos="fade-up">
               <div className="justify-center flex flex-wrap relative -mt-12">
-                <img src="/img/assets/pic_1.png" alt={"review google"} />
+                <img
+                  src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945663/MD%20Dental%20Care/assets/pic_1_qmvdsm.png"
+                  alt={"review google"}
+                />
               </div>
             </div>
           </div>
         </div>
-
-        
       </div>
 
       <Footer />

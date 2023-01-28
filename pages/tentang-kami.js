@@ -43,7 +43,7 @@ export default function TentangKami() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photos/pic_1.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945663/MD%20Dental%20Care/assets/pic_1_qmvdsm.png"
                       />
                     </div>
                     {/*</Link>*/}

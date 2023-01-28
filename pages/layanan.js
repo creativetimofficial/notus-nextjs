@@ -81,7 +81,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/konsultasi-Gigi.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/konsultasi-Gigi_dpfq33.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Konsultasi Gigi
@@ -98,7 +98,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/perawatan-jaringan-lunak.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-jaringan-lunak_pn0b3i.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Perawatan Periodonti / Jaringan Lunak
@@ -115,7 +115,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/perawatan-penyakit-mulut.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-penyakit-mulut_f5mnrd.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Perawatan Penyakit Mulut
@@ -135,7 +135,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/perawatan-gigi-anak.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-gigi-anak_ui29yc.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Perawatan Pedodonti / Gigi Anak
@@ -152,7 +152,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/perawatan-bedah-mulut.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-bedah-mulut_bhqmil.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Perawatan Bedah Mulut / Pencabutan
@@ -169,7 +169,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/perawatan-ortodontik.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-ortodontik_vjq7sa.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Perawatan Ortodontik / Kawat Gigi
@@ -189,7 +189,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/perawatan-gigi-tiruan.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-gigi-tiruan_vlupcn.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Perawatan Prosthodonti / Gigi Tiruan
@@ -206,7 +206,7 @@ export default function Layanan() {
                     <img
                       alt="..."
                       className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                      src="/img/menus/perawatan-konservasi.jpg"
+                      src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-konservasi_um65ue.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
                       Perawatan Konservasi / Penambalan dan Perawatan Syaraf

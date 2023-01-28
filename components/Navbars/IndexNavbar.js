@@ -11,7 +11,7 @@ export default function Navbar(props) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="w-32 px-4">
               <img
-                src="/img/assets/logo_md_dental_purple.png"
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/logo_md_dental_purple_exyzsx.png"
                 alt="..."
                 className="leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
               />

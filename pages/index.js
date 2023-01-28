@@ -28,7 +28,7 @@ export default function Index() {
                 Klinik Dokter Gigi terpercaya di Tangerang.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-purple-400">
-                MD Dental Care adalah Klinik Dokter Gigi profesional di
+                MD Dental Care adalah Klinik Dokter Gigi di
                 Tangerang yang sudah berpengalaman lebih dari{" "}
                 <a
                   href="https://www.instagram.com/md_dental_care/"
@@ -54,8 +54,8 @@ export default function Index() {
         </div>
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          src="/img/assets/grafik.png"
-          alt="..."
+          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945658/MD%20Dental%20Care/assets/grafik_jxjmkl.png"
+          alt="MD Dental Care"
         />
       </section>
 
@@ -89,7 +89,7 @@ export default function Index() {
               >
                 <img
                   alt="..."
-                  src="/img/assets/img_main.png"
+                  src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945660/MD%20Dental%20Care/assets/img_main_zuuzsu.png"
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -110,7 +110,7 @@ export default function Index() {
                   <p className="text-md font-light mt-2">
                     MD Dental Care adalah sebuah klinik Dokter Gigi terpercaya
                     menyediakan lebih dari 8 layanan gigi, yang telah bekerja
-                    sama dengan 5 dokter profesional selama 15 tahun terakhir.
+                    sama dengan 5 Dokter Gigi selama 15 tahun terakhir.
                   </p>
                 </blockquote>
               </div>
@@ -142,7 +142,7 @@ export default function Index() {
                         Pelayanan Terbaik
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Sudah 15 th MD Dental Care memberikan pelayanan terbaik
+                        Lebih dari 15 th MD Dental Care memberikan pelayanan terbaik
                         dan memuaskan di kelasnya.
                       </p>
                     </div>
@@ -248,7 +248,7 @@ export default function Index() {
                       <img
                         alt="Konsultasi Gigi"
                         className="rounded-lg w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/konsultasi-Gigi.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/konsultasi-Gigi_dpfq33.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Konsultasi Gigi
@@ -263,7 +263,7 @@ export default function Index() {
                       <img
                         alt="Perawatan Periodonti / Jaringan Lunak"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/perawatan-jaringan-lunak.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-jaringan-lunak_pn0b3i.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Perawatan Periodonti / Jaringan Lunak
@@ -278,7 +278,7 @@ export default function Index() {
                       <img
                         alt="Perawatan Penyakit Mulut"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/perawatan-penyakit-mulut.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-penyakit-mulut_f5mnrd.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Perawatan Penyakit Mulut
@@ -296,7 +296,7 @@ export default function Index() {
                       <img
                         alt="Perawatan Pedodonti / Gigi Anak"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/perawatan-gigi-anak.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-gigi-anak_ui29yc.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Perawatan Pedodonti / Gigi Anak
@@ -311,7 +311,7 @@ export default function Index() {
                       <img
                         alt="Perawatan Bedah Mulut / Pencabutan"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/perawatan-bedah-mulut.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-bedah-mulut_bhqmil.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Perawatan Bedah Mulut / Pencabutan
@@ -326,7 +326,7 @@ export default function Index() {
                       <img
                         alt="Perawatan Ortodontik / Kawat Gigi"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/perawatan-ortodontik.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-ortodontik_vjq7sa.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Perawatan Ortodontik / Kawat Gigi
@@ -344,7 +344,7 @@ export default function Index() {
                       <img
                         alt="Perawatan Prosthodonti / Gigi Tiruan"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/perawatan-gigi-tiruan.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-gigi-tiruan_vlupcn.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Perawatan Prosthodonti / Gigi Tiruan
@@ -359,7 +359,7 @@ export default function Index() {
                       <img
                         alt="Perawatan Konservasi / Penambalan dan Perawatan Syaraf Gigi"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
-                        src="/img/menus/perawatan-konservasi.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-konservasi_um65ue.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
                         Perawatan Konservasi / Penambalan dan Perawatan Syaraf
@@ -384,7 +384,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="rounded-full w-full mx-auto p-1 bg-white"
-                        src="/img/assets/drg_mita_derayanti.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945658/MD%20Dental%20Care/assets/drg_mita_derayanti_vrco46.png"
                       />
                       <p className="text-lg text-purple-main mt-2 mb-2 font-semibold">
                         Drg. Mita Derayanti
@@ -400,7 +400,7 @@ export default function Index() {
                       <img
                         alt="..."
                         className="rounded-full w-full mx-auto p-1 bg-white"
-                        src="/img/assets/drg_ikrimah.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/drg_ikrimah_izchau.png"
                       />
                       <p className="text-lg text-purple-main mt-2 mb-2 font-semibold">
                         Drg. Ikrimah
@@ -418,13 +418,13 @@ export default function Index() {
                       <img
                         alt="..."
                         className="rounded-full w-full mx-auto p-1 bg-white"
-                        src="/img/assets/drg_ihsan.jpg"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/drg_ihsan_hrxls1.png"
                       />
                       <p className="text-lg text-purple-main mt-2 mb-2 font-semibold">
                         Drg. M Ihsan Pramadya
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Sore : Senin, Rabu dan Jum'at (Pukul 17.00 -
+                        Praktek Senin, Rabu dan Jum'at (Pukul 17.00 -
                         20.00)
                       </p>
                     </div>
@@ -434,13 +434,13 @@ export default function Index() {
                       <img
                         alt="..."
                         className="rounded-full w-full mx-auto p-1 bg-white"
-                        src="/img/assets/drg_elia_roza.png"
+                        src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945660/MD%20Dental%20Care/assets/drg_elia_roza_bw4tjj.png"
                       />
                       <p className="text-lg text-purple-main mt-2 mb-2 font-semibold">
                         Drg. Elia Roza
                       </p>
                       <p className="text-xs mb-4 font-semibold">
-                        Praktek Sore : Selasa (09.00 - 12.00), Kamis dan Sabtu
+                        Praktek Selasa (09.00 - 12.00), Kamis dan Sabtu
                         (Pukul 17.00 - 20.00)
                       </p>
                     </div>
@@ -475,7 +475,7 @@ export default function Index() {
                 <i className="fas fa-user-md text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Bekerja Sama dengan 5 Dokter Profesional
+                Bekerja Sama dengan 5 Dokter Gigi
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 MD Dental Care telah bekerja sama dengan 4 Dokter Gigi umum dan
@@ -526,7 +526,7 @@ export default function Index() {
                   Testimonial Pelayanan Terbaik
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  Sudah 15 th MD Dental Care memberikan pelayanan terbaik dan
+                  Lebih dari 15 th MD Dental Care memberikan pelayanan terbaik dan
                   memuaskan di kelasnya, dengan serangaian fasilitas pendukung
                   seperti ruangan ber-AC, Tempat parkir luas, dan masih banyak
                   lagi.
@@ -595,7 +595,7 @@ export default function Index() {
                 style={{
                   transform: "scale(1) perspective(1040px)",
                 }}
-                src="/img/assets/pic_1.png"
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945663/MD%20Dental%20Care/assets/pic_1_qmvdsm.png"
               />
             </div>
           </div>
@@ -632,7 +632,7 @@ export default function Index() {
                         <img
                           alt="..."
                           className="align-middle border-none max-w-full h-auto rounded-lg"
-                          src="/img/photos/pic_1.png"
+                          src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945663/MD%20Dental%20Care/assets/pic_1_qmvdsm.png"
                         />
                       </div>
                     </Link>

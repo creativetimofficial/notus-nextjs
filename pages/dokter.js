@@ -27,7 +27,7 @@ export default function Dokter() {
               <i className="fas fa-teeth text-xl"></i>
             </div>
             <h3 className="text-5xl mb-2 font-semibold leading-normal">
-              Bekerja Sama dengan 5 Dokter Profesional
+              Bekerja Sama dengan 5 Dokter Gigi
             </h3>
             <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
               MD Dental Care telah bekerja sama dengan 4 Dokter Gigi umum dan 1
@@ -64,7 +64,7 @@ export default function Dokter() {
               <img
                 alt="..."
                 className="rounded-full w-full mx-auto p-1 bg-white"
-                src="/img/assets/drg_mita_derayanti.png"
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945658/MD%20Dental%20Care/assets/drg_mita_derayanti_vrco46.png"
               />
               <p className="text-2xl text-purple-main mt-2 mb-4 font-bold">
                 Drg. Mita Derayanti
@@ -79,7 +79,7 @@ export default function Dokter() {
               <img
                 alt="..."
                 className="rounded-full w-full mx-auto p-1 bg-white"
-                src="/img/assets/drg_ikrimah.png"
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/drg_ikrimah_izchau.png"
               />
               <p className="text-2xl text-purple-main mt-2 mb-4 font-bold">
                 Drg. Ikrimah
@@ -97,13 +97,13 @@ export default function Dokter() {
               <img
                 alt="..."
                 className="rounded-full w-full mx-auto p-1 bg-white"
-                src="/img/assets/drg_ihsan.jpg"
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/drg_ihsan_hrxls1.png"
               />
               <p className="text-2xl text-purple-main mt-2 mb-4 font-bold">
                 Drg. M Ihsan Pramadya
               </p>
               <p className="text-lg mb-4 px-4 font-semibold">
-                Praktek Sore : Senin, Rabu dan Jum'at (Pukul 17.00 - 20.00)
+                Praktek Senin, Rabu dan Jum'at (Pukul 17.00 - 20.00)
               </p>
             </button>
           </div>
@@ -112,13 +112,13 @@ export default function Dokter() {
               <img
                 alt="..."
                 className="rounded-full w-full mx-auto p-1 bg-white"
-                src="/img/assets/drg_elia_roza.png"
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945660/MD%20Dental%20Care/assets/drg_elia_roza_bw4tjj.png"
               />
               <p className="text-2xl text-purple-main mt-2 mb-4 font-bold">
                 Drg. Elia Roza
               </p>
               <p className="text-lg mb-4 px-4 font-semibold">
-                Praktek Sore : Selasa, Kamis dan Sabtu (Pukul 17.00 - 20.00)
+                Praktek Selasa, Kamis dan Sabtu (Pukul 17.00 - 20.00)
               </p>
             </button>
           </div>

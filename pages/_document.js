@@ -18,7 +18,7 @@ class MyDocument extends Document {
             sizes="76x76"
             href="/img/brand/md-dental-icon.png"
           />
-          <link rel="icon" href="/img/assets/logo_md_dental_purple 1.png" />
+          <link rel="icon" href="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/logo_md_dental_purple_exyzsx.png" />
         </Head>
         <body className="text-blueGray-700 antialiased">
           <div id="page-transition"></div>
