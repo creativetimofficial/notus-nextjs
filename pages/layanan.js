@@ -55,7 +55,7 @@ export default function Layanan() {
                 Perawatan Bedah Mulut / Pencabutan
               </span>
               <span className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
-                Perawatan Ortodontik / Kawat Gigi
+                Perawatan Orthodonti / Kawat Gigi
               </span>
               <span className="text-lg font-semibold inline-block py-1 px-4  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2 shadow">
                 Perawatan Prosthodonti / Gigi Tiruan
@@ -172,7 +172,7 @@ export default function Layanan() {
                       src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-ortodontik_vjq7sa.jpg"
                     />
                     <p className="text-xl text-purple-main mt-4 font-semibold">
-                      Perawatan Ortodontik / Kawat Gigi
+                      Perawatan Orthodonti / Kawat Gigi
                     </p>
                   </button>
                 </div>

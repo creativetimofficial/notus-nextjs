@@ -30,7 +30,7 @@ export default function Testimonial() {
                 Testimonial Pelayanan Terbaik
               </h3>
               <p className="text-2xl font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Lebih dari 15 th MD Dental Care memberikan pelayanan terbaik dan
+                Lebih dari 15 tahun MD Dental Care memberikan pelayanan terbaik dan
                 memuaskan di kelasnya, dengan serangaian fasilitas pendukung
                 seperti ruangan ber-AC, Tempat parkir luas, dan masih banyak
                 lagi.

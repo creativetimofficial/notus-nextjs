@@ -25,7 +25,7 @@ export default function Index() {
                 MD Dental Care
               </h2>
               <h2 className="font-semibold text-4xl text-red-200">
-                Klinik Dokter Gigi terpercaya di Tangerang.
+                Klinik Dokter Gigi Terpercaya di Tangerang.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-purple-400">
                 MD Dental Care adalah Klinik Dokter Gigi di
@@ -36,7 +36,7 @@ export default function Index() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  15 Tahun,{" "}
+                  15 Tahun.{" "}
                 </a>
                 Kepuasan pelanggan adalah tujuan kami.
               </p>
@@ -108,9 +108,9 @@ export default function Index() {
                     Telah berpengalaman lebih dari 15 tahun
                   </h4>
                   <p className="text-md font-light mt-2">
-                    MD Dental Care adalah sebuah klinik Dokter Gigi terpercaya
-                    menyediakan lebih dari 8 layanan gigi, yang telah bekerja
-                    sama dengan 5 Dokter Gigi selama 15 tahun terakhir.
+                    MD Dental Care adalah sebuah klinik Dokter Gigi terpercaya yang
+                    menyediakan lebih dari 8 layanan konsultasi gigi. MD Dental Care telah bekerja
+                    sama dengan 4 Dokter Gigi Umum dan 1 Dokter Gigi Spesialis bedah mulut rujukan.
                   </p>
                 </blockquote>
               </div>
@@ -142,7 +142,7 @@ export default function Index() {
                         Pelayanan Terbaik
                       </h6>
                       <p className="mb-4 text-blueGray-500">
-                        Lebih dari 15 th MD Dental Care memberikan pelayanan terbaik
+                        Lebih dari 15 tahun MD Dental Care memberikan pelayanan terbaik
                         dan memuaskan di kelasnya.
                       </p>
                     </div>
@@ -159,7 +159,7 @@ export default function Index() {
                       </h6>
                       <p className="mb-4 text-blueGray-500">
                         MD Dental Care telah bekerja sama dengan 4 Dokter Gigi
-                        umum dan 1 Dokter Gigi Spesialis bedah mulut rujukan.
+                        Umum dan 1 Dokter Gigi Spesialis bedah mulut rujukan.
                       </p>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ export default function Index() {
                   Perawatan Bedah Mulut / Pencabutan
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
-                  Perawatan Ortodontik / Kawat Gigi
+                  Perawatan Orthodonti / Kawat Gigi
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2  rounded-full text-blueGray-500 bg-white  last:mr-0 mr-2 mt-2">
                   Perawatan Prosthodonti / Gigi Tiruan
@@ -324,12 +324,12 @@ export default function Index() {
                   >
                     <div className="bg-white shadow-lg rounded-lg text-center p-4 mt-8">
                       <img
-                        alt="Perawatan Ortodontik / Kawat Gigi"
+                        alt="Perawatan Orthodonti / Kawat Gigi"
                         className="rounded-lg max-w-full w-24 mx-auto p-1 bg-white"
                         src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945558/MD%20Dental%20Care/Menus/perawatan-ortodontik_vjq7sa.jpg"
                       />
                       <p className="text-lg text-purple-main mt-4 font-semibold">
-                        Perawatan Ortodontik / Kawat Gigi
+                        Perawatan Orthodonti / Kawat Gigi
                       </p>
                     </div>
                   </a>
@@ -526,7 +526,7 @@ export default function Index() {
                   Testimonial Pelayanan Terbaik
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  Lebih dari 15 th MD Dental Care memberikan pelayanan terbaik dan
+                  Lebih dari 15 tahun MD Dental Care memberikan pelayanan terbaik dan
                   memuaskan di kelasnya, dengan serangaian fasilitas pendukung
                   seperti ruangan ber-AC, Tempat parkir luas, dan masih banyak
                   lagi.
