@@ -2,8 +2,6 @@ import React from "react";
 import Link from "next/link";
 // components
 
-import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
-
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -11,14 +9,13 @@ export default function Navbar(props) {
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <Link href="/">
-              <a
-                className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                href="#pablo"
-              >
-                Notus NextJS
-              </a>
-            </Link>
+            <div className="w-32 px-4">
+              <img
+                src="https://res.cloudinary.com/deoqy5q0p/image/upload/v1674945659/MD%20Dental%20Care/assets/logo_md_dental_purple_exyzsx.png"
+                alt="..."
+                className="leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+              />
+            </div>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
@@ -37,58 +34,77 @@ export default function Navbar(props) {
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index-navbar"
+                  className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="https://www.instagram.com/md_dental_care/"
+                  target="_blank"
                 >
-                  <i className="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2" />{" "}
-                  Docs
+                  <i className="text-blueGray-400 fab fa-instagram text-lg leading-lg mr-2" />{" "}
+                  Instagram
                 </a>
               </li>
             </ul>
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+              {/*Jangan dihapus dulu :)*/}
+              {/*<li className="flex items-center">*/}
+              {/*    <IndexDropdown/>*/}
+              {/*</li>*/}
+              {/*Beranda*/}
               <li className="flex items-center">
-                <IndexDropdown />
-              </li>
-              <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F"
-                  target="_blank"
-                >
-                  <i className="text-blueGray-400 fab fa-facebook text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Share</span>
-                </a>
-              </li>
-
-              <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-nextjs%2F&text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20NextJS%20UI%20Kit%20and%20Admin.%20Let%20Notus%20NextJS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level."
-                  target="_blank"
-                >
-                  <i className="text-blueGray-400 fab fa-twitter text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Tweet</span>
-                </a>
+                <Link href="/">
+                  <a className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    <i className="text-blueGray-400 fas fa-home text-lg leading-lg mr-2" />{" "}
+                    Beranda
+                  </a>
+                </Link>
               </li>
 
+              {/*Servis*/}
               <li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index-navbar"
-                  target="_blank"
-                >
-                  <i className="text-blueGray-400 fab fa-github text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Star</span>
-                </a>
+                <Link href="/layanan">
+                  <a className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    <i className="text-blueGray-400 fas fa-teeth text-lg leading-lg mr-2" />{" "}
+                    Layanan
+                  </a>
+                </Link>
               </li>
-
+              {/*Dokter*/}
               <li className="flex items-center">
-                <button
-                  className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
+                <Link href="/dokter">
+                  <a className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    <i className="text-blueGray-400 fas fa-user-md text-lg leading-lg mr-2" />{" "}
+                    Dokter
+                  </a>
+                </Link>
+              </li>
+              {/*Tertimonial*/}
+              <li className="flex items-center">
+                <Link href="/testimonial">
+                  <a className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    <i className="text-blueGray-400 fas fa-comment-medical text-lg leading-lg mr-2" />{" "}
+                    Testimonial
+                  </a>
+                </Link>
+              </li>
+              {/*Tentang Kami*/}
+              <li className="flex items-center">
+                <Link href="/tentang-kami">
+                  <a className="hover:text-purple-main text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    <i className="text-blueGray-400 fas fa-info-circle text-lg leading-lg mr-2" />{" "}
+                    Tentang Kami
+                  </a>
+                </Link>
+              </li>
+              <li className="flex items-center">
+                <Link
+                  href={`https://api.whatsapp.com/send?phone=6285774085380&text=Halo%20admin%20klinik%20gigi%20MD%20Dental%20Care,%20saya%20ingin%20menjadwalkan%20konsultasi%20dalam%20waktu%20dekat%20ini.%20`}
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Download
-                </button>
+                  <button
+                    className="bg-purple-main text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                    type="button"
+                  >
+                    <i className="fab fa-whatsapp"></i> Konsultasi
+                  </button>
+                </Link>
               </li>
             </ul>
           </div>

@@ -49,6 +49,7 @@ export default class MyApp extends App {
 `);
     document.insertBefore(comment, document.documentElement);
   }
+
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {};
 
@@ -58,6 +59,7 @@ export default class MyApp extends App {
 
     return { pageProps };
   }
+
   render() {
     const { Component, pageProps } = this.props;
 
