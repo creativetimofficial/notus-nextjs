@@ -21,13 +21,10 @@ export default function Sidebar() {
             <i className="fas fa-bars"></i>
           </button>
           {/* Brand */}
-          <Link href="/">
-            <a
-              href="#pablo"
+          <Link href="/"
               className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
             >
               Notus NextJS
-            </a>
           </Link>
           {/* User */}
           <ul className="md:hidden items-center flex flex-wrap list-none">
@@ -49,13 +46,10 @@ export default function Sidebar() {
             <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
-                  <Link href="/">
-                    <a
-                      href="#pablo"
+                  <Link href="/"
                       className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
                     >
                       Notus NextJS
-                    </a>
                   </Link>
                 </div>
                 <div className="w-6/12 flex justify-end">
@@ -90,9 +84,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none">
               <li className="items-center">
-                <Link href="/admin/dashboard">
-                  <a
-                    href="#pablo"
+                <Link href="/admin/dashboard"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/dashboard") !== -1
@@ -109,14 +101,11 @@ export default function Sidebar() {
                       }
                     ></i>{" "}
                     Dashboard
-                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link href="/admin/settings">
-                  <a
-                    href="#pablo"
+                <Link href="/admin/settings"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/settings") !== -1
@@ -133,14 +122,11 @@ export default function Sidebar() {
                       }
                     ></i>{" "}
                     Settings
-                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link href="/admin/tables">
-                  <a
-                    href="#pablo"
+                <Link href="/admin/tables"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/tables") !== -1
@@ -157,14 +143,11 @@ export default function Sidebar() {
                       }
                     ></i>{" "}
                     Tables
-                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link href="/admin/maps">
-                  <a
-                    href="#pablo"
+                <Link href="/admin/maps"
                     className={
                       "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/maps") !== -1
@@ -181,7 +164,6 @@ export default function Sidebar() {
                       }
                     ></i>{" "}
                     Maps
-                  </a>
                 </Link>
               </li>
             </ul>
@@ -196,26 +178,20 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link href="/auth/login">
-                  <a
-                    href="#pablo"
+                <Link href="/auth/login"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <i className="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i>{" "}
                     Login
-                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link href="/auth/register">
-                  <a
-                    href="#pablo"
+                <Link href="/auth/register"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <i className="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i>{" "}
                     Register
-                  </a>
                 </Link>
               </li>
             </ul>
@@ -230,26 +206,20 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link href="/landing">
-                  <a
-                    href="#pablo"
+                <Link href="/landing"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <i className="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>{" "}
                     Landing Page
-                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link href="/profile">
-                  <a
-                    href="#pablo"
+                <Link href="/profile"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
                     <i className="fas fa-user-circle text-blueGray-400 mr-2 text-sm"></i>{" "}
                     Profile Page
-                  </a>
                 </Link>
               </li>
             </ul>
