@@ -1,6 +1,0 @@
-# The name of your project, which also influences the subdomain of the project.
-name: genezio-project
-# Select a region closest to your user base for optimal performance.
-region: us-east-1
-# Specifies the version of the YAML configuration syntax being used.
-yamlVersion: 2
